@@ -12,8 +12,6 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({
   children
 }) => {
-
-
   return (
     <div>
       <div className="">
