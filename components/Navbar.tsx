@@ -13,10 +13,11 @@ const Navbar: React.FC<NavbarProps> = ({
   children
 }) => {
   return (
-    <div>
-      <div className="">
+    <div className="w-full flex p-10 ">
+      <div className="w-full flex justify-between flex-row gap-x-3">
         <div className="mmm_logo">
           <Image 
+            width={80}
             src={Logo}
             alt="logo" 
           />
