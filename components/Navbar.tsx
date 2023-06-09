@@ -5,6 +5,7 @@ import { BiMenu } from "react-icons/bi"
 import Image from "next/image";
 
 import Logo from "../public/vercel.svg"
+import { useState } from "react";
 
 interface NavbarProps {
   children: React.ReactNode
@@ -13,6 +14,9 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({
   children
 }) => {
+
+  const [isClicked, setIsClicked] = useState();
+
   return (
     <div className="w-full">
       <div className="w-full md:flex lg:flex xl:flex hidden justify-between gap-x-3 py-6 px-4 bg-blue-200 items-center">
@@ -62,6 +66,7 @@ const Navbar: React.FC<NavbarProps> = ({
       <div className="w-full hidden md:hidden lg:hidden xl:hidden items-center flex-col gap-y-3 py-6 px-4 bg-blue-200">
         <div className="mmm_logo sm:flex">
           <Image 
+            className="cursor-pointer hover:"
             width={80}
             src={Logo}
             alt="logo" 
