@@ -8,7 +8,7 @@ const Navbar: React.FC<NavbarProps> = ({
   children
 }) => {
   return (
-    <div>{children}</div>
+    <div></div>
   )
 }
 
