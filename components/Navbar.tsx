@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/navigation";
 
 import Logo from "../public/vercel.svg"
-import { useState } from "react";
 
 interface NavbarProps {
   children: React.ReactNode
@@ -15,13 +14,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({
   children
 }) => {
-
-  const [isClicked, setIsClicked] = useState(false);
-
-  if (isClicked) {
-    setIsClicked(true)
-  }
-
+  
   return (
     <div className="w-full">
       <div id="lg_navbar" className="w-full wrap md:flex lg:flex xl:flex hidden justify-between gap-x-3 py-6 px-4 bg-blue-200 items-center">
@@ -61,8 +54,12 @@ const Navbar: React.FC<NavbarProps> = ({
           />
         </div>
         <button 
-          onClick={() => {}}
-          className=""
+          onClick={() => {
+            document.getElementById('sm_menu')?.classList.remove("hidden");
+            document.getElementById("sm_menu")?.classList.add("flex")
+          }}
+          className="menu_button"
+          id="menu_button"
         >
           <BiMenu
             size={40}
