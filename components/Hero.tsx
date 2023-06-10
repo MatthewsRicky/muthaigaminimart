@@ -1,25 +1,20 @@
 "use client"
 
-import Image from "next/image"
 
-import Beverages from "../public/images/beverages.jpeg"
-
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
-    <div className="">
-      <Image 
-        className="w-full"
-        src={Beverages}
-        alt="Beverages"
-      />
-      <div className="flex">
-        <h1>Welcome to Mutaiga Mini Mart</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nihil suscipit vitae obcaecati eos asperiores accusantium corrupti laborum fugit aspernatur.
-        </p>
-        <button className="bg-blue-500/60 p-4 font-semibold rounded-md text-blue-900">
-          Find Out More
-        </button>
+    <div className="h-[100vh] relative">
+      <div 
+        className="hero absolute inset-0 bg-cover bg-center"></div>
+        <div className="relative z-10 flex flex-col justify-center items-center h-full">
+          <h1 className="text-3xl font-bold">Welcome to Mutaiga Mini Mart</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nihil suscipit vitae obcaecati eos asperiores accusantium corrupti laborum fugit aspernatur.
+          </p>
+          <button className=" bg-blue-500/60 p-4 font-semibold rounded-md w-40 text-white">
+            Find Out More
+          </button>
       </div>
+     
       
     </div>
   )
