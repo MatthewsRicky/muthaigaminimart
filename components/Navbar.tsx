@@ -17,6 +17,7 @@ const Navbar: React.FC = () => {
 
   const toggleNavbar = () => {
     setIsClicked(!isClicked);
+    
   };
 
   return (
