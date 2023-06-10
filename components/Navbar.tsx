@@ -16,11 +16,15 @@ const Navbar: React.FC<NavbarProps> = ({
   children
 }) => {
 
-  const [isClicked, setIsClicked] = useState();
+  const [isClicked, setIsClicked] = useState(false);
+
+  if (isClicked) {
+    setIsClicked(true)
+  }
 
   return (
     <div className="w-full">
-      <div className="w-full md:flex lg:flex xl:flex hidden justify-between gap-x-3 py-6 px-4 bg-blue-200 items-center">
+      <div id="lg_navbar" className="w-full wrap md:flex lg:flex xl:flex hidden justify-between gap-x-3 py-6 px-4 bg-blue-200 items-center">
         <div className="mmm_logo hover:scale-110 hover:text-neutral-600 cursor-pointer">
           <Image 
             width={80}
@@ -66,15 +70,9 @@ const Navbar: React.FC<NavbarProps> = ({
         </button> 
       </div>
       
-      <div className="w-full md:hidden lg:hidden xl:hidden items-center flex-col gap-y-3 py-6 px-4 bg-blue-200">
-        <div className="mmm_logo sm:flex">
-          <Image 
-            className="cursor-pointer hover: hover:scale-110 hover:text-neutral-600"
-            width={80}
-            src={Logo}
-            alt="logo" 
-          />
-        </div>
+      <div id="sm_navbar" className="w-full hidden md:hidden lg:hidden xl:hidden items-center flex-col gap-y-3 py-6 px-4 bg-blue-200">
+      
+        
         <div className="about_us hover:scale-110 hover:text-neutral-600 cursor-pointer">
           About Us
         </div>
