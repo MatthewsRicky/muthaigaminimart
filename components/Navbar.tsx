@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
     <nav className={`navbar ${isClicked ? 'open' : ''}`}>
       {/* Your navbar content goes here */}
      
-      <ul className="w-full md:flex justify-between hidden py-6 px-4 bg-blue-500/60">
+      <ul className="w-full md:flex justify-between hidden py-6 px-4 bg-blue-500/60 bg-opacity-60">
         <li>
           <div className="logo">
             <Image 
