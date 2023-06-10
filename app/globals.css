@@ -8,3 +8,9 @@ body,
   background-color: rgb(216, 251, 239);
   margin: 0;
 }
+
+.hero {
+  background-image: url(../public/images/beverages.jpeg);
+  height: 100vh;
+  
+}
