@@ -3,10 +3,12 @@
 import { AiOutlineSearch } from "react-icons/ai"
 import { BiMenu } from "react-icons/bi"
 import Image from "next/image";
-import Link from "next/navigation";
+import Link from "next/link";
 
 import Logo from "../public/vercel.svg"
 import { useState } from "react";
+
+import About from "../app/pages/About";
 
 
 const Navbar: React.FC = () => {
@@ -26,16 +28,31 @@ const Navbar: React.FC = () => {
           alt="logo icon"
         />
       </div>
-      <ul className="nav-links">
-        {/* Add your navigation links here */}
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>WhatsApp Orders</li>
-        <li>Location</li>
+      <ul className="w-full flex justify-between">
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/pages/About">About</Link>
+        </li>
+        <li>
+          <Link href="/WhatsappOrders">WhatsApp Orders</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link href="/location">Location</Link>
+        </li>
+        <li>
+          <div className="menu-icon md:hidden lg:hidden  xl:hidden" onClick={toggleNavbar}>
+            <BiMenu 
+              size={26}
+            />
+          </div>
+        </li>
       </ul>
-      <div className="menu-icon" onClick={toggleNavbar}>
-        <i className={`fas ${isClicked ? 'fa-times' : 'fa-bars'}`} />
-      </div>
+     
     </nav>
   );
 };
