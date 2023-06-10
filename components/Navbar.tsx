@@ -14,13 +14,18 @@ const Navbar: React.FC = () => {
   const [isClicked, setIsClicked] = useState(false)
 
   const toggleNavbar = () => {
-    setIsClicked(!isClicked)
+    setIsClicked(!isClicked);
   };
 
   return (
     <nav className={`navbar ${isClicked ? 'open' : ''}`}>
       {/* Your navbar content goes here */}
-      <div className="logo">Your Logo</div>
+      <div className="logo">
+        <Image 
+          src={Logo}
+          alt="logo icon"
+        />
+      </div>
       <ul className="nav-links">
         {/* Add your navigation links here */}
         <li>About Us</li>
