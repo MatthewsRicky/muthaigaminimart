@@ -15,7 +15,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <nav className="text-white">
+    <nav className="text-white text-xl font-semibold ">
      <div>
       <ul className="flex w-full py-6 px-4 bg-blue-500/60 justify-between md:hidden cursor-pointer p-4 font-semibold rounded-md">
       <li>
@@ -42,21 +42,21 @@ const Navbar = () => {
      </div>
 
      <div className={` md:flex justify-between py-6 px-4 bg-blue-500/60 bg-opacity-60 ${navbar ? 'block' : 'hidden'}`}>
-      <ul className="w-full flex flex-col md:flex-row justify-between items-center  bg-opacity-60">
+      <ul className="w-full flex flex-col md:flex-row justify-between items-center  bg-opacity-60 ">
         
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-500 border-opacity-50 rounded-md hover:shadow-md transition">
+          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/">Home</Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-500 border-opacity-50 rounded-md hover:shadow-md transition">
+          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/about">About </Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-500 border-opacity-50 rounded-md hover:shadow-md transition">
+          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/whatsapporders">WhatsApp Orders</Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-500 border-opacity-50 rounded-md hover:shadow-md transition">
+          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/contact">Contact</Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-500 border-opacity-50 rounded-md hover:shadow-md transition">
+          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/location">Location</Link>
           </li>
         </ul>
