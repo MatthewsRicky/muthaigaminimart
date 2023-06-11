@@ -1,5 +1,8 @@
 "use client"
 
+import Link from "next/link"
+
+import About from "../app/about/About"
 
 const Hero: React.FC = () => {
   return (
@@ -10,9 +13,12 @@ const Hero: React.FC = () => {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">High Quality Beverage Selection</h1>
           <p className="text-lg md:text-2xl lg:text-3xl font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           </p>
-          <button className="bg-blue-800/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold rounded-md w-100">
-            Find Out More
-          </button>
+          <Link href="/about">
+            <button className="bg-blue-800/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold rounded-md w-100">
+              Find Out More
+            </button>
+          </Link>
+         
       </div>
     </div>
   )
