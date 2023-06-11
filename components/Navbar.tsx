@@ -21,9 +21,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className={`navbar ${isClicked ? 'open' : ''}`}>
+    <nav>
       {/* Your navbar content goes here */}
-     
+     <div className={`navbar ${isClicked ? 'open' : ''}`}>
+     <div className=" flex md:hidden lg:hidden xl:hidden cursor-pointer" onClick={toggleNavbar}>
+            <BiMenu 
+              size={26}
+            />
+      </div>
       <ul className="w-full md:flex justify-between hidden py-6 px-4 bg-blue-500/60 bg-opacity-60">
         <li>
           <div className="logo">
@@ -50,11 +55,8 @@ const Navbar: React.FC = () => {
           <Link href="/location">Location</Link>
         </li>
       </ul>
-      <div className="menu-icon md:hidden lg:hidden  xl:hidden" onClick={toggleNavbar}>
-            <BiMenu 
-              size={26}
-            />
-          </div>
+     
+      </div>
     </nav>
   );
 };
