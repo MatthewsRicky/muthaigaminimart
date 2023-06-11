@@ -3,7 +3,7 @@
 
 const Hero: React.FC = () => {
   return (
-    <div className="h-[60vh] relative">
+    <div className="h-[60vh] m-4 p-10 relative">
       <div 
         className="hero absolute inset-0 bg-cover bg-center"></div>
         <div className="relative z-10 flex flex-col justify-center items-center gap-4 text-white">
