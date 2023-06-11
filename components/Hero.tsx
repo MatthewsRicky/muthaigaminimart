@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-import About from "../app/about/About"
+import About from "../app/about/page"
 
 const Hero: React.FC = () => {
   return (
