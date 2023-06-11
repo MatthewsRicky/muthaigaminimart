@@ -8,7 +8,7 @@ import Link from "next/link";
 import Logo from "../public/vercel.svg"
 import { useState } from "react";
 
-import About from "../app/pages/About";
+import About from "../app/about/About";
 
 const Navbar = () => {
 
