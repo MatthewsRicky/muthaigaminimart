@@ -44,19 +44,29 @@ const Navbar = () => {
      <div className={` md:flex justify-between py-6 px-4 bg-blue-500/60 bg-opacity-60 shadow-lg ${navbar ? 'block' : 'hidden'}`}>
       <ul className="w-full flex flex-col md:flex-row justify-between items-center  bg-opacity-60 ">
         
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+          <li
+            onClick={() => setNavbar(!navbar)} 
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/">Home</Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+          <li
+            onClick={() => setNavbar(!navbar)} 
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/about">About </Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+          <li
+            onClick={() => setNavbar(!navbar)} 
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/whatsapporders">WhatsApp Orders</Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+          <li
+            onClick={() => setNavbar(!navbar)} 
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/contact">Contact</Link>
           </li>
-          <li className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+          <li
+            onClick={() => setNavbar(!navbar)} 
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/location">Location</Link>
           </li>
         </ul>
