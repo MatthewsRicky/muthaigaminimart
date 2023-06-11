@@ -2,7 +2,10 @@
 
 const StoreFeatureCard = () => {
   return (
-    <div>StoreFeatureCard</div>
+    <div>
+      <h1>WELCOME TO MUTHAIGA MINI MART</h1>
+      <p></p>
+    </div>
   )
 }
 
