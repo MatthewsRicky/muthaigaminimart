@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
     <div className="w-full mb-10 mx-auto p-10 relative">
       <div 
         className="hero absolute inset-0 bg-cover overflow-y-hidden bg-opacity-50 bg-center"></div>
-        <div className="border-blue-100 bg-blue-800/30 border-2 border-opacity-60 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center gap-8 text-white">
+        <div className="border-blue-100 bg-blue-800/40 border-2 border-opacity-60 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center gap-8 text-white">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">High Quality Beverage Selection</h1>
           <p className="text-lg md:text-2xl lg:text-3xl font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           </p>
