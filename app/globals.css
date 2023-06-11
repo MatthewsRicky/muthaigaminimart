@@ -12,10 +12,11 @@ body,
 .hero {
   background-image: url(../public/images/beverages.jpeg);
   height: 40vh;
+  width: 100vw;
   
 }
 
 .open {
   display: flex;
-  height:100%;
+  height: 40vh;
 }
