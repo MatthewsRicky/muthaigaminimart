@@ -15,7 +15,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <nav className="">
+    <nav className="text-white">
      <div>
       <ul className="flex w-full py-6 px-4 bg-blue-500/60 justify-between md:hidden cursor-pointer p-4 font-semibold rounded-md">
       <li>
