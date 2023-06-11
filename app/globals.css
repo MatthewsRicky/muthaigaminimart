@@ -16,5 +16,5 @@ body,
 }
 
 .open {
-  display: flex;
+  display: block;
 }
