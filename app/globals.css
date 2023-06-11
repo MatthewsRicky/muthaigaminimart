@@ -13,6 +13,7 @@ body,
   background-image: url(../public/images/beverages.jpeg);
   height: 40vh;
   width: 100vw;
+  opacity: 60;
   
 }
 
