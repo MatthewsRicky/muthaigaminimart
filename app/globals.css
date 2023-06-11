@@ -11,10 +11,11 @@ body,
 
 .hero {
   background-image: url(../public/images/beverages.jpeg);
-  height: 100vh;
+  height: 40vh;
   
 }
 
 .open {
-  display: block;
+  display: flex;
+  height:100%;
 }
