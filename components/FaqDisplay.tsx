@@ -1,9 +1,15 @@
 "use client"
+import Carousel from './Carousel';
 
-const FaqDisplay = () => {
+const FaqDisplay: React.FC = () => {
+ 
+
   return (
-    <div>FaqDisplay</div>
-  )
-}
+    <div>
+      <h1>My Carousel Example</h1>
+      <Carousel />
+    </div>
+  );
+};
 
 export default FaqDisplay
