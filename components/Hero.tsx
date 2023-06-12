@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Hero: React.FC = () => {
   return (
-    <div className="w-full mb-10 mx-auto p-10 relative">
+    <div className="w-full  mb-[10rem] mx-auto p-10 relative">
       <div 
         className="hero absolute inset-0 bg-cover overflow-y-hidden bg-center"></div>
         <div className="border-blue-100 mt-[4rem] bg-blue-500/40 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center gap-8 text-white">
