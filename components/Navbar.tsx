@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="relative md:relative top-0 left-0 right-0 text-white text-xl font-semibold ">
      <div>
-      <ul className="absolute z-20 top-0 left-0 right-0 flex w-full py-6 px-4 bg-blue-500/80 justify-between md:hidden cursor-pointer p-4 font-semibold rounded-md">
+      <ul className="flex w-full py-6 px-4 bg-blue-500/60 justify-between md:hidden cursor-pointer p-4 font-semibold rounded-md">
       <li>
             <Image 
               src={Logo}
