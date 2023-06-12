@@ -22,14 +22,14 @@ const StoreFeatureCard = () => {
        description="All Your Favorite Beverages in one spot"
        />
       <ImageCard
-       imageSrc="/images/cheese.jpeg"
-       title="Cheese"
-       description="Your Favorite"
+       imageSrc="/images/bananas.jpeg"
+       title="Fruits and Vegetables"
+       description="Variety of Fresh Groceries"
        />
       <ImageCard
-       imageSrc="/images/cheese.jpeg"
-       title="Cheese"
-       description="Your Favorite"
+       imageSrc="/images/mmm2.jpeg"
+       title="Household Goods"
+       description="Fully Stocked Super Market"
        />
     </div>
       
