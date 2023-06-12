@@ -1,7 +1,6 @@
 "use client";
 
 
-
 const Carousel = () => {
   return (
     <div>Carousel</div>
