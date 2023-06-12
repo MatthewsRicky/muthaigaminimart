@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import ImageData from "./ImageData";
+
 interface CarouselProps {
   images: string[];
   captions: string[]
