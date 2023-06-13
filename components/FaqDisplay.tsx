@@ -6,7 +6,9 @@ const FaqDisplay: React.FC = () => {
 
   return (
     <div>
-      <h1>My Carousel Example</h1>
+      <h1>
+        <Carousel />
+      </h1>
     </div>
   );
 };
