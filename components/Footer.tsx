@@ -12,15 +12,15 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md shadow-md shadow-white/40">
           <h1 className="text-xl uppercase">Customer Service</h1>
-          <p className="text-centerHip">Our customer service team at the head office is  available to help you.
-            Monday-Friday: 8am to 5pm
-            Saturday: 8am to 1pm
+          <p className="text-center">Our customer service team at the head office is  available to help you.
+            Monday-Friday: 9am to 5pm
+            Saturday: 9am to 1pm
             Sunday: Closed
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md shadow-md shadow-white/40">
-          <h1>Follow us on social media!</h1>
-          <h1 className="flex justify-around items-center">
+        <div className="flex flex-col justify-center gap-8 w-full p-2 px-2 rounded-md shadow-md shadow-white/40">
+          <h1 className="text-center uppercase">Follow us on social media!</h1>
+          <h1 className="flex text-2xl justify-around items-center">
             <AiOutlineFacebook />
             <AiOutlineInstagram />
             <AiOutlineTwitter />
