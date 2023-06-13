@@ -40,6 +40,13 @@ const slides = [
           <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-blue-500/30 text-white cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={60}/>
           </div>
+          <div className="flex justify-center py-2">
+            {slides.map((slide, slideIndex) => (
+              <div key={''} className="text-2xl cursor-pointer">
+                <RxDotFilled />
+              </div>
+            ))}
+          </div>
         </div>
     </div>
   )
