@@ -1,8 +1,8 @@
 "use client";
-"use client"
 
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
 
 const Carousel = () => {
 const slides = [
@@ -22,7 +22,9 @@ const slides = [
   }
 
   const nextSlide = () => {
-    
+    const isLastSlide = currentIndex === slides.length -1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1
+    setCurrentIndex(newIndex);
   }
 
   return (
@@ -36,7 +38,7 @@ const slides = [
           </div>
           {/*right arrow*/}
           <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-blue-500/30 text-white cursor-pointer">
-            <BsChevronCompactRight size={60}/>
+            <BsChevronCompactRight onClick={nextSlide} size={60}/>
           </div>
         </div>
     </div>
