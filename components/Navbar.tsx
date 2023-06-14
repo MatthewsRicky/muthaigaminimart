@@ -14,7 +14,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <nav className="relative md:relative top-0 left-0 right-0 text-white text-xl font-semibold">
+    <nav className="relative md:relative top-0 left-0 right-0 text-neutral-100 text-xl font-semibold">
      <div>
       <ul className="flex w-full py-6 px-4 bg-blue-950 justify-between md:hidden cursor-pointer p-4 font-semibold">
       <li>
@@ -25,7 +25,7 @@ const Navbar = () => {
             />
         </li>
         <li>
-          <button className=" rounded-full flex justify-center p-4 items-center hover:text-white hover:bg-orange-500/90 text-orange-500/90 w-20 text-center transition-all duration-300" onClick={() => setNavbar(!navbar)}>
+          <button className=" rounded-full flex justify-center p-4 items-center hover:text-neutral-100 hover:bg-orange-500/90 text-orange-500/90 w-20 text-center transition-all duration-300" onClick={() => setNavbar(!navbar)}>
             
            {navbar ? (
             <BiXCircle 
