@@ -12,7 +12,7 @@ const WhatsappOrders = () => {
         <p className="text-xl font-semibold md:text2xl">
         You can now order your groceries, household items, electronics and other supermarket shopping via WhatsApp from all our branches countrywide.  The process is quite simple:
         </p>
-        <ul>
+        <ul className="py-4">
           <li>
             <p className="text-xl font-semibold md:text2xl">Send your shopping list to any of the below WhatsApp numbers. Include the item description and quantity.</p>
           </li>
@@ -27,7 +27,7 @@ const WhatsappOrders = () => {
           </li>
         </ul>
         
-        <h3>
+        <h3 className="font-bold text-xl w-fit text-blue-500 bg-white/20 rounded-md p-4">
           Terms and Conditions:
         </h3>
         <ul>
