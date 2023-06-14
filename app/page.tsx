@@ -4,7 +4,7 @@ import Hero  from '../components/Hero'
 import StoreFeatureCard from '../components/StoreFeatureCard'
 import FaqDisplay from '../components/FaqDisplay'
 
-const roboto = Roboto;({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
