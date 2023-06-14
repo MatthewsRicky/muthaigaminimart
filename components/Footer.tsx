@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-col w-full md:flex-row justify-between items-center gap-4">
         <div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md shadow-md shadow-white/40">
           <h1 className="text-xl uppercase">Muthaiga Mini Mart</h1>
-          <p className="text-center p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat inventore praesentium distinctio corporis soluta porro.</p>
+          <p className="text-center p-2">"Muthatiga Mini Mart: your one-stop shop for fresh local produce, gourmet snacks, everyday essentials, and beach supplies in Diani Beach."</p>
         </div>
         <div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md shadow-md shadow-white/40">
           <h1 className="text-xl uppercase">Customer Service</h1>
