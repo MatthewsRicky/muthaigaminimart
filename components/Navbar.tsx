@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="relative md:relative top-0 left-0 right-0 text-white text-xl font-semibold ">
      <div>
       <ul className="flex w-full py-6 px-4 bg-blue-950 justify-between md:hidden cursor-pointer p-4 font-semibold">
-      <li>
+      <li className="text-orange-500/90">
             <Image
               src={Logo}
               alt="logo icon"
@@ -25,7 +25,7 @@ const Navbar = () => {
             />
         </li>
         <li>
-          <button className=" rounded-md w-20" onClick={() => setNavbar(!navbar)}>
+          <button className=" rounded-md flex p-4 items-center hover:text-white hover:bg-orange-500/90 text-orange-500/90 w-20 text-center" onClick={() => setNavbar(!navbar)}>
             
            {navbar ? (
             <BiXCircle 
@@ -46,27 +46,27 @@ const Navbar = () => {
         
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-bluorange-800/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/">Home</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/about">About </Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/whatsapporders">WhatsApp Orders</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/contact">Contact</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/location">Location</Link>
           </li>
         </ul>
