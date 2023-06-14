@@ -45,22 +45,22 @@ const Navbar = () => {
         
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900/60 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-bluorange-800/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/">Home</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/about">About </Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/whatsapporders">WhatsApp Orders</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/80 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/contact">Contact</Link>
           </li>
           <li
