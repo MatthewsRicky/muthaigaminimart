@@ -8,6 +8,7 @@ const WhatsappOrders = () => {
         <h1>WhatsApp Orders</h1>
       </div>
       <div>
+        <h1>Order from Home</h1>
       <p>
         You can now order your groceries, household items, electronics and other supermarket shopping via WhatsApp from all our branches countrywide.  The process is quite simple:
       </p>
@@ -31,10 +32,12 @@ const WhatsappOrders = () => {
         </h3>
         <ul>
           <li>
-            <p></p>
+            <p>
+              All payments including delivery fees should be paid to Chandarana Foodplus ONLY via MPESA. Kindly confirm your final bill before payment as there are no refunds</p>
           </li>
           <li>
-            <p></p>
+            <p>
+              Delivery is one way, for any returns kindly visit the branch for a credit note which is redeemable at that branch and cannot be used to place another WhatsApp order.</p>
           </li>  
         </ul>
       </div>
