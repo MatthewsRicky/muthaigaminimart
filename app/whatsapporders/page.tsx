@@ -7,7 +7,7 @@ const WhatsappOrders = () => {
       <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10 relative">
         <h1 className="absolute top-1/3 text-4xl md:text-6xl lg:text-8xl text-white mx-[15%]">WhatsApp Orders</h1>
       </div>
-      <div className="flex flex-col justify-center gap-6 p-8 mx-2 my-4 text-white bg-blue-950/40 md:max-w-[90%]">
+      <div className="flex flex-col justify-center items-center gap-6 p-8 mx-2 my-4 text-neutral-100 bg-blue-950/40 md:max-w-[90%]">
         <h1 className="text-4xl md:text-5xl lg:text-6xl text-blue-950">Order from Home</h1>
         <p className="text-xl font-semibold md:text2xl">
         You can now order your groceries, household items, electronics and other supermarket shopping via WhatsApp from all our branches countrywide.  The process is quite simple:
@@ -27,7 +27,7 @@ const WhatsappOrders = () => {
           </li>
         </ul>
         
-        <h3 className="font-bold text-xl w-fit text-blue-500 bg-white/20 rounded-md p-4">
+        <h3 className="font-bold text-xl w-fit text-blue-950 bg-white/20 rounded-md p-4">
           Terms and Conditions:
         </h3>
         <ul>
