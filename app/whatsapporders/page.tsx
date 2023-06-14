@@ -3,12 +3,12 @@ import Image from "next/image"
 
 const WhatsappOrders = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-center items-center">
       <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10 relative">
         <h1 className="absolute top-1/3 text-4xl md:text-6xl lg:text-8xl text-white mx-[15%]">WhatsApp Orders</h1>
       </div>
-      <div className="flex flex-col gap-4">
-        <h1 >Order from Home</h1>
+      <div className="flex flex-col justify-center gap-6 p-8 mx-2 my-4 text-white bg-blue-950/40 md:max-w-[90%]">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-blue-950">Order from Home</h1>
         <p>
         You can now order your groceries, household items, electronics and other supermarket shopping via WhatsApp from all our branches countrywide.  The process is quite simple:
         </p>
