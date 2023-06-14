@@ -4,8 +4,8 @@ import Image from "next/image"
 const WhatsappOrders = () => {
   return (
     <div className="flex flex-col">
-      <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10">
-        <h1>WhatsApp Orders</h1>
+      <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10 relative">
+        <h1 className="absolute top-1/3 text-4xl md:text-6xl lg:text-8xl text-white mx-[15%]">WhatsApp Orders</h1>
       </div>
       <div>
         <h1>Order from Home</h1>
