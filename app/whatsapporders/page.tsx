@@ -7,8 +7,8 @@ const WhatsappOrders = () => {
       <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10 relative">
         <h1 className="absolute top-1/3 text-4xl md:text-6xl lg:text-8xl text-white mx-[15%]">WhatsApp Orders</h1>
       </div>
-      <div>
-        <h1>Order from Home</h1>
+      <div className="flex flex-col gap-4">
+        <h1 >Order from Home</h1>
         <p>
         You can now order your groceries, household items, electronics and other supermarket shopping via WhatsApp from all our branches countrywide.  The process is quite simple:
         </p>
