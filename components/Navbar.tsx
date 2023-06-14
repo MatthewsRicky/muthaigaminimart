@@ -26,6 +26,7 @@ const Navbar = () => {
         </li>
         <li>
           <button className=" rounded-md w-20" onClick={() => setNavbar(!navbar)}>
+            
            {navbar ? (
             <BiXCircle 
             size={26}
@@ -67,11 +68,6 @@ const Navbar = () => {
             onClick={() => setNavbar(!navbar)} 
             className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
             <Link href="/location">Location</Link>
-          </li>
-          <li 
-            onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-blue-900 hover:bg-opacity-60 hover:border-b-2 cursor-pointer border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
-            <AiOutlineSearch size={26}/>
           </li>
         </ul>
      </div>
