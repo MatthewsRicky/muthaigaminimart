@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="relative md:relative top-0 left-0 right-0 text-blue-950 text-xl font-semibold">
      <div>
-      <ul className="absolute flex w-full py-6 px-4 bg-neutral-100/30 justify-between md:hidden cursor-pointer p-4 font-semibold">
+      <ul className="absolute flex w-full py-6 px-4 bg-blue-950/70 justify-between md:hidden cursor-pointer p-4 font-semibold">
       <li>
             <Image
               src={Logo}
@@ -41,32 +41,32 @@ const Navbar = () => {
       </ul>
      </div>
 
-     <div className={` md:flex justify-between py-6 px-4 bg-neutral-100/30 absolute top-0 right-0 left-0 shadow-lg text-neutral-100 ${navbar ? 'block' : 'hidden'}`}>
+     <div className={` md:flex justify-between py-6 px-4  top-0 right-0 left-0 shadow-lg text-neutral-100 ${navbar ? 'block' : 'hidden'}`}>
       <ul className="w-full flex  md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
         
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:text-blue-950 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90  hover:bg-opacity-60 hover:border-b-2 border-blue-950 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0 text-blue-950">
             <Link href="/">Home</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:text-blue-950 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90  hover:bg-opacity-60 hover:border-b-2 border-blue-950 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0 text-blue-950">
             <Link href="/about">About </Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:text-blue-950 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90  hover:bg-opacity-60 hover:border-b-2 border-blue-950 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0 text-blue-950">
             <Link href="/whatsapporders">WhatsApp Orders</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:text-blue-950 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90  hover:bg-opacity-60 hover:border-b-2 border-blue-950 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0 text-blue-950">
             <Link href="/contact">Contact</Link>
           </li>
           <li
             onClick={() => setNavbar(!navbar)} 
-            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90 hover:text-blue-950 hover:bg-opacity-60 hover:border-b-2 border-blue-100 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0">
+            className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:bg-orange-500/90  hover:bg-opacity-60 hover:border-b-2 border-blue-950 border-opacity-50 rounded-md hover:shadow-md transition border-b-2 md:border-0 text-blue-950">
             <Link href="/location">Location</Link>
           </li>
         </ul>
