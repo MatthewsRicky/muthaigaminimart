@@ -10,7 +10,7 @@ const About = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
        }}  
-        className="flex flex-col gap-4 items-center py-20 px-20 w-full bg-cover text-white">
+        className="h-[85vh] flex flex-col gap-4 items-center py-20 px-20 w-full bg-cover text-white">
           <div className="items-center bg-blue-950/80 flex flex-col px-6 py-4 justify-around gap-8">
             <h2 className="text-3xl md:text-4xl lg:text-6xl">Muthatiga Mini Mart</h2>
             <p className="text-xl md:text-2xl lg:text-3xl font-semi-bold">
