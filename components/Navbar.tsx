@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="relative md:relative top-0 left-0 right-0 text-blue-950 text-xl font-semibold">
      <div>
-      <ul className="flex w-full py-6 px-4 bg-blue-950 justify-between md:hidden cursor-pointer p-4 font-semibold">
+      <ul className="absolute flex w-full py-6 px-4 bg-neutral-100/30 justify-between md:hidden cursor-pointer p-4 font-semibold">
       <li>
             <Image
               src={Logo}
@@ -41,7 +41,7 @@ const Navbar = () => {
       </ul>
      </div>
 
-     <div className={` md:flex justify-between py-6 px-4 bg-neutral-100 shadow-lg ${navbar ? 'block' : 'hidden'}`}>
+     <div className={` md:flex justify-between py-6 px-4 bg-neutral-100/30 absolute shadow-lg ${navbar ? 'block' : 'hidden'}`}>
       <ul className="w-full flex  md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
         
           <li
