@@ -41,7 +41,7 @@ const Navbar = () => {
       </ul>
      </div>
 
-     <div className={` md:flex justify-between py-6 px-4 bg-neutral-100/30 absolute top-0 right-0 left-0 shadow-lg ${navbar ? 'block' : 'hidden'}`}>
+     <div className={` md:flex justify-between py-6 px-4 bg-neutral-100/30 absolute top-0 right-0 left-0 shadow-lg text-neutral-100 ${navbar ? 'block' : 'hidden'}`}>
       <ul className="w-full flex  md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
         
           <li
