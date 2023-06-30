@@ -14,8 +14,8 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <nav className="relative md:relative top-0 left-0 right-0 text-blue-950 text-xl font-semibold">
-     <div>
+    <nav className="relative top-0 left-0 right-0 text-blue-950 text-xl font-semibold">
+     <div className="absolute z-10 left-0 right-0 top-0">
       <ul className="absolute flex w-full py-6 px-4 bg-blue-950 justify-between md:hidden cursor-pointer p-4 font-semibold">
       <li>
             <Image
