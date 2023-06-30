@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const WhatsappOrders = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10 relative">
+    <div className="w-full h-[100vh]">
+      <div className="hero bg-cover bg-center bg-no-repeat Flex w-full justify-around items-center mb-10">
         <h1 className="absolute top-1/3 py-4 px-6 rounded-lg shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300">WhatsApp Orders</h1>
       </div>
       <div className="flex flex-col justify-center items-center gap-6 p-8 mx-2 my-4 text-neutral-100 bg-blue-950/40 md:max-w-[90%]">
