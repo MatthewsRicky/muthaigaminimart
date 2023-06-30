@@ -2,7 +2,7 @@
 
 const Location = () => {
   return (
-    <div>Location</div>
+    <div className="h-[85vh]">Location</div>
   )
 }
 
