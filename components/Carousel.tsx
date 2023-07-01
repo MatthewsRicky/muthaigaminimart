@@ -27,26 +27,26 @@ const slides = [
     setCurrentIndex(newIndex);
   }
 
-  const goToSlide = (slideIndex) => {
+  const goToSlide = (slideIndex: number) => {
     setCurrentIndex(slideIndex);
   }
 
   return (
-    <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
+    <div className="max-w-[1400px] h-[780px] w-full py-16 px-4 relative group">
       <div
         style={{backgroundImage: `url(${slides[currentIndex].url})`}} 
         className="shadow-2xl  w-full h-full rounded-2xl bg-center bg-cover duration-500">
           {/*left arrow*/}
-          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-blue-500/30 text-white cursor-pointer">
+          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-blue-500/30 text-orange-500 cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={60}/>
           </div>
           {/*right arrow*/}
-          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-blue-500/30 text-white cursor-pointer">
+          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-blue-500/30 text-orange-500 cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={60}/>
           </div>
           <div className="hidden group-hover:flex justify-center py-2">
             {slides.map((slide, slideIndex) => (
-              <div key={''} className="text-2xl cursor-pointer text-white">
+              <div key={''} className="text-2xl cursor-pointer text-orange-500">
                 <RxDotFilled 
                   key={slideIndex}
                   onClick={() => goToSlide(slideIndex)} 
