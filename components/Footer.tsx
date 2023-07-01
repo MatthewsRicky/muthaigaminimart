@@ -20,10 +20,10 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center gap-8 w-full p-2 px-2 rounded-md shadow-sm shadow-orange-500/90">
           <h1 className=" text-xl text-center uppercase">Follow us on social media!</h1>
-          <h1 className="flex text-2xl py-2 text-orange-500/90 bg-white hover:bg-orange-500/90 transition-all duration-300 hover:text-white rounded m-2 justify-around items-center">
-            <AiOutlineFacebook />
-            <AiOutlineInstagram />
-            <AiOutlineTwitter />
+          <h1 className="flex text-2xl py-2 text-orange-500/90 bg-white  rounded m-2 justify-around items-center">
+            <AiOutlineFacebook className="hover:bg-orange-500/90 transition-all duration-300 hover:text-white" />
+            <AiOutlineInstagram className="hover:bg-orange-500/90 transition-all duration-300 hover:text-white" />
+            <AiOutlineTwitter className="hover:bg-orange-500/90 transition-all duration-300 hover:text-white" />
           </h1>
         </div>
       </div>
