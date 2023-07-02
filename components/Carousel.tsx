@@ -37,16 +37,16 @@ const slides = [
         style={{backgroundImage: `url(${slides[currentIndex].url})`}} 
         className="shadow-2xl  w-full h-full rounded-2xl bg-center bg-cover duration-500">
           {/*left arrow*/}
-          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-blue-900/50 text-orange-500 cursor-pointer">
+          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-20 text-2xl rounded-full p-2 bg-blue-900/50 text-orange-500 cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={60}/>
           </div>
           {/*right arrow*/}
-          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-blue-900/50 text-orange-500 cursor-pointer">
+          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-20 text-2xl rounded-full p-2 bg-blue-900/50 text-orange-500 cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={60}/>
           </div>
           <div className="hidden group-hover:flex justify-center py-2">
             {slides.map((slide, slideIndex) => (
-              <div key={''} className="text-2xl cursor-pointer text-orange-500">
+              <div key={''} className="text-3xl cursor-pointer text-orange-500 active:text-white">
                 <RxDotFilled 
                   key={slideIndex}
                   onClick={() => goToSlide(slideIndex)} 
