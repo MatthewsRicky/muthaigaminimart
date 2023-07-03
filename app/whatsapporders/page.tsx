@@ -10,7 +10,7 @@ const WhatsappOrders = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-6 p-8 mx-2 my-4 text-neutral-100 bg-blue-950/40 md:max-w-[90%]">
         <h1 className="text-4xl md:text-5xl lg:text-6xl text-blue-950 font-bold">Order from Home</h1>
-        <div className="p-4 m-6 flex flex-col bg-blue-950/90 hover:scale-105 font-bold">
+        <div className="p-4 m-6 flex bg-blue-950/40 hover:scale-105 font-bold">
           <FaWhatsappSquare className="w-40 h-40 text-green-600" />
           <h1>
             WhatsApp Number : +254 720 000 000
