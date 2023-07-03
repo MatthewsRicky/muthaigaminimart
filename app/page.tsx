@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='w-full overflow-x-hidden overflow-y-auto flex flex-col items-center justify-between h-full'>
+    <div className='w-full overflow-x-hidden overflow-y-auto flex flex-col justify-between h-full'>
      <Hero />
      <StoreFeatureCard />
      <FaqDisplay />
