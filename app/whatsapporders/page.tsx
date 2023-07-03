@@ -28,10 +28,10 @@ const WhatsappOrders = () => {
             <p className="text-xl font-semibold md:text2xl">Specify your full names and exact location ( area, road/ street, estate, house/apt number).</p>
           </li>
           <li>
-            <p className="text-xl font-semibold md:text2xl">We will do the picking, packing and you can choose to either collect or we deliver to you via Little Cabs</p>
+            <p className="text-xl font-semibold md:text2xl">We will do the picking, packing and you can choose to either collect or we deliver to you via Cab / Boda boda.</p>
           </li>
           <li>
-            <p className="text-xl font-semibold md:text2xl">Delivery fees for a 0-15km ksh 50 (Nairobi, Nyali Only), 11-15kms ksh 380.</p>
+            <p className="text-xl font-semibold md:text2xl">Delivery fees for a 0-15km ksh 50, 11-15kms ksh 380.</p>
           </li>
         </ul>
         
