@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { FaWhatsappSquare } from "react-icons/fa"
 
 
 const WhatsappOrders = () => {
