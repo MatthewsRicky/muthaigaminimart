@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div className="h-[85vh] flex">
       <div className="hero">
-        <div className="flex justify-center items-center p-4 m-10 w-full text-white text-6xl text-center bg-slate-500/25 border-4 border-blue-950">
+        <h1 className="absolute top-1/3 py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300">
           Contact
-       </div>
+       </h1>
       </div>
     </div>
   )
