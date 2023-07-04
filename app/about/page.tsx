@@ -6,8 +6,8 @@ const About = () => {
   return (
       <div 
       className="text-white w-full">
-        <div className="hero relative">
-        <h2 className="absolute top-1/3 py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300">Muthatiga Mini Mart</h2>
+        <div className="hero flex justify-center items-center  relative">
+        <h2 className="py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300">Muthatiga Mini Mart</h2>
         </div>
           
           <div className="flex flex-col justify-center items-center text-blue-950">
