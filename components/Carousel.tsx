@@ -46,7 +46,7 @@ const slides = [
           </div>
           <div className="hidden group-hover:flex justify-center py-2">
             {slides.map((slide, slideIndex) => (
-              <div key={''} className="text-3xl cursor-pointer text-orange-500 active:text-white">
+              <div key={''} className="text-3xl cursor-pointer text-white active:text-white">
                 <RxDotFilled 
                   key={slideIndex}
                   onClick={() => goToSlide(slideIndex)} 
