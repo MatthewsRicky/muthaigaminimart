@@ -32,7 +32,7 @@ const slides = [
   }
 
   return (
-    <div className="max-w-[1400px] h-[780px] w-full py-16 px-10 relative group">
+    <div className="max-w-full h-[780px] w-full py-16 px-10 relative group">
       <div
         style={{backgroundImage: `url(${slides[currentIndex].url})`}} 
         className="shadow-2xl  w-full h-full rounded-2xl bg-center bg-cover duration-500">
