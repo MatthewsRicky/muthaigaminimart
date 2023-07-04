@@ -5,9 +5,11 @@ import Link  from "next/link";
 const About = () => {
   return (
       <div 
-      className="hero text-white ">
-        <div>
-          <h2 className="text-3xl md:text-4xl lg:text-6xl">Muthatiga Mini Mart</h2>
+      className="text-white w-full">
+        <div className="hero">
+        <h2 className="text-3xl md:text-4xl lg:text-6xl">Muthatiga Mini Mart</h2>
+        </div>
+          
           <div className="">
             
             <p className="text-xl md:text-2xl lg:text-3xl font-semi-bold">
@@ -20,7 +22,6 @@ const About = () => {
             </Link>
           </div>
         </div>
-      </div>
     );
 }
 
