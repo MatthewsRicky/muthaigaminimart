@@ -9,7 +9,7 @@ const Contact = () => {
           Contact
        </h1>
       </div>
-      <div className="flex justify-center items-center bg-blue-200/40">
+      <div className="flex justify-center items-center m-10 bg-blue-200/40">
         <ContactForm />
       </div>
       
