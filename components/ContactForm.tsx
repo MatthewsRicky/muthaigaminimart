@@ -25,8 +25,8 @@ const ContactForm = () => {
 
   return (
     <div>
-      <div className="flex flex-col my-10">
-        <h1>Contact Details:</h1>
+      <div className="flex flex-col my-10 gap-4">
+        <h1>Reach us at:</h1>
         <p>Mobile: +254 700 000 000</p>
         <p>Phone: +254 700 000 000</p>
         <p>Email: mmm@gmail.com</p>
