@@ -25,7 +25,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <div>
+      <div className="flex flex-col my-10">
         <h1>Contact Details:</h1>
         <p>Mobile: +254 700 000 000</p>
         <p>Phone: +254 700 000 000</p>
