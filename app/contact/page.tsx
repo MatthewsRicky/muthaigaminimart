@@ -1,4 +1,5 @@
-
+"use client";
+import ContactForm from "@/src/components/ContactForm";
 
 const Contact = () => {
   return (
@@ -8,6 +9,7 @@ const Contact = () => {
           Contact
        </h1>
       </div>
+      <ContactForm />
     </div>
   )
 }
