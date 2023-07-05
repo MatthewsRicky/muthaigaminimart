@@ -4,7 +4,7 @@ import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter } from "react-i
 
 const Footer = () => {
   return (
-    <div className="w-full p-4 mx-auto bg-blue-950 text-white">
+    <div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950">
       <div className="flex flex-col w-full md:flex-row justify-between items-center gap-4">
         <div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md shadow-sm shadow-white">
           <h1 className="text-xl uppercase">Muthaiga Mini Mart</h1>
