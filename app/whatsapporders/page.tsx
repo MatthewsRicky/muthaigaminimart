@@ -14,13 +14,13 @@ const WhatsappOrders = () => {
 					Order from Home
 				</h1>
 
-				<p className="text-xl font-semibold md:text2xl">
+				<p className="text-lg font-semibold md:text2xl">
 					You can now order your groceries, household items, electronics and
 					other supermarket shopping via WhatsApp. The process is quite simple:
 				</p>
 				<ul className="py-4">
 					<li>
-						<p className="text-xl font-semibold md:text2xl">
+						<p className="text-lg font-semibold md:text2xl">
 							Send your shopping list to the WhatsApp number below. Include the
 							item description and quantity.
 						</p>
@@ -32,19 +32,19 @@ const WhatsappOrders = () => {
 						</div>
 					</li>
 					<li>
-						<p className="text-xl font-semibold md:text2xl">
+						<p className="text-lg font-semibold md:text2xl">
 							Specify your full names and exact location ( area, road/ street,
 							estate, house/apt number).
 						</p>
 					</li>
 					<li>
-						<p className="text-xl font-semibold md:text2xl">
+						<p className="text-lg font-semibold md:text2xl">
 							We will do the picking, packing and you can choose to either
 							collect or we deliver to you via Cab / Boda boda.
 						</p>
 					</li>
 					<li>
-						<p className="text-xl font-semibold md:text2xl">
+						<p className="text-lg font-semibold md:text2xl">
 							Delivery fees for a 0-15km ksh 50, 11-15kms ksh 380.
 						</p>
 					</li>
@@ -55,14 +55,14 @@ const WhatsappOrders = () => {
 				</h3>
 				<ul>
 					<li>
-						<p className="text-xl font-semibold md:text2xl">
+						<p className="text-lg font-semibold md:text2xl">
 							All payments including delivery fees should be paid to Chandarana
 							Foodplus ONLY via MPESA. Kindly confirm your final bill before
 							payment as there are no refunds
 						</p>
 					</li>
 					<li>
-						<p className="text-xl font-semibold md:text2xl">
+						<p className="text-lg font-semibold md:text2xl">
 							Delivery is one way, for any returns kindly visit the branch for a
 							credit note which is redeemable at that branch and cannot be used
 							to place another WhatsApp order.
