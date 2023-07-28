@@ -12,7 +12,7 @@ const Navbar = () => {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="relative top-0 left-0 right-0 text-blue-950 text-lg font-semibold">
+		<nav className="relative top-0 left-0 right-0 text-blue-950 text-md font-semibold md:mx-10">
 			<div className="absolute z-10 left-0 right-0 top-0">
 				<ul className="absolute flex w-full py-6 px-4 bg-white justify-between md:hidden cursor-pointer p-4 font-semibold">
 					<li>
@@ -34,7 +34,7 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={` md:flex justify-between py-6 px-4 top-0 right-0 left-0 shadow-lg text-neutral-100 ${
+				className={` md:flex justify-between py-6 px-4 top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
