@@ -11,11 +11,9 @@ const Hero: React.FC = () => {
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
 				transition={{ duration: 1 }} // Animation duration
-				className=" border-blue-100 mt-[4rem] bg-blue-950/80 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center mx-20 md:mx-30 lg:mx-40 gap-8 text-white"
+				className=" border-blue-100 mt-[4rem] bg-blue-950/80 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center mx-10 md:mx-[20%] gap-8 text-white"
 			>
-				<h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
-					MUTHAIGA MINI MARKET
-				</h1>
+				<h1 className="text-3xl md:text-3xl font-bold">MUTHAIGA MINI MARKET</h1>
 				<p className="text-lg md:text-2xl lg:text-3xl font-semibold">
 					Enjoy Shopping
 				</p>
