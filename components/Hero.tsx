@@ -7,16 +7,16 @@ const Hero: React.FC = () => {
 	return (
 		<div className="w-full  my-[5rem] md:my-0 mx-auto relative">
 			<div className="hero absolute inset-0 bg-cover overflow-y-hidden bg-center"></div>
-			<div className=" border-blue-100 mt-[4rem] bg-blue-950/60 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center gap-8 text-white">
-				<motion.h1
-					initial={{ x: -1000 }} // Initial x position (off the screen to the left)
-					animate={{ x: 0 }} // Final x position (centered on the screen)
-					transition={{ duration: 1 }} // Animation duration
-					style={{ display: "inline-block" }} // Necessary for the animation to work
-					className="text-3xl md:text-4xl lg:text-6xl font-bold"
-				>
+			<motion.div
+				initial={{ x: -300 }} // Initial x position (off the screen to the left)
+				animate={{ x: 0 }} // Final x position (centered on the screen)
+				transition={{ duration: 1 }} // Animation duration
+				//style={{ display: "inline-block" }} // Necessary for the animation to work
+				className=" border-blue-100 mt-[4rem] bg-blue-950/60 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center gap-8 text-white"
+			>
+				<h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
 					MUTHAIGA MINI MARKET
-				</motion.h1>
+				</h1>
 				<p className="text-lg md:text-2xl lg:text-3xl font-semibold">
 					Enjoy Shopping
 				</p>
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
 						Find Out More
 					</button>
 				</Link>
-			</div>
+			</motion.div>
 		</div>
 	);
 };
