@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Inter, Roboto } from "next/font/google";
+
 import Hero from "../components/Hero";
 import StoreFeatureCard from "../components/StoreFeatureCard";
 import FaqDisplay from "../components/FaqDisplay";
