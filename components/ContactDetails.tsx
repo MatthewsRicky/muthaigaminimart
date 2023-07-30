@@ -12,11 +12,14 @@ const ContactDetails = () => {
 	return (
 		<Card>
 			<CardHeader>
-				<Heading>Conclusion</Heading>
+				<Heading>Contact</Heading>
 			</CardHeader>
 			<CardBody>
-				<Text>View a summary of all your customers over the last month.</Text>
+				<Text fontSize="4xl">
+					View a summary of all your customers over the last month.
+				</Text>
 			</CardBody>
+			<CardFooter>Muthaiga mini Market</CardFooter>
 		</Card>
 	);
 };
