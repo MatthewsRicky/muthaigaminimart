@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, animate } from "framer-motion";
 
 const Hero: React.FC = () => {
 	return (
@@ -13,10 +13,22 @@ const Hero: React.FC = () => {
 				transition={{ duration: 1 }} // Animation duration
 				className=" border-blue-100 mt-[4rem] bg-blue-950/80 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center mx-10 md:mx-[20%] gap-8 text-white"
 			>
-				<h1 className="text-3xl md:text-3xl font-bold">MUTHAIGA MINI MARKET</h1>
-				<p className="text-lg md:text-2xl lg:text-3xl font-semibold">
+				<motion.h1
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1.3, ease: "easeOut" }} // Animation duration
+					className="text-3xl md:text-3xl font-bold"
+				>
+					MUTHAIGA MINI MARKET
+				</motion.h1>
+				<motion.p
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+					className="text-lg md:text-2xl lg:text-3xl font-semibold"
+				>
 					Enjoy Shopping
-				</p>
+				</motion.p>
 				<Link href="/about">
 					<button className="bg-orange-500/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-md w-100">
 						Find Out More
