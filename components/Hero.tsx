@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-						className="bg-[#ff2800]/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-md w-100"
+						className="hover:bg-[#ff2800]/80 bg-[#000080]/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-md w-100"
 					>
 						Find Out More
 					</motion.button>
