@@ -41,7 +41,7 @@ const Navbar = () => {
 				<ul className="w-full flex  mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
 					<li onClick={() => setNavbar(!navbar)}>
 						<Link
-							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md hover:drop-shadow-xl transition border-b-2 md:border-0 text-blue-950"
+							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-blue-950"
 							href="/"
 						>
 							Home
@@ -49,7 +49,7 @@ const Navbar = () => {
 					</li>
 					<li onClick={() => setNavbar(!navbar)}>
 						<Link
-							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md hover:drop-shadow-xl transition border-b-2 md:border-0 text-blue-950"
+							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-blue-950"
 							href="/about"
 						>
 							About{" "}
@@ -57,7 +57,7 @@ const Navbar = () => {
 					</li>
 					<li onClick={() => setNavbar(!navbar)}>
 						<Link
-							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md hover:drop-shadow-xl transition border-b-2 md:border-0 text-blue-950"
+							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-blue-950"
 							href="/whatsapporders"
 						>
 							WhatsApp Orders
@@ -65,7 +65,7 @@ const Navbar = () => {
 					</li>
 					<li onClick={() => setNavbar(!navbar)}>
 						<Link
-							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md hover:drop-shadow-xl transition border-b-2 md:border-0 text-blue-950"
+							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-blue-950"
 							href="/contact"
 						>
 							Contact
@@ -73,7 +73,7 @@ const Navbar = () => {
 					</li>
 					<li onClick={() => setNavbar(!navbar)}>
 						<Link
-							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md hover:drop-shadow-xl transition border-b-2 md:border-0 text-blue-950"
+							className="flex w-full md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#ff2800] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-blue-950"
 							href="/location"
 						>
 							Location
