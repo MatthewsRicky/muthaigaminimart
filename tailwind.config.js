@@ -13,10 +13,10 @@ module.exports = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 		},
-		colors: {
-			"ferrari-red": "#ff2800",
-			"navy-blue": "#000080",
-		},
+		//colors: {
+		//"ferrari-red": "#ff2800",
+		//"navy-blue": "#000080",
+		//},
 	},
 	plugins: [],
 };
