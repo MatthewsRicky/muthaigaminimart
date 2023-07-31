@@ -5,7 +5,7 @@ import { motion, animate } from "framer-motion";
 
 const Hero: React.FC = () => {
 	return (
-		<div className="w-full  my-[5rem] md:my-0 mx-auto relative">
+		<div className="w-full my-[5rem] md:my-0 mx-auto relative">
 			<div className="hero absolute inset-0 overflow-y-hidden bg-center"></div>
 			<motion.div
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
