@@ -18,8 +18,8 @@ const ContactDetails = () => {
 			</CardHeader>
 			<CardBody>
 				<Stack>
-					<Text fontSize="4xl">
-						<PhoneIcon />
+					<Text className="flex gap-4">
+						<PhoneIcon /> <p>0700 000 000</p>
 					</Text>
 					<Text fontSize="4xl"></Text>
 					<Text fontSize="4xl"></Text>
