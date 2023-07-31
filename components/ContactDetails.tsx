@@ -4,28 +4,72 @@ import {
 	CardHeader,
 	CardBody,
 	CardFooter,
+	StackDivider,
 	Text,
+	Box,
 	Heading,
 	Stack,
 } from "@chakra-ui/react";
+import { cardAnatomy } from "@chakra-ui/anatomy";
+import { createMultiStyleConfigHelpers } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 
 const ContactDetails = () => {
 	return (
-		<Card className="bg-blue-950 text-white">
+		<Card variant={}>
 			<CardHeader>
-				<Heading>Contact</Heading>
+				<Heading size="md">Customer Care</Heading>
 			</CardHeader>
+
 			<CardBody>
-				<Stack>
-					<Text className="flex gap-4">
-						<PhoneIcon /> <p>0700 000 000</p>
-					</Text>
-					<Text fontSize="4xl"></Text>
-					<Text fontSize="4xl"></Text>
+				<Stack
+					divider={<StackDivider />}
+					spacing="4"
+				>
+					<Box>
+						<Heading
+							size="xs"
+							textTransform="uppercase"
+						>
+							<PhoneIcon />
+						</Heading>
+						<Text
+							pt="2"
+							fontSize="sm"
+						>
+							0700 000 000
+						</Text>
+					</Box>
+					<Box>
+						<Heading
+							size="xs"
+							textTransform="uppercase"
+						>
+							<PhoneIcon />
+						</Heading>
+						<Text
+							pt="2"
+							fontSize="sm"
+						>
+							0700 000 000
+						</Text>
+					</Box>
+					<Box>
+						<Heading
+							size="xs"
+							textTransform="uppercase"
+						>
+							Email
+						</Heading>
+						<Text
+							pt="2"
+							fontSize="sm"
+						>
+							mmm@gmail.com
+						</Text>
+					</Box>
 				</Stack>
 			</CardBody>
-			<CardFooter>Muthaiga mini Market</CardFooter>
 		</Card>
 	);
 };
