@@ -6,18 +6,24 @@ import {
 	CardFooter,
 	Text,
 	Heading,
+	Stack,
 } from "@chakra-ui/react";
+import { PhoneIcon } from "@chakra-ui/icons";
 
 const ContactDetails = () => {
 	return (
-		<Card>
+		<Card className="bg-blue-950 text-white">
 			<CardHeader>
 				<Heading>Contact</Heading>
 			</CardHeader>
 			<CardBody>
-				<Text fontSize="4xl">
-					View a summary of all your customers over the last month.
-				</Text>
+				<Stack>
+					<Text fontSize="4xl">
+						<PhoneIcon />
+					</Text>
+					<Text fontSize="4xl"></Text>
+					<Text fontSize="4xl"></Text>
+				</Stack>
 			</CardBody>
 			<CardFooter>Muthaiga mini Market</CardFooter>
 		</Card>
