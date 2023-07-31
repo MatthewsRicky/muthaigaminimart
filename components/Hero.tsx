@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
 				transition={{ duration: 1 }} // Animation duration
-				className=" border-blue-100 mt-[4rem] bg-blue-950/80 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center mx-10 md:mx-[20%] gap-8 text-white"
+				className=" border-white mt-[4rem] bg-[#000080]/20 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center max-w-screen-md mx-auto  gap-8 text-white"
 			>
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
@@ -24,15 +24,20 @@ const Hero: React.FC = () => {
 				<motion.p
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
-					transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+					transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
 					className="text-lg md:text-2xl lg:text-3xl font-semibold"
 				>
 					Enjoy Shopping
 				</motion.p>
 				<Link href="/about">
-					<button className="bg-orange-500/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-md w-100">
+					<motion.button
+						initial={{ x: -300 }} // Initial x position (off the screen to the left)
+						animate={{ x: 0 }} // Final x position (centered on the screen)
+						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+						className="bg-[#ff2800]/80 p-4 mt-10 text-3xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-md w-100"
+					>
 						Find Out More
-					</button>
+					</motion.button>
 				</Link>
 			</motion.div>
 		</div>
