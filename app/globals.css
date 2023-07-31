@@ -21,3 +21,6 @@ body,
 	display: flex;
 	height: 40vh;
 }
+.highlight {
+	color: #ff2800;
+}
