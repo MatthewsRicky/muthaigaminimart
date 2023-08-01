@@ -65,7 +65,7 @@ const Navbar = () => {
 					</li>
 					<li onClick={() => setNavbar(!navbar)}>
 						<Link
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-b-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
 							href="/contact"
 						>
 							Contact
