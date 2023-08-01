@@ -40,7 +40,7 @@ const Navbar = () => {
 				<div className="flex justify-between mx- items-center gap-40">
 					<Link href="/">
 						<Image
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+							className="flex md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
 							src={Logo}
 							alt="logo icon"
 							width={100}
