@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="relative top-0 left-0 right-0 text-blue-950 text-md font-semibold md:mx-10">
+		<nav className="relative w-full top-0 left-0 right-0 text-blue-950 text-md font-semibold">
 			<div className="absolute z-10 left-0 right-0 top-0">
 				<ul className="absolute flex w-full py-6 px-4 bg-white justify-between md:hidden cursor-pointer p-4 font-semibold">
 					<li>
@@ -33,14 +33,14 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={` md:flex py-6 justify-center items-end px-4 top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
+				className={` md:flex py-6 justify-center items-end top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex justify-between mx- items-center gap-40">
+				<div className="flex justify-between items-center md:gap-40 lg:gap-96">
 					<Link href="/">
 						<Image
-							className="flex md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
+							className="flex text-xl w-[10rem] md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
 							src={Logo}
 							alt="logo icon"
 							width={100}
