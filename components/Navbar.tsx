@@ -24,7 +24,7 @@ const Navbar = () => {
 					</li>
 					<li>
 						<button
-							className=" rounded-full flex justify-center p-4 items-center hover:text-neutral-100 hover:bg-orange-500/90 text-orange-500/90 w-20 text-center transition-all duration-300"
+							className=" rounded-full flex justify-center p-4 items-center hover:text-neutral-100 hover:bg-[#ff2800]/60 text-[#ff2800]/60 w-20 text-center transition-all duration-300"
 							onClick={() => setNavbar(!navbar)}
 						>
 							{navbar ? <BiXCircle size={26} /> : <BiMenu size={26} />}
