@@ -37,7 +37,7 @@ const Navbar = () => {
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex justify-center w-full mx-auto md:mx-20 items-center md:gap-20 lg:gap-48">
+				<div className="flex justify-center w-full mx-auto md:mx-20 items-center sm:gap-10 md:gap-20 lg:gap-64">
 					<Link href="/">
 						<Image
 							className="flex text-xl w-[10rem] md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
