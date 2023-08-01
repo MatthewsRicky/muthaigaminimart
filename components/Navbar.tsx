@@ -1,6 +1,5 @@
 "use client";
 
-import { AiOutlineSearch } from "react-icons/ai";
 import { BiMenu, BiXCircle } from "react-icons/bi";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,52 +33,55 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={` md:flex justify-between py-6 px-4 top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
+				className={` md:flex py-6 justify-center items-end px-4 top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<ul className="w-full flex  mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300 gap-4 bg-opacity-60 ">
-					<li onClick={() => setNavbar(!navbar)}>
-						<Link
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
-							href="/"
-						>
-							Home
-						</Link>
-					</li>
-					<li onClick={() => setNavbar(!navbar)}>
-						<Link
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
-							href="/about"
-						>
-							About{" "}
-						</Link>
-					</li>
-					<li onClick={() => setNavbar(!navbar)}>
-						<Link
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
-							href="/whatsapporders"
-						>
-							WhatsApp Orders
-						</Link>
-					</li>
-					<li onClick={() => setNavbar(!navbar)}>
-						<Link
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
-							href="/contact"
-						>
-							Contact
-						</Link>
-					</li>
-					<li onClick={() => setNavbar(!navbar)}>
-						<Link
-							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
-							href="/location"
-						>
-							Location
-						</Link>
-					</li>
-				</ul>
+				<div className="flex justify-between mx- items-center gap-40">
+					<Link href="/">
+						<Image
+							className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+							src={Logo}
+							alt="logo icon"
+							width={100}
+						/>
+					</Link>
+
+					<ul className="w-full flex mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300 gap-4 bg-opacity-60 ">
+						<li onClick={() => setNavbar(!navbar)}>
+							<Link
+								className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+								href="/about"
+							>
+								About{" "}
+							</Link>
+						</li>
+						<li onClick={() => setNavbar(!navbar)}>
+							<Link
+								className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+								href="/whatsapporders"
+							>
+								WhatsApp Orders
+							</Link>
+						</li>
+						<li onClick={() => setNavbar(!navbar)}>
+							<Link
+								className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+								href="/contact"
+							>
+								Contact
+							</Link>
+						</li>
+						<li onClick={() => setNavbar(!navbar)}>
+							<Link
+								className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
+								href="/location"
+							>
+								Location
+							</Link>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	);
