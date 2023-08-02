@@ -6,12 +6,12 @@ import { motion, animate } from "framer-motion";
 const Hero: React.FC = () => {
 	return (
 		<div className="w-1/2 my-[5rem] md:my-0 mx-auto relative">
-			<div className="absolute left-10 inset-0 overflow-y-hidden bg-center"></div>
+			<div className="absolute left-50 inset-0 overflow-y-hidden bg-center"></div>
 			<motion.div
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
 				transition={{ duration: 1 }} // Animation duration
-				className=" border-white mt-[4rem] bg-[#000080]/20 border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center max-w-screen-md mx-auto  gap-8 text-[#000080]"
+				className=" border-white mt-[4rem] border-2 border-opacity-40 relative z-10 flex flex-col justify-center p-8 rounded-lg items-center max-w-screen-md mx-auto gap-8 text-[#000080]"
 			>
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
