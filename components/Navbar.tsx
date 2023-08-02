@@ -13,7 +13,7 @@ const Navbar = () => {
 	return (
 		<nav className="relative w-full top-0 left-0 right-0 text-blue-950 text-md font-semibold">
 			<div className="absolute z-10 left-0 right-0 top-0">
-				<ul className="absolute flex w-full py-6 px-4 bg-white justify-between md:hidden cursor-pointer p-4 font-semibold">
+				<ul className="absolute flex w-full py-6 px-4 bg-white items-center justify-between md:hidden cursor-pointer p-4 font-semibold">
 					<Link href="/">
 						<li>
 							<Image
@@ -25,7 +25,7 @@ const Navbar = () => {
 					</Link>
 					<li>
 						<button
-							className=" rounded-full flex justify-center p-2 items-center hover:text-neutral-100 hover:bg-[#ff2800]/60 text-[#ff2800]/60 w-20 text-center transition-all duration-300"
+							className=" rounded-full flex justify-center p-2 items-center hover:text-neutral-100 hover:bg-[#000080]/90 text-[000080]/90 w-12 text-center transition-all duration-300"
 							onClick={() => setNavbar(!navbar)}
 						>
 							{navbar ? <BiXCircle size={26} /> : <BiMenu size={26} />}
@@ -49,7 +49,7 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<ul className="w-full flex mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-around items-center transition-all duration-300 gap-4 bg-opacity-60 ">
+					<ul className="w-full flex mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-center mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
 						<li onClick={() => setNavbar(!navbar)}>
 							<Link
 								className="flex w-[100vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
