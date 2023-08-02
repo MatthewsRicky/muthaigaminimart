@@ -14,16 +14,18 @@ const Navbar = () => {
 		<nav className="relative w-full top-0 left-0 right-0 text-blue-950 text-md font-semibold">
 			<div className="absolute z-10 left-0 right-0 top-0">
 				<ul className="absolute flex w-full py-6 px-4 bg-white justify-between md:hidden cursor-pointer p-4 font-semibold">
-					<li>
-						<Image
-							src={Logo}
-							alt="logo icon"
-							width={100}
-						/>
-					</li>
+					<Link href="/">
+						<li>
+							<Image
+								src={Logo}
+								alt="logo icon"
+								width={100}
+							/>
+						</li>
+					</Link>
 					<li>
 						<button
-							className=" rounded-full flex justify-center p-4 items-center hover:text-neutral-100 hover:bg-[#ff2800]/60 text-[#ff2800]/60 w-20 text-center transition-all duration-300"
+							className=" rounded-full flex justify-center p-2 items-center hover:text-neutral-100 hover:bg-[#ff2800]/60 text-[#ff2800]/60 w-20 text-center transition-all duration-300"
 							onClick={() => setNavbar(!navbar)}
 						>
 							{navbar ? <BiXCircle size={26} /> : <BiMenu size={26} />}
