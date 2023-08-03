@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion, animate } from "framer-motion";
+import Image from "next/image";
 
 const Hero: React.FC = () => {
 	return (
@@ -29,6 +30,9 @@ const Hero: React.FC = () => {
 				>
 					Enjoy Shopping
 				</motion.p>
+			</motion.div>
+			<motion.div>
+				<Image src={} />
 			</motion.div>
 		</div>
 	);
