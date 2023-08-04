@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { motion, animate } from "framer-motion";
 import Image from "next/image";
+import Beer from "../public/images/Beerandwine.png";
 
 const Hero: React.FC = () => {
 	return (
-		<div className="w-full my-[5rem] md:my-0 mx-auto relative">
+		<div className="hero w-full my-[5rem] md:my-0 mx-auto relative">
 			<div className="w-1/2 absolute left-50 inset-0 overflow-y-hidden bg-center"></div>
 			<motion.div
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
@@ -32,7 +33,12 @@ const Hero: React.FC = () => {
 				</motion.p>
 			</motion.div>
 			<motion.div>
-				<Image src={} />
+				<Image
+					src={Beer}
+					alt="beer and wine"
+					width={500}
+					height={500}
+				/>
 			</motion.div>
 		</div>
 	);
