@@ -66,7 +66,7 @@ const ContactDetails = () => {
 								pt="2"
 								fontSize="sm"
 							>
-								mmm@gmail.com
+								mmmdiani@gmail.com
 							</Text>
 						</Box>
 					</Stack>
