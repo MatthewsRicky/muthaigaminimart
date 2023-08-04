@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="relative w-full top-0 left-0 right-0 text-blue-950 text-md font-semibold">
+		<nav className="relative w-full font top-0 left-0 right-0 text-blue-950 text-md font-semibold">
 			<div className="absolute z-10 left-0 right-0 top-0">
 				<ul className="absolute flex w-full py-6 px-4 bg-white items-center justify-between md:hidden cursor-pointer p-4 font-semibold">
 					<Link href="/">
@@ -55,7 +55,7 @@ const Navbar = () => {
 								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
 								href="/about"
 							>
-								About{" "}
+								ABOUT{" "}
 							</Link>
 						</li>
 						<li onClick={() => setNavbar(!navbar)}>
@@ -63,7 +63,7 @@ const Navbar = () => {
 								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
 								href="/whatsapporders"
 							>
-								WhatsApp Orders
+								WHATSAPP ORDERS
 							</Link>
 						</li>
 						<li onClick={() => setNavbar(!navbar)}>
@@ -71,7 +71,7 @@ const Navbar = () => {
 								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
 								href="/contact"
 							>
-								Contact
+								CONTACT
 							</Link>
 						</li>
 						<li onClick={() => setNavbar(!navbar)}>
@@ -79,7 +79,7 @@ const Navbar = () => {
 								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
 								href="/location"
 							>
-								Location
+								LOCATION
 							</Link>
 						</li>
 					</ul>
