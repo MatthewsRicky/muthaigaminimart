@@ -6,11 +6,11 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Carousel = () => {
 	const slides = [
-		{ url: "/images/bananas.jpeg" },
-		{ url: "/images/beverages.jpeg" },
-		{ url: "/images/cheese.jpeg" },
-		{ url: "/images/mmm1.jpeg" },
-		{ url: "/images/mmm3.jpeg" },
+		{ url: "/images/Beerandwine.png" },
+		{ url: "/images/bottled_juice.png" },
+		{ url: "/images/candy.png" },
+		{ url: "/images/household_electronics.png" },
+		{ url: "/images/sunscreen.png" },
 	];
 
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,12 +45,14 @@ const Carousel = () => {
 					/>
 				</div>
 				{/*right arrow*/}
-				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-30 text-2xl rounded-full p-2 bg-blue-900/50 text-white cursor-pointer">
-					<BsChevronCompactRight
-						onClick={nextSlide}
-						size={50}
-					/>
-				</div>
+				{
+					<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-24 text-2xl rounded-full p-2 bg-blue-900/50 text-white cursor-pointer">
+						<BsChevronCompactRight
+							onClick={nextSlide}
+							size={50}
+						/>
+					</div>
+				}
 				<div className="hidden group-hover:flex justify-center py-2">
 					{slides.map((slide, slideIndex) => (
 						<div
