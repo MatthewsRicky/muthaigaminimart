@@ -9,7 +9,7 @@ const StoreFeatureCard = () => {
 				<h1 className="my-10 text-2xl md:text-3xl lg:6xl font-semibold">
 					WELCOME TO MUTHAIGA MINI MARKET
 				</h1>
-				<p className="bg-blue-200/20 md:text-2xl lg:4xl p-4 shadow-xl">
+				<p className="bg-blue-200/20 md:text-xl lg:4xl p-4 shadow-xl">
 					Muthatiga Mini Mart is a beloved destination in the heart of Diani
 					Beach, a stunning coastal paradise. Our mini super market caters to
 					the diverse needs of residents and visitors alike. Offering an
