@@ -46,7 +46,7 @@ const Carousel = () => {
 				</div>
 				{/*right arrow*/}
 				{
-					<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-24 text-2xl rounded-full p-2 bg-blue-900/50 text-white cursor-pointer">
+					<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-50 text-2xl rounded-full p-2 bg-blue-900/50 text-white cursor-pointer">
 						<BsChevronCompactRight
 							onClick={nextSlide}
 							size={50}
