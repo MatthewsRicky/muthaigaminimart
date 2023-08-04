@@ -1,14 +1,20 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const About = () => {
 	return (
 		<div className="text-white w-full">
 			<div className="hero flex justify-center items-center  relative">
-				<h2 className="py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300">
+				<motion.h2
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+					className="py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300"
+				>
 					Muthatiga Mini Mart
-				</h2>
+				</motion.h2>
 			</div>
 
 			<div className="flex flex-col justify-center items-center text-blue-950 p-8 m-8 drop-shadow-xl">
