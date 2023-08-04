@@ -21,7 +21,7 @@ const StoreFeatureCard = () => {
 					the vibrant Diani Beach community.
 				</p>
 			</div>
-			<div className="flex justify-center items-center flex-col md:flex-row gap-4 wrap">
+			<div className="flex mx-12 md:min-w-[350px] justify-center items-center flex-col md:flex-row md:row-span-2 gap-8 md:gap-10 flex-wrap">
 				<ImageCard
 					imageSrc="/images/cheese.jpeg"
 					title="Cheese"
