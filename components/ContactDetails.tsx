@@ -37,6 +37,8 @@ const ContactDetails = () => {
 							<Text
 								pt="2"
 								fontSize="sm"
+								fontWeight="medium"
+								textColor="#000080"
 							>
 								0700 000 000
 							</Text>
@@ -51,6 +53,8 @@ const ContactDetails = () => {
 							<Text
 								pt="2"
 								fontSize="sm"
+								fontWeight="medium"
+								textColor="#000080"
 							>
 								0700 000 000
 							</Text>
@@ -65,6 +69,8 @@ const ContactDetails = () => {
 							<Text
 								pt="2"
 								fontSize="sm"
+								fontWeight="medium"
+								textColor="#000080"
 							>
 								mmmdiani@gmail.com
 							</Text>
