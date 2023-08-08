@@ -40,14 +40,14 @@ const Navbar = () => {
 				}`}
 			>
 				<div className="flex flex-col md:flex-row justify-center w-full mx-0 md:mx-10 lg:mx-32 items-center sm:gap-10 md:gap-20 lg:gap-64">
-					<Link href="/">
+					{/*<Link href="/">
 						<Image
 							className="flex text-xl w-[10rem] md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
 							src={Logo}
 							alt="logo icon"
 							width={100}
 						/>
-					</Link>
+			</Link>*/}
 
 					<ul className="w-full flex mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
 						<li onClick={() => setNavbar(!navbar)}>
