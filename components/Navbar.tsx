@@ -4,7 +4,7 @@ import { BiMenu, BiXCircle } from "react-icons/bi";
 import Image from "next/image";
 import Link from "next/link";
 
-import Logo from "../public/vercel.svg";
+import Logo from "../public/images/muthaiga logo svg.png";
 import { useState } from "react";
 
 const Navbar = () => {
