@@ -4,7 +4,7 @@ import { BiMenu, BiXCircle } from "react-icons/bi";
 import Image from "next/image";
 import Link from "next/link";
 
-import Logo from "../public/images/muthaiga logo svg.png";
+import Logo from "../public/images/Logo 2_1.svg";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -17,9 +17,10 @@ const Navbar = () => {
 					<Link href="/">
 						<li>
 							<Image
+								className="text-md w-[10rem] flex justify-center hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
 								src={Logo}
 								alt="logo icon"
-								width={100}
+								width={50}
 							/>
 						</li>
 					</Link>
