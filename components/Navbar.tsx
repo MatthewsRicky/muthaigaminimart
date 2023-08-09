@@ -50,7 +50,7 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<ul className="w-full flex mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
+					<ul className="w-full flex mt-[9.5rem] md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
 						<li onClick={() => setNavbar(!navbar)}>
 							<Link
 								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-blue-950"
