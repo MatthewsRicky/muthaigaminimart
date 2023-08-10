@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
 				transition={{ duration: [1, 1] }} // Animation duration
-				className="mt-[4rem] relative flex flex-col justify-center p-8 rounded-lg items-center max-w-screen-md mx-auto text-center gap-8 text-[#000080] bg-white/80 mix-blend-hard-light"
+				className="mt-[4rem] relative flex flex-col justify-center p-8 rounded-lg items-center max-w-screen-md mx-auto text-center gap-8 text-[#fff] mix-blend-hard-light"
 			>
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
