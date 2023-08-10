@@ -2,13 +2,27 @@
 
 import ContactDetails from "@/src/components/ContactDetails";
 
+import { motion, animate } from "framer-motion";
+
 const Contact = () => {
 	return (
-		<div className="h-[85vh] overflow-x-hidden flex flex-col">
-			<div className="hero flex justify-center items-center relative">
-				<h1 className="flex justify-center absolute top-[50%] items-center py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-auto transition-all duration-300">
-					Contact
-				</h1>
+		<div>
+			<div className="hero w-full my-[5rem] md:my-0 group relative">
+				<motion.div
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+					className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
+				>
+					<motion.h1
+						initial={{ x: -300 }} // Initial x position (off the screen to the left)
+						animate={{ x: 0 }} // Final x position (centered on the screen)
+						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+						className="text-3xl  md:text-4xl lg:text-5xl font-bold"
+					>
+						CONTACT
+					</motion.h1>
+				</motion.div>
 			</div>
 
 			<div className="flex w-full justify-center items-center m-10">
