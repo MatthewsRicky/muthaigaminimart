@@ -36,7 +36,7 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={` md:flex md:flex-row py-6 justify-center items-end top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
+				className={` md:flex md:flex-row pt-6 pb-2 justify-center items-end top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
