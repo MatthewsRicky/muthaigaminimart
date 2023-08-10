@@ -1,6 +1,7 @@
 "use client";
-import Image from "next/image";
+
 import {
+	Image,
 	Card,
 	CardBody,
 	Heading,
@@ -28,8 +29,6 @@ const Location = () => {
 						<Image
 							src="/public/images/muthaiga-entrance.png"
 							alt="Green double couch with wooden legs"
-							width={400}
-							height={400}
 						/>
 						<Stack
 							mt="6"
@@ -39,34 +38,27 @@ const Location = () => {
 							<Text>
 								At Diani Shopping Centre, Ukunda, Diani Beach Road, Diani Beach
 							</Text>
-							<Text
-								color="blue.600"
-								fontSize="2xl"
-							>
-								$450
-							</Text>
 						</Stack>
 					</CardBody>
 					<Divider />
 					<CardFooter>
 						<ButtonGroup spacing="2">
 							<Button
-								variant="solid"
+								variant="ghost"
 								colorScheme="blue"
 							>
-								Buy now
+								Contact us
 							</Button>
 							<Button
 								variant="ghost"
 								colorScheme="blue"
 							>
-								Add to cart
+								Back Home
 							</Button>
 						</ButtonGroup>
 					</CardFooter>
 				</Card>
 			</div>
-			PH2J+779,
 		</div>
 	);
 };
