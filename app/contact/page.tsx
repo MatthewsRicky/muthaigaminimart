@@ -1,4 +1,5 @@
 "use client";
+
 import ContactDetails from "@/src/components/ContactDetails";
 
 const Contact = () => {
@@ -9,6 +10,7 @@ const Contact = () => {
 					Contact
 				</h1>
 			</div>
+
 			<div className="flex w-full justify-center items-center m-10">
 				<ContactDetails />
 			</div>
