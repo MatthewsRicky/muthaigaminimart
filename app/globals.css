@@ -12,7 +12,7 @@ body,
 .hero {
 	background-image: url(../public/images/sunscreen.png);
 	height: 40vh;
-	width: 50vw;
+	width: 100vw;
 	opacity: 40;
 	background-position: center;
 	background-repeat: no-repeat;
