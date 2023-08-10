@@ -12,16 +12,27 @@ import {
 	ButtonGroup,
 	Button,
 } from "@chakra-ui/react";
+import { motion, animate } from "framer-motion";
 
 const Location = () => {
 	return (
 		<div>
 			<div className="hero relative h-[100vh]">
-				<div className="text-white absolute top-[35%] left-[35%] z-10">
-					<h1 className="flex absolute justify-center top-[50%] items-center py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-auto transition-all duration-300">
+				<motion.div
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: [1, 1] }} // Animation duration
+					className="mt-[4rem] relative flex flex-col justify-center p-8 rounded-lg items-center max-w-screen-md mx-auto text-center gap-8 text-[#000080] bg-white/80 mix-blend-hard-light"
+				>
+					<motion.h1
+						initial={{ x: -300 }} // Initial x position (off the screen to the left)
+						animate={{ x: 0 }} // Final x position (centered on the screen)
+						transition={{ duration: 1.3, ease: "easeOut" }} // Animation duration
+						className="absolute z-10  text-3xl  md:text-6xl font-bold"
+					>
 						Location
-					</h1>
-				</div>
+					</motion.h1>
+				</motion.div>
 			</div>
 			<div>
 				<Card maxW="xl">
