@@ -11,9 +11,9 @@ const Footer = () => {
 		<div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950">
 			<div className="flex flex-col w-full md:flex-row justify-between items-center gap-4">
 				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md shadow-lg shadow-blue-950/60">
-					<h1 className="text-xl uppercase">Muthaiga Mini Mart</h1>
+					<h1 className="text-xl uppercase">Muthaiga Mini Market</h1>
 					<p className="text-center p-2">
-						Muthatiga Mini Mart: your one-stop shop for fresh local produce,
+						Muthatiga Mini Market: your one-stop shop for fresh local produce,
 						gourmet snacks, everyday essentials, and beach supplies in Diani
 						Beach.
 					</p>
@@ -25,7 +25,7 @@ const Footer = () => {
 						you. Monday-Friday: 9am to 5pm Saturday: 9am to 1pm Sunday: Closed
 					</p>
 				</div>
-				<div className="flex flex-col justify-center gap-6 w-full p-2 rounded-md shadow-lg shadow-blue-950/60">
+				<div className="flex flex-col justify-center gap-6 w-full px-2 rounded-md shadow-lg shadow-blue-950/60">
 					<h1 className=" text-xl text-center uppercase">
 						Coming Soon on social media!
 					</h1>
