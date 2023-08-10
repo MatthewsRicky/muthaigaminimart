@@ -35,11 +35,9 @@ const Location = () => {
 							mt="6"
 							spacing="3"
 						>
-							<Heading size="md"></Heading>
+							<Heading size="md">We are Located</Heading>
 							<Text>
-								This sofa is perfect for modern tropical spaces, baroque
-								inspired spaces, earthy toned spaces and for people who love a
-								chic design with a sprinkle of vintage design.
+								At Diani Shopping Centre, Ukunda, Diani Beach Road, Diani Beach
 							</Text>
 							<Text
 								color="blue.600"
@@ -68,7 +66,7 @@ const Location = () => {
 					</CardFooter>
 				</Card>
 			</div>
-			PH2J+779, At Diani Shopping Centre, Ukunda, Diani Beach Road, Diani Beach
+			PH2J+779,
 		</div>
 	);
 };
