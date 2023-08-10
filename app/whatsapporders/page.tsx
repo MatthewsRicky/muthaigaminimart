@@ -1,19 +1,39 @@
+"use client";
+
 import Image from "next/image";
+import { motion, animate } from "framer-motion";
+
 import { FaWhatsappSquare } from "react-icons/fa";
 
 const WhatsappOrders = () => {
 	return (
-		<div className="h-full md:h-full flex flex-col justify-center items-center">
-			<div className="hero bg-center bg-no-repeat Flex w-full justify-around items-center mb-10 relative">
-				<h1 className="absolute top-1/3 py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300">
-					WhatsApp Orders
-				</h1>
+		<div className="w-full my-[5rem] md:my-0 group relative">
+			<div className="hero">
+				<motion.div
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+					className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
+				>
+					<motion.h1
+						initial={{ x: -300 }} // Initial x position (off the screen to the left)
+						animate={{ x: 0 }} // Final x position (centered on the screen)
+						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+						className="text-3xl  md:text-4xl lg:text-5xl font-bold"
+					>
+						WHATSAPP ORDERS
+					</motion.h1>
+					<motion.p
+						initial={{ x: -300 }} // Initial x position (off the screen to the left)
+						animate={{ x: 0 }} // Final x position (centered on the screen)
+						transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
+						className="text-3xl md:text-4xl lg:text-3xl font-semibold"
+					>
+						Enjoy Shopping From Home
+					</motion.p>
+				</motion.div>
 			</div>
-			<div className="flex flex-col justify-center items-center gap-6 p-8 mx-2 my-4 text-blue-950 bg-blue-200/40 md:max-w-[90%] rounded-xl drop-shadow-2xl">
-				<h1 className="text-4xl md:text-5xl lg:text-6xl text-blue-950 font-bold">
-					Order from Home
-				</h1>
-
+			<div>
 				<p className="text-lg font-semibold md:text2xl">
 					You can now order your groceries, household items, electronics and
 					other supermarket shopping via WhatsApp. The process is quite simple:
