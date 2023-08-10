@@ -6,19 +6,25 @@ import { motion } from "framer-motion";
 const About = () => {
 	return (
 		<div className="text-white w-full">
-			<div className="hero flex justify-center items-center  relative">
-				<motion.h2
+			<div className="hero w-full my-[5rem] md:my-0 group relative">
+				<motion.div
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="py-4 px-6 rounded-md shadow-md shadow-orange-500/90 text-4xl md:text-6xl lg:text-8xl text-orange-500/90 bg-blue-950/80 mx-[15%] transition-all duration-300"
+					className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
 				>
-					Muthatiga Mini Mart
-				</motion.h2>
+					<motion.h1
+						initial={{ x: -300 }} // Initial x position (off the screen to the left)
+						animate={{ x: 0 }} // Final x position (centered on the screen)
+						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+						className="text-3xl  md:text-4xl lg:text-5xl font-bold"
+					>
+						ABOUT
+					</motion.h1>
+				</motion.div>
 			</div>
-
 			<div className="flex flex-col justify-center items-center text-blue-950 p-8 m-8 drop-shadow-xl">
-				<p className="text-lg md:text-2xl lg:text-3xl font-semi-bold bg-blue-200/40 rounded-xl p-4 ">
+				<p className="text-lg md:text-xl lg:text-2xl font-semi-bold bg-blue-200/40 rounded-xl p-4 ">
 					<i>Muthatiga Mini Mart</i> is a beloved destination in the heart of
 					Diani Beach, a stunning coastal paradise. Our mini super market caters
 					to the diverse needs of residents and visitors alike. Offering an
