@@ -1,9 +1,20 @@
-"use client"
+"use client";
 
-const TopButton = () => {
-  return (
-    <div>Back to Top</div>
-  )
-}
+const TopButton: React.FC = () => {
+	const handleScrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth", // Adds smooth scrolling animation
+		});
+	};
 
-export default TopButton
+	return (
+		<button
+			className="scroll-to-top-button p-2 bg-[#000080] text-white"
+			onClick={handleScrollToTop}
+		>
+			Top
+		</button>
+	);
+};
+export default TopButton;
