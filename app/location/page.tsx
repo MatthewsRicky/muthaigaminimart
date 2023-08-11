@@ -1,18 +1,10 @@
 "use client";
 
-import {
-	Image,
-	Card,
-	CardBody,
-	Heading,
-	Stack,
-	Text,
-	Divider,
-	CardFooter,
-	ButtonGroup,
-	Button,
-} from "@chakra-ui/react";
+import { CalendarIcon, PhoneIcon } from "@chakra-ui/icons";
+import { Image } from "@chakra-ui/next-js";
 import { motion, animate } from "framer-motion";
+import { AiFillContacts } from "react-icons/ai";
+import { BiPhone } from "react-icons/bi";
 
 const Location = () => {
 	return (
@@ -34,41 +26,62 @@ const Location = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
-			<div>
-				<Card maxW="xl">
-					<CardBody>
-						<Image
-							src="/public/images/muthaiga-entrance.png"
-							alt="Green double couch with wooden legs"
-						/>
-						<Stack
-							mt="6"
-							spacing="3"
-						>
-							<Heading size="md">We are Located</Heading>
-							<Text>
-								At Diani Shopping Centre, Ukunda, Diani Beach Road, Diani Beach
-							</Text>
-						</Stack>
-					</CardBody>
-					<Divider />
-					<CardFooter>
-						<ButtonGroup spacing="2">
-							<Button
-								variant="ghost"
-								colorScheme="blue"
-							>
-								Contact us
-							</Button>
-							<Button
-								variant="ghost"
-								colorScheme="blue"
-							>
-								Back Home
-							</Button>
-						</ButtonGroup>
-					</CardFooter>
-				</Card>
+			<div className="flex flex-col md:flex-row gap-10">
+				<div className="flex flex-col gap-2">
+					<div className="hover:underline underline-offset-2">
+						<h1 className="font-semibold">Contact</h1>
+						<h2>INFORMATION</h2>
+					</div>
+
+					<div className="flex gap-4">
+						<div>
+							<AiFillContacts
+								size={80}
+								color="#000080"
+							/>
+						</div>
+						<div>
+							<h2>Address Info</h2>
+							<p>
+								Located in the shopping Center right after Watatu Watano
+								junction on the right, Off Diani Beach Road.{" "}
+							</p>
+						</div>
+					</div>
+					<div>
+						<div>
+							<PhoneIcon
+								boxSize={12}
+								color="#000080"
+							/>
+						</div>
+						<div>
+							<h2>Contact Details</h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h1>Working Time</h1>
+					<h2>INFORMATION</h2>
+					<div>
+						<div>
+							<CalendarIcon
+								boxSize={14}
+								color="#000080"
+							/>
+						</div>
+						<div>
+							<h2>Working Time</h2>
+							<p>
+								Our office customer service team is ready to help you.
+								Monday-Friday: 9:30am to 5pm Saturday: 9:30am to 5pm Sunday:
+								Closed
+							</p>
+						</div>
+					</div>
+				</div>
+				<div></div>
 			</div>
 		</div>
 	);
