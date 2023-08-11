@@ -28,7 +28,7 @@ const Location = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
-			<div className="flex flex-col md:flex-row gap-10">
+			<div className="flex justify-center items-center flex-col sm:flex-col md:flex-row gap-10">
 				<div className="max-w-[450px] flex-1 flex-col gap-2">
 					<div className="hover:underline underline-offset-2">
 						<h1 className="font-semibold">Contact</h1>
@@ -63,7 +63,7 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col max-w-[450px]">
+				<div className="max-w-[450px] flex-1 flex-col gap-2">
 					<h1>Working Time</h1>
 					<h2>INFORMATION</h2>
 					<div className="flex">
@@ -83,11 +83,11 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="max-w-[450px] flex-1 flex-col gap-2">
 					<h1>Location Map</h1>
 					<div>
 						<Image
-							className="max-w-[400px]"
+							className="flex-1 max-w-[400px]"
 							src={Map}
 							alt="Map"
 						/>
