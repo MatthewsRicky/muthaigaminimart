@@ -7,8 +7,8 @@ import { FaWhatsappSquare } from "react-icons/fa";
 
 const WhatsappOrders = () => {
 	return (
-		<div className="w-full my-[5rem] md:my-0 group relative">
-			<div className="hero">
+		<div className=" w-full">
+			<div className="hero w-full my-[5rem] md:my-0 group relative">
 				<motion.div
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
@@ -33,10 +33,12 @@ const WhatsappOrders = () => {
 					</motion.p>
 				</motion.div>
 			</div>
-			<div>
+			<div className="flex flex-col justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-blue-200/40 rounded-xl">
 				<p className="text-lg font-semibold md:text2xl">
-					You can now order your groceries, household items, electronics and
-					other supermarket shopping via WhatsApp. The process is quite simple:
+					You can now order your household items, electronics and other
+					supermarket shopping via WhatsApp. For Groceries(vegetables and fruit)
+					we are happy to shop from our Neighbor Nancy at no extra cost. The
+					process is quite simple:
 				</p>
 				<ul className="py-4">
 					<li>
@@ -76,9 +78,9 @@ const WhatsappOrders = () => {
 				<ul>
 					<li>
 						<p className="text-lg font-semibold md:text2xl">
-							All payments including delivery fees should be paid to Chandarana
-							Foodplus ONLY via MPESA. Kindly confirm your final bill before
-							payment as there are no refunds
+							All payments including delivery fees should be paid to Muthaiga
+							Mini Market LTD ONLY via MPESA. Kindly confirm your final bill
+							before payment as there are no refunds.
 						</p>
 					</li>
 					<li>
