@@ -5,10 +5,15 @@ import {
 	AiOutlineInstagram,
 	AiOutlineTwitter,
 } from "react-icons/ai";
+import TopButton from "./TopButton";
 
 const Footer = () => {
 	return (
-		<div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950">
+		<div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950 relative">
+			<div className="absolute right-2 top-[-50]">
+				<TopButton />
+			</div>
+
 			<div className="flex flex-col w-full md:flex-row justify-between items-center gap-4">
 				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md hover:shadow-lg shadow-blue-950/60">
 					<h1 className="text-xl uppercase">Muthaiga Mini Market</h1>
