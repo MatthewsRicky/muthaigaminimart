@@ -28,7 +28,7 @@ const Location = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
-			<div className="flex justify-center items-center flex-col sm:flex-col md:flex-row gap-10">
+			<div className="flex flex-wrap justify-center items-center flex-col sm:flex-col md:flex-row gap-10 p-10">
 				<div className="max-w-[450px] flex-1 flex-col gap-2">
 					<div className="hover:underline underline-offset-2">
 						<h1 className="font-semibold">Contact</h1>
@@ -51,7 +51,7 @@ const Location = () => {
 						</div>
 					</div>
 					<div>
-						<div>
+						<div className="flex gap-4">
 							<PhoneIcon
 								boxSize={12}
 								color="#000080"
@@ -63,10 +63,13 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="max-w-[450px] flex-1 flex-col gap-2">
-					<h1>Working Time</h1>
-					<h2>INFORMATION</h2>
-					<div className="flex">
+				<div className="max-w-[450px]  flex-col gap-2">
+					<div className="flex flex-col gap-2">
+						<h1 className="font-semibold">Working Time</h1>
+						<h2>INFORMATION</h2>
+					</div>
+
+					<div className="flex gap-4">
 						<div>
 							<CalendarIcon
 								boxSize={14}
@@ -83,8 +86,8 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="max-w-[450px] flex-1 flex-col gap-2">
-					<h1>Location Map</h1>
+				<div className="max-w-[250px] flex-1 flex-col gap-2">
+					<h1 className="font-semibold">Location Map</h1>
 					<div>
 						<Image
 							className="flex-1 max-w-[400px]"
