@@ -25,7 +25,7 @@ const About = () => {
 			</div>
 			<div className="flex flex-col justify-center items-center text-blue-950 p-8 m-8 drop-shadow-xl">
 				<p className="text-lg md:text-xl lg:text-2xl font-semi-bold bg-blue-200/40 rounded-xl p-4 ">
-					<i>Muthatiga Mini Mart</i> is a beloved destination in the heart of
+					<i>Muthatiga Mini Market</i> is a beloved destination in the heart of
 					Diani Beach, a stunning coastal paradise. Our mini super market caters
 					to the diverse needs of residents and visitors alike. Offering an
 					extensive range of products and services, from locally sourced fresh
