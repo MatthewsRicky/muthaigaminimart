@@ -64,7 +64,7 @@ const Location = () => {
 					</div>
 				</div>
 				<div className="max-w-[450px]  flex-col gap-2">
-					<div className="flex flex-col gap-2">
+					<div className="hover:underline underline-offset-2">
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
 					</div>
