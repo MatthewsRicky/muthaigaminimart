@@ -72,7 +72,7 @@ const WhatsappOrders = () => {
 					</li>
 				</ul>
 
-				<h3 className="font-bold text-xl w-fit text-blue-950 bg-white/20 rounded-md p-4">
+				<h3 className="font-bold text-xl w-fit text-blue-950 bg-[#ff2800]/20 rounded-md p-4">
 					Terms and Conditions:
 				</h3>
 				<ul>
