@@ -33,16 +33,16 @@ const WhatsappOrders = () => {
 					</motion.p>
 				</motion.div>
 			</div>
-			<div className="flex flex-col justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-blue-200/40 rounded-xl">
-				<p className="text-lg font-semibold md:text2xl">
+			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-[#000080]/20 rounded-xl">
+				<p className="text-md font-semibold md:text2xl">
 					You can now order your household items, electronics and other
 					supermarket shopping via WhatsApp. For Groceries(vegetables and fruit)
 					we are happy to shop from our Neighbor Nancy at no extra cost. The
 					process is quite simple:
 				</p>
-				<ul className="py-4">
-					<li>
-						<p className="text-lg font-semibold md:text2xl">
+				<ul className="flex flex-col">
+					<li className="flex flex-col mx-10">
+						<p className="text-md md:text-md font-semibold md:text2xl">
 							Send your shopping list to the WhatsApp number below. Include the
 							item description and quantity.
 						</p>
@@ -53,20 +53,20 @@ const WhatsappOrders = () => {
 							</h1>
 						</div>
 					</li>
-					<li>
-						<p className="text-lg font-semibold md:text2xl">
+					<li className="flex flex-col mx-10">
+						<p className="text-md md:text-md font-semibold md:text2xl">
 							Specify your full names and exact location ( area, road/ street,
 							estate, house/apt number).
 						</p>
 					</li>
-					<li>
-						<p className="text-lg font-semibold md:text2xl">
+					<li className="flex flex-col mx-10">
+						<p className="text-md md:text-md font-semibold md:text2xl">
 							We will do the picking, packing and you can choose to either
 							collect or we deliver to you via Cab / Boda boda.
 						</p>
 					</li>
-					<li>
-						<p className="text-lg font-semibold md:text2xl">
+					<li className="flex flex-col mx-10">
+						<p className="text-md md:text-md font-semibold md:text2xl">
 							Delivery fees for a 0-15km ksh 50, 11-15kms ksh 380.
 						</p>
 					</li>
