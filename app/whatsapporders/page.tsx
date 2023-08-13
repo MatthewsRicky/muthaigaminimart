@@ -19,7 +19,7 @@ const WhatsappOrders = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-						className="text-3xl  md:text-4xl lg:text-5xl font-bold"
+						className="text-xl  md:text-4xl lg:text-5xl font-bold"
 					>
 						WHATSAPP ORDERS
 					</motion.h1>
@@ -27,7 +27,7 @@ const WhatsappOrders = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
-						className="text-3xl md:text-4xl lg:text-3xl font-semibold"
+						className="text-xl md:text-4xl lg:text-3xl font-semibold"
 					>
 						Enjoy Shopping From Home
 					</motion.p>
