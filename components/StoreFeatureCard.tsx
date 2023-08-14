@@ -16,7 +16,7 @@ const StoreFeatureCard = () => {
 				</motion.h1>
 			</div>
 			<div className="flex flex-col justify-center items-center gap-8 md:w-[80%] md:my-20 mx-auto px-10 h-[40vh] overflow-hidden text-blue-900">
-				<h1 className="my-10 text-2xl md:text-3xl lg:6xl font-semibold">
+				<h1 className="mt-20 text-2xl md:text-3xl lg:6xl font-semibold">
 					WELCOME TO MUTHAIGA MINI MARKET
 				</h1>
 				<p className="bg-blue-200/20 md:text-xl lg:4xl p-4 my-12 shadow-xl">
@@ -33,19 +33,19 @@ const StoreFeatureCard = () => {
 			</div>
 			<div className="flex mx-12 md:min-w-[350px] justify-center items-center flex-col md:flex-row mt-10 md:row-span-2 gap-8 md:gap-10 flex-wrap">
 				<ImageCard
-					imageSrc="/images/cheese.jpeg"
-					title="Cheese"
-					description="Wide selection of Cheese"
+					imageSrc="/images/candy2.png"
+					title="Candy"
+					description="Wide selection of candies"
 				/>
 				<ImageCard
-					imageSrc="/images/beverages.jpeg"
-					title="Beverages"
+					imageSrc="/images/wines.png"
+					title="Wines"
 					description="All Your Favorite Beverages in one spot"
 				/>
 				<ImageCard
-					imageSrc="/images/bananas.jpeg"
-					title="Fruits and Vegetables"
-					description="Variety of Fresh Groceries"
+					imageSrc="/images/water.png"
+					title="Cigarettes"
+					description="Grab your Brand cigattes"
 				/>
 				<ImageCard
 					imageSrc="/images/mmm7.jpeg"
