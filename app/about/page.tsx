@@ -23,7 +23,7 @@ const About = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
-			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+			<div className="flex w-full bg-blue-200/20 drop-shadow-2xl text-[#000080] p-2">
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
@@ -43,7 +43,8 @@ const About = () => {
 					the vibrant Diani Beach community.
 				</p>
 				<Link href="/contact">
-					<button className="bg-orange-500/80 p-4 mt-10 text-2xl md:text-3xl lg:text-4xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-lg w-100">
+					<button className="bg-[#ff2800]/80 p-4 mt-10
+					text-white text-2xl md:text-3xl lg:text-4xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-lg w-100">
 						Talk to Us
 					</button>
 				</Link>
