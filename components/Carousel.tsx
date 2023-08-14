@@ -6,11 +6,16 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Carousel = () => {
 	const slides = [
-		{ url: "/images/Beerandwine.png" },
+		{ url: "/images/bx_juice.png" },
 		{ url: "/images/bottled_juice.png" },
-		{ url: "/images/candy.png" },
-		{ url: "/images/household_electronics.png" },
+		{ url: "/images/candy2.png" },
+		{ url: "/images/Beerandwine.png" },
 		{ url: "/images/sunscreen.png" },
+		{ url: "/images/wines.png" },
+		{ url: "/images/whisky.png" },
+		{ url: "/images/dairy.png" },
+		{ url: "/images/spices.png" },
+		{ url: "/images/insecticides.png" },
 	];
 
 	const [currentIndex, setCurrentIndex] = useState(0);
