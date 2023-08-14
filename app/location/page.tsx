@@ -28,6 +28,13 @@ const Location = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
+			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+				<motion.h1
+				initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+				>Muthaiga mini Market <i>></i> Location</motion.h1>
+			</div>
 			<div className="flex flex-wrap justify-center items-center  md:items-baseline flex-col sm:flex-col md:flex-row gap-10 md:p-10 md:m-10">
 				<div className="md:min-h-[450px] md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex flex-col gap-2">
 					<div className="hover:underline underline-offset-2">
