@@ -24,7 +24,13 @@ const Contact = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
-
+			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+				<motion.h1
+				initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+				>Muthaiga mini Market <i>></i> Contact</motion.h1>
+			</div>
 			<div className="flex w-full justify-center items-center m-10">
 				<ContactDetails />
 			</div>
