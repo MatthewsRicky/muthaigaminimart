@@ -16,8 +16,8 @@ import { PhoneIcon } from "@chakra-ui/icons";
 
 const ContactDetails = () => {
 	return (
-		<div className="flex justify-center items-center">
-			<Card className="flex justify-center items-center w-[360px] md:w-[720px] lg:w-[1080px]">
+		<div className="flex justify-center items-center mx-auto">
+			<Card className="flex bg-blue-200/40 justify-center items-center w-[300px] md:w-[720px] lg:w-[1080px]">
 				<CardHeader>
 					<Heading size="md">Customer Care</Heading>
 				</CardHeader>
@@ -40,7 +40,7 @@ const ContactDetails = () => {
 								fontWeight="medium"
 								textColor="#000080"
 							>
-								0700 000 000
+								0775 889988
 							</Text>
 						</Box>
 						<Box>
