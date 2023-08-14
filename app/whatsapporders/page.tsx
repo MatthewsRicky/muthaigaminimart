@@ -33,14 +33,14 @@ const WhatsappOrders = () => {
 					</motion.p>
 				</motion.div>
 			</div>
-			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+			<div className="flex w-full bg-blue-200/40 text-[#000080] p-2">
 				<motion.h1
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
 				>Muthaiga mini Market <i>></i> Whatsapp Orders</motion.h1>
 			</div>
-			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-[#000080]/20 rounded-xl">
+			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-blue-200/40 rounded-xl">
 				<p className="text-md font-semibold md:text2xl">
 					You can now order your household items, electronics and other
 					supermarket shopping via WhatsApp. For Groceries(vegetables and fruit)
@@ -56,7 +56,7 @@ const WhatsappOrders = () => {
 						<div className="p-4 m-6 flex justify-around gap-10 items-center hover:scale-105 font-bold">
 							<FaWhatsappSquare className="w-32 h-32 md:w-20 md:h-20 text-green-600/95 " />
 							<h1 className="text-2xl md:text-3xl">
-								WhatsApp Number : +254 720 000 000
+								WhatsApp Number : +254 775 889988
 							</h1>
 						</div>
 					</li>
