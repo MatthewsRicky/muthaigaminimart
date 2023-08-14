@@ -6,7 +6,7 @@ import ImageCard from "../components/ImageCards";
 const StoreFeatureCard = () => {
 	return (
 		<div>
-			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+			<div className="flex w-full bg-blue-200/40 text-[#000080] p-2">
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
