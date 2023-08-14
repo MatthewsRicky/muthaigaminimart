@@ -43,14 +43,14 @@ const StoreFeatureCard = () => {
 					description="All Your Favorite Beverages in one spot"
 				/>
 				<ImageCard
-					imageSrc="/images/water.png"
-					title="Cigarettes"
-					description="Grab your Brand cigattes"
+					imageSrc="/images/cigarettes.png"
+					title="Water"
+					description="Cigarettes available"
 				/>
 				<ImageCard
-					imageSrc="/images/mmm7.jpeg"
-					title="Household Goods"
-					description="Fully Stocked Super Market"
+					imageSrc="/images/bx_juice.png"
+					title="Boxed Juice"
+					description="All the variety you need"
 				/>
 			</div>
 		</div>
