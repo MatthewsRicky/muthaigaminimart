@@ -10,7 +10,7 @@ const TopButton: React.FC = () => {
 
 	return (
 		<button
-			className="scroll-to-top-button p-2 bg-[#000080] hover:rounded-md hover:shadow-md hover:scale-105 text-white"
+			className="scroll-to-top-button p-2 bg-[#ff2800]/80 hover:rounded-md hover:shadow-md hover:scale-105 text-white"
 			onClick={handleScrollToTop}
 		>
 			Top
