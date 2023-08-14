@@ -35,8 +35,8 @@ const Location = () => {
 					transition={{ duration: 1 }} // Animation duration
 				>Muthaiga mini Market <i>></i> Location</motion.h1>
 			</div>
-			<div className="flex flex-wrap justify-center items-center  md:items-baseline flex-col sm:flex-col md:flex-row gap-10 md:p-10 md:m-10">
-				<div className="md:min-h-[450px] md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex flex-col gap-2">
+			<div className="flex flex-wrap justify-center  md:items-baseline flex-col sm:flex-col md:flex-row gap-10 md:p-10 md:m-10">
+				<div className="md:min-h-[450px] justify-around items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex flex-col gap-2">
 					<div className="hover:underline underline-offset-2">
 						<h1 className="font-semibold">Contact</h1>
 						<h2>INFORMATION</h2>
@@ -52,8 +52,7 @@ const Location = () => {
 						<div>
 							<h2>Address Info</h2>
 							<p>
-								Located in the shopping Center right after Watatu Watano
-								junction on the right, Off Diani Beach Road.{" "}
+								Located at Diani Shopping Center, Off Diani Beach Road.{" "}
 							</p>
 						</div>
 					</div>
@@ -70,7 +69,7 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="md:min-h-[450px] md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 items-center  flex-col gap-2">
+				<div className="md:min-h-[450px] justify-around md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 items-center  flex-col gap-2">
 					<div className="hover:underline underline-offset-2">
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
