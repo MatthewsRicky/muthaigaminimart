@@ -5,6 +5,9 @@ import ImageCard from "../components/ImageCards";
 const StoreFeatureCard = () => {
 	return (
 		<div>
+			<div className="flex w-full bg-blue-950/40 text-[#000080]">
+				<h1>Muthaiga mini Market <i>></i> Home</h1>
+			</div>
 			<div className="flex flex-col justify-center items-center gap-8 md:w-[80%] md:my-20 mx-auto px-10 h-[40vh] overflow-hidden text-blue-900">
 				<h1 className="my-10 text-2xl md:text-3xl lg:6xl font-semibold">
 					WELCOME TO MUTHAIGA MINI MARKET
