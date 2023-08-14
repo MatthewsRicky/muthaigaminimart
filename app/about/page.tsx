@@ -23,6 +23,13 @@ const About = () => {
 					</motion.h1>
 				</motion.div>
 			</div>
+			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+				<motion.h1
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+				>Muthaiga mini Market <i>></i> About</motion.h1>
+			</div>
 			<div className="flex flex-col justify-center items-center text-blue-950 p-8 m-8 drop-shadow-xl">
 				<p className="text-lg md:text-xl lg:text-2xl font-semi-bold bg-blue-200/40 rounded-xl p-4 ">
 					<i>Muthatiga Mini Market</i> is a beloved destination in the heart of
