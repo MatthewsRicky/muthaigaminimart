@@ -33,6 +33,13 @@ const WhatsappOrders = () => {
 					</motion.p>
 				</motion.div>
 			</div>
+			<div className="flex w-full bg-blue-950/40 text-[#000080] p-2">
+				<motion.h1
+				initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					animate={{ x: 0 }} // Final x position (centered on the screen)
+					transition={{ duration: 1 }} // Animation duration
+				>Muthaiga mini Market <i>></i> Whatsapp Orders</motion.h1>
+			</div>
 			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-[#000080]/20 rounded-xl">
 				<p className="text-md font-semibold md:text2xl">
 					You can now order your household items, electronics and other
