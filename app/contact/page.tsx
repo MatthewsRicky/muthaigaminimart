@@ -1,6 +1,7 @@
 "use client";
 
 import ContactDetails from "@/src/components/ContactDetails";
+import ContactApp from "@/src/components/ContactApp";
 
 import { motion, animate } from "framer-motion";
 
@@ -34,6 +35,11 @@ const Contact = () => {
 			<div className="flex w-full justify-center items-center m-10">
 				<ContactDetails />
 			</div>
+			{/*<ContactApp
+				name={"Muthaiga Mini Market"}
+				phone={"0704 580 875"}
+				address={"Diani"}
+	/>*/}
 		</div>
 	);
 };
