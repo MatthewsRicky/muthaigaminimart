@@ -22,6 +22,7 @@ const Hero: React.FC = () => {
 				>
 					MUTHAIGA MINI MARKET
 				</motion.h1>
+
 				<motion.p
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
