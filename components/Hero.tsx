@@ -7,7 +7,7 @@ import Beer from "../public/images/Beerandwine.png";
 
 const Hero: React.FC = () => {
 	return (
-		<div className="hero w-full my-[5rem] md:my-0 group relative">
+		<div className="hero w-full md:my-0 group relative">
 			<div>
 				<Image
 					src="/public/images/Logo 2.png"
