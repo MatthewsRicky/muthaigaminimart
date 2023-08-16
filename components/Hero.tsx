@@ -8,20 +8,20 @@ import Beer from "../public/images/Beerandwine.png";
 const Hero: React.FC = () => {
 	return (
 		<div className="hero w-full md:my-0 group relative">
-			<div>
-				<Image
-					src="/public/images/Logo 2.png"
-					alt="Logo"
-					width={100}
-					height={100}
-				/>
-			</div>
 			<motion.div
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
 				transition={{ duration: 1 }} // Animation duration
 				className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-2 md:p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
 			>
+				<div className="absolute">
+					<Image
+						src="/public/images/Logo3_1.png"
+						alt="Logo"
+						width={100}
+						height={100}
+					/>
+				</div>
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
