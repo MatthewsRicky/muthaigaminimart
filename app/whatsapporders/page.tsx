@@ -8,7 +8,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 const WhatsappOrders = () => {
 	return (
 		<div className=" w-full">
-			<div className="hero w-full my-[5rem] md:my-0 group relative">
+			<div className="hero w-full md:my-0 group relative">
 				<motion.div
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
