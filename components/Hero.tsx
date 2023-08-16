@@ -8,6 +8,14 @@ import Beer from "../public/images/Beerandwine.png";
 const Hero: React.FC = () => {
 	return (
 		<div className="hero w-full my-[5rem] md:my-0 group relative">
+			<div>
+				<Image
+					src="/public/images/Logo 2.png"
+					alt="Logo"
+					width={100}
+					height={100}
+				/>
+			</div>
 			<motion.div
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
