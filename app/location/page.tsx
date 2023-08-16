@@ -12,7 +12,7 @@ import Link from "next/link";
 const Location = () => {
 	return (
 		<div>
-			<div className="hero w-full my-[5rem] md:my-0 group relative">
+			<div className="hero w-full md:my-0 group relative">
 				<motion.div
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
@@ -94,9 +94,10 @@ const Location = () => {
 					</div>
 				</div>
 				<div className="md:max-w-[450px-750px] lg:max-w-[750px-1080px] xl:w-full items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2">
-					<h1 className="font-semibold">Location Map</h1>
+					
 					<div className="flex justify-center items-center  md:min-w-[400px]">
 						<Link href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"}>
+							<h1 className="font-semibold">Location Map</h1>
 							<Image
 							src={Map}
 							alt="Map"
