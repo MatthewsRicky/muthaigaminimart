@@ -96,7 +96,7 @@ const Location = () => {
 				<div className="md:max-w-[450px-750px] lg:max-w-[750px-1080px] xl:w-full items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2">
 					<h1 className="font-semibold">Location Map</h1>
 					<div className="flex justify-center items-center  md:min-w-[400px]">
-						<Link href={"https://goo.gl/maps/hP3a41Toj8VLgPUz7"}>
+						<Link href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"}>
 							<Image
 							src={Map}
 							alt="Map"
