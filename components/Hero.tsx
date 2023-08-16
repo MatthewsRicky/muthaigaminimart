@@ -14,9 +14,9 @@ const Hero: React.FC = () => {
 				transition={{ duration: 1 }} // Animation duration
 				className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-2 md:p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
 			>
-				<div className="absolute">
+				<div className="block">
 					<Image
-						src="/public/images/Logo3_1.png"
+						src="/public/images/Logo 3.svg"
 						alt="Logo"
 						width={100}
 						height={100}
