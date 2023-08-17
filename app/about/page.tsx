@@ -1,13 +1,27 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
+
+import Logo from "../public/images/g1.png"
+
+
 
 const About = () => {
 	return (
 		<div className="text-white w-full">
 			<div className="hero w-full md:my-0 group relative">
-				<motion.div
+				<div className="flex">
+					<div className="">
+						<Image
+							src={Logo}
+							alt="Logo"
+							width={100}
+							height={100}
+						/>
+					</div>
+					<motion.div
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
@@ -22,6 +36,8 @@ const About = () => {
 						ABOUT
 					</motion.h1>
 				</motion.div>
+				</div>
+				
 			</div>
 			<div className="flex w-full bg-blue-200/20 drop-shadow-2xl text-[#000080] p-2">
 				<motion.h1
