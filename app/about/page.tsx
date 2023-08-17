@@ -16,7 +16,7 @@ const About = () => {
 					transition={{ duration: 1 }} // Animation duration
 					className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
 				>
-					<div className="flex gap-4">
+					<div className="flex justify-center items-center gap-4">
 						<div className="">
 							<Image
 								src={Logo}
