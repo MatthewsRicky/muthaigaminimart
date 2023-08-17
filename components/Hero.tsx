@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, animate } from "framer-motion";
 import Image from "next/image";
 import Beer from "../public/images/Beerandwine.png";
+import Logo from "../public/images/Logo 3_1.png";
 
 const Hero: React.FC = () => {
 	return (
@@ -16,7 +17,7 @@ const Hero: React.FC = () => {
 			>
 				<div className="block">
 					<Image
-						src="/public/images/Logo 3.svg"
+						src={Logo}
 						alt="Logo"
 						width={100}
 						height={100}
