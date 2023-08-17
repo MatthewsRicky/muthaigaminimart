@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import { motion, animate } from "framer-motion";
-
 import { FaWhatsappSquare } from "react-icons/fa";
+
+import Logo from "@/src/public/images/g1.png"
 
 const WhatsappOrders = () => {
 	return (
@@ -13,9 +14,17 @@ const WhatsappOrders = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
+					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
 				>
-					<motion.h1
+					<div className="flex gap-4 justify-ceenter items-center">
+						<Image
+							src={Logo}
+							alt="Logo"
+							width={100}
+							height={100}
+						/>
+						<div>
+							<motion.h1
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
@@ -31,6 +40,10 @@ const WhatsappOrders = () => {
 					>
 						Enjoy Shopping From Home
 					</motion.p>
+						</div>
+						
+					</div>
+					
 				</motion.div>
 			</div>
 			<div className="flex w-full bg-blue-200/40 text-[#000080] p-2">
