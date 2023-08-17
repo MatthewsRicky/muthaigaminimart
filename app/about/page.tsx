@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import Logo from "../images/g1.png"
 
 
 
@@ -15,7 +14,7 @@ const About = () => {
 				<div className="flex">
 					<div className="">
 						<Image
-							src={Logo}
+							src={"/public/images/g1.png"}
 							alt="Logo"
 							width={100}
 							height={100}
