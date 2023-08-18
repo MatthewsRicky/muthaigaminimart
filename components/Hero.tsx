@@ -8,13 +8,13 @@ import Logo from "../public/images/g1.png";
 
 const Hero: React.FC = () => {
 	return (
-		<div className="hero flex w-full justify-center items-center md:my-0 group relative">
+		<div className="hero flex w-full justify-center items-center md:my-0 group relative top-[35%]">
 			<motion.div
 				initial={{ x: -300 }} // Initial x position (off the screen to the left)
 				animate={{ x: 0 }} // Final x position (centered on the screen)
 				transition={{ duration: 1 }} // Animation duration
 				//className="mt-[4rem] flex flex-col absolute top-[30%] left-0 sm:left-[16%] md:left-[20%] xl:left-[33%] sm:top-20 md:top-16 p-2 md:p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] text-sm bg-[#000080]/40 mix-blend-hard-light"
-				className="text-white"
+				className="text-white "
 			>
 				<div className="flex gap-4">
 					<div className="">
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
 							animate={{ x: 0 }} // Final x position (centered on the screen)
 							transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-							className="text-2xl  md:text-4xl lg:text-5xl font-bold"
+							className="text-xl  md:text-4xl lg:text-5xl font-bold"
 						>
 							MUTHAIGA MINI MARKET
 						</motion.h1>
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
 							animate={{ x: 0 }} // Final x position (centered on the screen)
 							transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
-							className="text-xl md:text-4xl lg:text-3xl font-semibold"
+							className="text-lg md:text-4xl lg:text-3xl font-semibold"
 						>
 							Enjoy Shopping
 						</motion.p>
