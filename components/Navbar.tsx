@@ -63,7 +63,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:underline-offset-1 p-4 text-blue-950"
 							href="/whatsapporders"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -71,7 +71,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:underline-offset-1 p-4 text-blue-950"
 							href="/contact"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -79,7 +79,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition  md:border-0 text-blue-950"
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:underline-offset-1 p-4 text-blue-950"
 							href="/location"
 							onClick={() => setNavbar(!navbar)}
 						>
