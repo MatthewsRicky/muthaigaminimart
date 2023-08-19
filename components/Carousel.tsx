@@ -37,7 +37,7 @@ const Carousel = () => {
 	};
 
 	return (
-		<div className="max-w-full h-[780px] w-full py-16 px-24 md:px-36 relative group">
+		<div className="min-w-full h-[780px] w-[50%] py-16 px-24 md:px-36 relative group">
 			<div
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
 				className="shadow-2xl  w-full h-full rounded-2xl bg-center bg-cover duration-500"
@@ -50,14 +50,14 @@ const Carousel = () => {
 					/>
 				</div>
 				{/*right arrow*/}
-				{
-					<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-[20%] md:right-[20%] lg:right-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer">
-						<BsChevronCompactRight
-							onClick={nextSlide}
-							size={50}
-						/>
-					</div>
-				}
+
+				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-[20%] md:right-[20%] lg:right-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer">
+					<BsChevronCompactRight
+						onClick={nextSlide}
+						size={50}
+					/>
+				</div>
+
 				<div className="hidden group-hover:flex justify-center py-2">
 					{slides.map((slide, slideIndex) => (
 						<div
