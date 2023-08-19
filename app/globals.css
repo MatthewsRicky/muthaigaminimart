@@ -26,3 +26,14 @@ body,
 .highlight {
 	color: #ff2800;
 }
+.link {
+	position: relative;
+}
+
+.links::after {
+	content: "";
+	height: 3px;
+	width: 100%;
+	background: #ff2800;
+	position: absolute;
+}
