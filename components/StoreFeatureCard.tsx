@@ -31,28 +31,6 @@ const StoreFeatureCard = () => {
 					the vibrant Diani Beach community.
 				</p>
 			</div>
-			<div className="flex mx-12 md:min-w-[350px] justify-center items-center flex-col md:flex-row mt-10 md:row-span-2 gap-8 md:gap-10 flex-wrap">
-				<ImageCard
-					imageSrc="/images/candy2.png"
-					title="Candy"
-					description="Wide selection of candies"
-				/>
-				<ImageCard
-					imageSrc="/images/wines.png"
-					title="Wines"
-					description="All Your Favorite Beverages in one spot"
-				/>
-				<ImageCard
-					imageSrc="/images/cigarettes.png"
-					title="Water"
-					description="Cigarettes available"
-				/>
-				<ImageCard
-					imageSrc="/images/bx_juice.png"
-					title="Boxed Juice"
-					description="All the variety you need"
-				/>
-			</div>
 		</div>
 	);
 };
