@@ -28,12 +28,16 @@ body,
 }
 .link {
 	position: relative;
+	font-size: 15px;
 }
 
-.links::after {
+/*.links::after,
+.links:focus {
 	content: "";
 	height: 3px;
 	width: 100%;
 	background: #ff2800;
 	position: absolute;
-}
+	left: 0;
+	bottom: -8;
+}*/
