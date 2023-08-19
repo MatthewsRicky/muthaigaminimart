@@ -58,11 +58,11 @@ const Carousel = () => {
 					/>
 				</div>
 
-				<div className="hidden group-hover:flex justify-center py-2">
+				<div className="flex justify-center py-2">
 					{slides.map((slide, slideIndex) => (
 						<div
 							key={""}
-							className="text-3xl cursor-pointer text-white active:text-white"
+							className="text-3xl cursor-pointer text-white active:text-[#000080]"
 						>
 							<RxDotFilled
 								key={slideIndex}
