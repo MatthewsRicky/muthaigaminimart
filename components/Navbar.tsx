@@ -53,40 +53,39 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<ul className="w-full flex mt-[6.5rem] text-sm md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
-						<li onClick={() => setNavbar(!navbar)}>
-							<Link
-								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
-								href="/about"
-							>
-								ABOUT{" "}
-							</Link>
-						</li>
-						<li onClick={() => setNavbar(!navbar)}>
-							<Link
-								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
-								href="/whatsapporders"
-							>
-								WHATSAPP ORDERS
-							</Link>
-						</li>
-						<li onClick={() => setNavbar(!navbar)}>
-							<Link
-								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
-								href="/contact"
-							>
-								CONTACT
-							</Link>
-						</li>
-						<li onClick={() => setNavbar(!navbar)}>
-							<Link
-								className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition  md:border-0 text-blue-950"
-								href="/location"
-							>
-								LOCATION
-							</Link>
-						</li>
-					</ul>
+					<div className="w-full flex mt-[6.5rem] text-sm md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
+						<Link
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:underline-offset-1 p-4  text-blue-950"
+							href="/about"
+							onClick={() => setNavbar(!navbar)}
+						>
+							ABOUT{" "}
+						</Link>
+
+						<Link
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
+							href="/whatsapporders"
+							onClick={() => setNavbar(!navbar)}
+						>
+							WHATSAPP ORDERS
+						</Link>
+
+						<Link
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition md:border-0 text-blue-950"
+							href="/contact"
+							onClick={() => setNavbar(!navbar)}
+						>
+							CONTACT
+						</Link>
+
+						<Link
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition  md:border-0 text-blue-950"
+							href="/location"
+							onClick={() => setNavbar(!navbar)}
+						>
+							LOCATION
+						</Link>
+					</div>
 				</div>
 			</div>
 		</nav>
