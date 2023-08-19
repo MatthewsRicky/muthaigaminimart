@@ -55,7 +55,7 @@ const Navbar = () => {
 
 					<div className="w-full flex mt-[6.5rem] text-sm md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60 ">
 						<Link
-							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:underline-offset-1 p-4  text-blue-950"
+							className="flex w-[90vw] md:w-auto md:flex justify-center md:px-4 py-4 hover:underline-offset-1 p-4 text-blue-950"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
