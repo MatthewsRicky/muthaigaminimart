@@ -13,7 +13,7 @@ export default function Home() {
 			<Hero />
 			<div className="flex flex-col lg:flex-row">
 				<StoreFeatureCard />
-				<FaqDisplay />
+				{/*<FaqDisplay />*/}
 			</div>
 		</div>
 	);
