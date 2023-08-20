@@ -12,7 +12,7 @@ export default function Home() {
 	return (
 		<div className="w-full overflow-x-hidden overflow-y-auto flex flex-col justify-around h-full">
 			<Hero />
-			<NavigationCard />
+			{/*<NavigationCard />*/}
 			<div className="flex flex-col lg:flex-row">
 				<StoreFeatureCard />
 				<FaqDisplay />
