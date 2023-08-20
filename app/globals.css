@@ -27,10 +27,15 @@ body,
 	color: #ff2800;
 }
 
-.link {
-	@apply relative;
+.links {
+	@apply relative tracking-[1px] hover:text-white hover:bg-[#000080] p-4;
 }
 
-.link::after {
-	@apply content-[""] bg-[#ff2800] h-[3px] w-[100%] left-0 -bottom-5 rounded-xl absolute;
+.links::after {
+	@apply content-[""] bg-[#ff2800] h-[3px] w-[0] left-0 -bottom-5 rounded-xl 
+	absolute duration-300;
+}
+
+.links:hover::after {
+	@apply w-[100%];
 }
