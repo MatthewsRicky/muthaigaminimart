@@ -37,10 +37,10 @@ const Carousel = () => {
 	};
 
 	return (
-		<div className="min-w-full h-[780px] w-[50%] py-16 px-24 md:px-36 relative group">
+		<div className="min-w-full h-[780px] w-[50%] py-16 px-12 md:px-16 relative group">
 			<div
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-				className="shadow-2xl  w-full h-full rounded-2xl bg-center bg-cover duration-500"
+				className="shadow-2xl  w-full h-full rounded-2xl bg-fit bg-cover duration-500"
 			>
 				{/*left arrow*/}
 				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[20%] md:left-[20%] lg:left-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer">
