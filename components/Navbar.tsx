@@ -36,11 +36,11 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={` md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-neutral-100 ${
+				className={` md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex justify-between items-center w-full m-4">
+				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[16rem] m-4">
 					<Link
 						href="/"
 						onClick={() => setNavbar(!navbar)}
@@ -53,9 +53,9 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<div className="">
+					<div className="flex flex-col my-2 gap-4 bg-white">
 						<Link
-							className="text-[#000080]"
+							className="text-[#000080] font-semibold text-md"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -63,7 +63,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080]"
+							className="text-[#000080] font-semibold text-md"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -71,7 +71,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080]"
+							className="text-[#000080] font-semibold text-md"
 							href="/contact"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -79,7 +79,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080]"
+							className="text-[#000080] font-semibold text-md"
 							href="/location"
 							onClick={() => setNavbar(!navbar)}
 						>
