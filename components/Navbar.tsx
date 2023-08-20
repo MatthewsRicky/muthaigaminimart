@@ -53,9 +53,9 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<div className="w-full flex mt-[6.5rem] text-sm md:mt-0 flex-col md:flex-row justify-center  mx-0 items-center transition-all duration-300 gap-4 bg-opacity-60">
+					<div className="">
 						<Link
-							className=""
+							className="text-[#000080]"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -63,7 +63,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className=""
+							className="text-[#000080]"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -71,7 +71,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className=""
+							className="text-[#000080]"
 							href="/contact"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -79,7 +79,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className=""
+							className="text-[#000080]"
 							href="/location"
 							onClick={() => setNavbar(!navbar)}
 						>
