@@ -40,7 +40,7 @@ const Navbar = () => {
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[16rem] m-4">
+				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[16rem] md:h-24 m-4">
 					<Link
 						href="/"
 						onClick={() => setNavbar(!navbar)}
@@ -53,9 +53,9 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<div className="flex flex-col my-2 gap-4 bg-white">
+					<div className="flex flex-col md:flex-row my-2 gap-4 bg-white">
 						<Link
-							className="text-[#000080] font-semibold text-md"
+							className="text-[#000080] font-semibold text-md links relative"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -63,15 +63,15 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-md"
-							href="/about"
+							className="text-[#000080] font-semibold text-md links relative"
+							href="/whatsapporders"
 							onClick={() => setNavbar(!navbar)}
 						>
 							WHATSAPP ORDERS
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-md"
+							className="text-[#000080] font-semibold text-md links relative"
 							href="/contact"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -79,7 +79,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-md"
+							className="text-[#000080] font-semibold text-md links relative"
 							href="/location"
 							onClick={() => setNavbar(!navbar)}
 						>
