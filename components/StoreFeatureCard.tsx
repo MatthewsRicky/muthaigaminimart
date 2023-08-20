@@ -6,7 +6,7 @@ import Carousel from "./Carousel";
 
 const StoreFeatureCard = () => {
 	return (
-		<div className="">
+		<div className="h-[100vh]">
 			<div className="flex w-full bg-blue-200/40 text-[#000080] p-2">
 				<motion.h1
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
@@ -16,12 +16,12 @@ const StoreFeatureCard = () => {
 					Muthaiga mini Market
 				</motion.h1>
 			</div>
-			<div className="flex flex-col justify-center items-center lg:flex-row">
-				<h1 className="mt-20 text-2xl md:text-3xl lg:6xl font-semibold">
-					WELCOME TO MUTHAIGA MINI MARKET
-				</h1>
-				<div className="flex flex-col justify-center items-center gap-8 md:w-[80%] lg:max-w-[50%] md:my-20 mx-auto px-10 lg:h-[40vh] overflow-hidden text-blue-900">
-					<p className="bg-blue-200/20 md:text-xl lg:4xl p-4 my-12 shadow-xl">
+			<h1 className="flex justify-center items-center text-[#000080] mt-20 text-2xl md:text-3xl lg:6xl font-semibold">
+				WELCOME TO MUTHAIGA MINI MARKET
+			</h1>
+			<div className="flex flex-col justify-center lg:justify-start items-center lg:flex-row">
+				<div className="flex flex-col justify-center items-center gap-8 md:w-[80%] lg:max-w-[50%] md:my-20 mx-auto px-10 lg:h-[40vh] overflow-hidden text-[#000080]">
+					<p className="flex justify-between items-center bg-blue-200/20 md:text-xl lg:4xl p-4 my-12 h-[30rem] lg:h-[30rem] shadow-xl">
 						Muthatiga Mini Mart is a beloved destination in the heart of Diani
 						Beach, a stunning coastal paradise. Our mini super market caters to
 						the diverse needs of residents and visitors alike. Offering an
@@ -34,7 +34,7 @@ const StoreFeatureCard = () => {
 					</p>
 				</div>
 
-				<div className="h-[100%] lg:h-[40vh]">
+				<div className="w-full h-[30rem]">
 					<Carousel />
 				</div>
 			</div>
