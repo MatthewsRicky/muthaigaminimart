@@ -36,11 +36,11 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={` md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] ${
+				className={`md:mx-20 md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[20rem] md:h-24 m-4">
+				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[24rem] md:h-24 md:m-4 my-6 mx-0">
 					<Link
 						href="/"
 						onClick={() => setNavbar(!navbar)}
