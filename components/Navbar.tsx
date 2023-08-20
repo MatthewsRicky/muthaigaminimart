@@ -40,7 +40,7 @@ const Navbar = () => {
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[16rem] md:h-24 m-4">
+				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[20rem] md:h-24 m-4">
 					<Link
 						href="/"
 						onClick={() => setNavbar(!navbar)}
