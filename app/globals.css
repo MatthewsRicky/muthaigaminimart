@@ -28,7 +28,7 @@ body,
 }
 
 .links {
-	@apply relative tracking-[1px] hover:text-white hover:bg-[#000080] p-4;
+	@apply relative tracking-[1px] hover:text-white hover:bg-[#000080] p-4 md:px-2 md:py-4;
 }
 
 .links::after {
