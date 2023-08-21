@@ -55,7 +55,7 @@ const Navbar = () => {
 
 					<div className="flex flex-col md:flex-row my-2 md:gap-2 gap-4 bg-white">
 						<Link
-							className="text-[#000080] font-semibold text-sm  links"
+							className="text-[#000080] font-semibold text-sm links"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -63,7 +63,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-sm  links"
+							className="text-[#000080] font-semibold text-sm links"
 							href="/whatsapporders"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -71,7 +71,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-sm  links"
+							className="text-[#000080] font-semibold text-sm links"
 							href="/contact"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -79,7 +79,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-sm  links"
+							className="text-[#000080] font-semibold text-sm links"
 							href="/location"
 							onClick={() => setNavbar(!navbar)}
 						>
