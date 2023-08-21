@@ -14,7 +14,7 @@ const Footer = () => {
 				<TopButton />
 			</div>
 
-			<div className="flex flex-col w-full md:flex-row justify-between items-center gap-4">
+			<div className="flex flex-col w-full md:flex-row justify-between items-center md:h-[14rem] gap-4">
 				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md hover:shadow-md duration-300 hover:shadow-[#ff2800]">
 					<h1 className="text-xl uppercase">Muthaiga Mini Market</h1>
 					<p className="text-center p-2">
