@@ -34,7 +34,7 @@ const StoreFeatureCard = () => {
 					</p>
 				</div>
 
-				<div className="w-full h-[30rem] mb-10 px-0 mr-10">
+				<div className="w-[85%] h-[30rem] mb-10 px-0 mx-10">
 					<Carousel />
 				</div>
 			</div>
