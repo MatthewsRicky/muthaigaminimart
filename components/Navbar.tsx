@@ -17,7 +17,7 @@ const Navbar = () => {
 					<Link href="/">
 						<li>
 							<Image
-								className="text-md w-24 flex justify-center hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#000080] transition border-b-2 md:border-0 text-[#000080]"
+								className="text-md w-24 flex justify-center hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-[#000080]"
 								src={Logo}
 								alt="logo icon"
 								width={50}
@@ -26,7 +26,7 @@ const Navbar = () => {
 					</Link>
 					<li>
 						<button
-							className=" rounded-full flex justify-center p-2 items-center hover:text-neutral-100 hover:bg-[#000080]/90 text-[000080]/90 w-12 text-center transition-all duration-300"
+							className=" rounded-full flex justify-center p-2 items-center hover:text-neutral-100 hover:bg-[#ff2800]/90 text-[000080]/90 w-12 text-center transition-all duration-300"
 							onClick={() => setNavbar(!navbar)}
 						>
 							{navbar ? <BiXCircle size={32} /> : <BiMenu size={32} />}
@@ -46,7 +46,7 @@ const Navbar = () => {
 						onClick={() => setNavbar(!navbar)}
 					>
 						<Image
-							className=""
+							className="text-md w-24 flex justify-center hover:border-b-2 border-[#000080] border-opacity-50 p-4 rounded-md hover:shadow-md hover:shadow-[#ff2800] transition border-b-2 md:border-0 text-[#000080]"
 							src={Logo}
 							alt="logo icon"
 							width={80}
