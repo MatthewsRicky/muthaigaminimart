@@ -14,7 +14,7 @@ const WhatsappOrders = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-20 md:top-16 p-8 rounded-lg mx-auto text-center gap-8 text-[#fff] bg-[#000080]/40 mix-blend-hard-light"
+					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-[24%] md:top-16 p-8 rounded-lg md:mx-[20%] text-center gap-8 text-[#000080] bg-white mix-blend-hard-light"
 				>
 					<div className="flex gap-4 justify-ceenter items-center">
 						<Image
@@ -28,7 +28,7 @@ const WhatsappOrders = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-						className="text-xl  md:text-4xl lg:text-5xl font-bold"
+						className="text-xl  md:text-2xl lg:text-3xl font-bold"
 					>
 						WHATSAPP ORDERS
 					</motion.h1>
@@ -36,7 +36,7 @@ const WhatsappOrders = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
-						className="text-xl md:text-4xl lg:text-3xl font-semibold"
+						className="text-lg md:text-xl lg:text-2xl font-semibold"
 					>
 						Enjoy Shopping From Home
 					</motion.p>
@@ -91,26 +91,28 @@ const WhatsappOrders = () => {
 						</p>
 					</li>
 				</ul>
-
-				<h3 className="font-bold text-xl w-fit text-blue-950 bg-[#ff2800]/20 rounded-md p-4">
+				<div className="flex flex-col gap-4 justify-center items-center">
+					<h3 className="font-bold text-xl w-fit text-white bg-[#ff2800]/70 rounded-xs p-4">
 					Terms and Conditions:
 				</h3>
-				<ul>
+				<ul className="flex flex-col gap-3">
 					<li>
-						<p className="text-lg font-semibold md:text2xl">
+						<p className="text-md font-semibold md:text2xl">
 							All payments including delivery fees should be paid to Muthaiga
 							Mini Market LTD ONLY via MPESA. Kindly confirm your final bill
 							before payment as there are no refunds.
 						</p>
 					</li>
 					<li>
-						<p className="text-lg font-semibold md:text2xl">
+						<p className="text-md font-normal md:text2xl">
 							Delivery is one way, for any returns kindly visit the branch for a
 							credit note which is redeemable at that branch and cannot be used
 							to place another WhatsApp order.
 						</p>
 					</li>
 				</ul>
+				</div>
+				
 			</div>
 		</div>
 	);
