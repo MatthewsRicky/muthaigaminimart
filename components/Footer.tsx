@@ -10,12 +10,12 @@ import TopButton from "./TopButton";
 const Footer = () => {
 	return (
 		<div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950 relative">
-			<div className="absolute right-2 top-[-50]">
+			<div className="absolute opacity-95 z-10 right-20 top-[-55px]">
 				<TopButton />
 			</div>
 
 			<div className="flex flex-col w-full md:flex-row justify-between items-center gap-4">
-				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md hover:shadow-2xl shadow-[#ff2800]">
+				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md hover:shadow-md duration-300 hover:shadow-[#ff2800]">
 					<h1 className="text-xl uppercase">Muthaiga Mini Market</h1>
 					<p className="text-center p-2">
 						Muthatiga Mini Market: your one-stop shop for fresh local produce,
@@ -23,14 +23,14 @@ const Footer = () => {
 						Beach.
 					</p>
 				</div>
-				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md hover:shadow-2xl shadow-[#ff2800]">
+				<div className="flex flex-col items-center justify-center gap-4 w-full p-2 px-2 rounded-md hover:shadow-md duration-300 hover:shadow-[#ff2800]">
 					<h1 className="text-xl uppercase">Customer Service</h1>
 					<p className="text-center p-2">
 						Our customer service team at the head office is available to help
 						you. Monday-Friday: 9am to 5pm Saturday: 9am to 1pm Sunday: Closed
 					</p>
 				</div>
-				<div className="flex flex-col justify-center gap-6 w-full px-2 rounded-md hover:shadow-2xl shadow-[#ff2800]">
+				<div className="flex flex-col justify-center gap-6 w-full px-2 rounded-md hover:shadow-md duration-300 hover:shadow-[#ff2800]">
 					<h1 className=" text-xl text-center uppercase">
 						Coming Soon on social media!
 					</h1>
