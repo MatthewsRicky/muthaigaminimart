@@ -26,7 +26,7 @@ const Navbar = () => {
 					</Link>
 					<li>
 						<button
-							className=" rounded-full flex justify-center p-2 items-center hover:text-neutral-100 hover:bg-[#ff2800]/90 text-[000080]/90 w-12 text-center transition-all duration-300"
+							className=" rounded-full flex justify-center p-2 items-center hover:text-[#ff2800] hover:bg-[#fff]/90 text-[000080]/90 w-12 text-center transition-all duration-300 hover:scale-105"
 							onClick={() => setNavbar(!navbar)}
 						>
 							{navbar ? <BiXCircle size={32} /> : <BiMenu size={32} />}
@@ -36,7 +36,7 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={`md:mx-20 md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] ${
+				className={`md:mx-20 md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] text-md ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
@@ -53,9 +53,9 @@ const Navbar = () => {
 						/>
 					</Link>
 
-					<div className="flex flex-col md:flex-row my-2 gap-4 bg-white">
+					<div className="flex flex-col md:flex-row my-2 md:gap-2 gap-4 bg-white">
 						<Link
-							className="text-[#000080] font-semibold text-md links"
+							className="text-[#000080] font-semibold text-sm  links"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -63,7 +63,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-md links"
+							className="text-[#000080] font-semibold text-sm  links"
 							href="/whatsapporders"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -71,7 +71,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-md links"
+							className="text-[#000080] font-semibold text-sm  links"
 							href="/contact"
 							onClick={() => setNavbar(!navbar)}
 						>
@@ -79,7 +79,7 @@ const Navbar = () => {
 						</Link>
 
 						<Link
-							className="text-[#000080] font-semibold text-md links"
+							className="text-[#000080] font-semibold text-sm  links"
 							href="/location"
 							onClick={() => setNavbar(!navbar)}
 						>
