@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import Beer from "@/src/public/images/Beerandwine.png";
 import Bjuice from "@/src/public/images/bottled_juice.png";
-import Beer from "@/src/public/images/Beerandwine.png";
+import Candy from "@/src/public/images/candy2.png";
 import Beer from "@/src/public/images/Beerandwine.png";
 
 const FaqDisplay: React.FC = () => {
@@ -29,7 +29,7 @@ const FaqDisplay: React.FC = () => {
 			</div>
 			<div>
 				<Image
-					src={"/public/imaages/candy.png"}
+					src={Candy}
 					alt="some image"
 					width={350}
 					height={350}
