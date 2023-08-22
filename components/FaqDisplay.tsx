@@ -15,32 +15,24 @@ const FaqDisplay: React.FC = () => {
 				<Image
 					src={Beer}
 					alt="Beer and Wine"
-					width={350}
-					height={350}
 				/>
 			</div>
 			<div>
 				<Image
 					src={Bjuice}
 					alt="Bottled Juice"
-					width={350}
-					height={350}
 				/>
 			</div>
 			<div>
 				<Image
 					src={Candy}
 					alt="Candy"
-					width={350}
-					height={350}
 				/>
 			</div>
 			<div>
 				<Image
 					src={Sunscreen}
 					alt="Sunscreen"
-					width={350}
-					height={350}
 				/>
 			</div>
 		</div>
