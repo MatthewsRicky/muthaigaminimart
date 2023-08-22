@@ -11,37 +11,37 @@ import { Box, Center } from "@chakra-ui/react";
 
 const FaqDisplay: React.FC = () => {
 	return (
-		<div className="grid grid-cols md:grid-cols-2 xl:grid-cols-4 h-96 gap-4 w-full mx-10">
+		<div className="flex flex-col flex-wrap md:flex-row justify-center items-center gap-4 w-full mx-10">
 			<Box className="flex justify-center items-center">
 				<Image
 					src={Beer}
 					alt="Beer and Wine"
-					width={300}
 					height={300}
+					width={300}
 				/>
 			</Box>
 			<Box className="flex justify-center items-center">
 				<Image
 					src={Bjuice}
 					alt="Bottled Juice"
-					width={300}
 					height={300}
+					width={300}
 				/>
 			</Box>
 			<Box className="flex justify-center items-center">
 				<Image
 					src={Candy}
 					alt="Candy"
-					width={300}
 					height={300}
+					width={300}
 				/>
 			</Box>
 			<Box className="flex justify-center items-center">
 				<Image
 					src={Sunscreen}
 					alt="Sunscreen"
-					width={300}
 					height={300}
+					width={300}
 				/>
 			</Box>
 		</div>
