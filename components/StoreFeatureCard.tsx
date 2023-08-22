@@ -39,7 +39,9 @@ const StoreFeatureCard = () => {
 					<Carousel />
 				</div>
 			</div>
-			<FaqDisplay />
+			<div>
+				<FaqDisplay />
+			</div>
 		</div>
 	);
 };
