@@ -3,6 +3,7 @@
 import { motion, animate } from "framer-motion";
 import ImageCard from "../components/ImageCards";
 import Carousel from "./Carousel";
+import FaqDisplay from "./FaqDisplay";
 
 const StoreFeatureCard = () => {
 	return (
@@ -38,6 +39,7 @@ const StoreFeatureCard = () => {
 					<Carousel />
 				</div>
 			</div>
+			<FaqDisplay />
 		</div>
 	);
 };
