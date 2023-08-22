@@ -16,41 +16,56 @@ const FaqDisplay: React.FC = () => {
 		<motion.div
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
-			whileHover={{ backgroundColor: "#ff2800" }}
 			className="flex flex-col m-0 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10"
 		>
-			<Box className="flex justify-center items-center">
+			<motion.div
+				whileInView={{ opacity: 1 }}
+				whileHover={{ scale: 1.1 }}
+				className="flex justify-center items-center"
+			>
 				<Image
 					src={Beer}
 					alt="Beer and Wine"
 					height={300}
 					width={300}
 				/>
-			</Box>
-			<Box className="flex justify-center items-center">
+			</motion.div>
+			<motion.div
+				whileInView={{ opacity: 1 }}
+				whileHover={{ scale: 1.1 }}
+				className="flex justify-center items-center"
+			>
 				<Image
 					src={Bjuice}
 					alt="Bottled Juice"
 					height={300}
 					width={300}
 				/>
-			</Box>
-			<Box className="flex justify-center items-center">
+			</motion.div>
+			<motion.div
+				whileInView={{ opacity: 1 }}
+				whileHover={{ scale: 1.1 }}
+				className="flex justify-center items-center"
+			>
 				<Image
 					src={Candy}
 					alt="Candy"
 					height={300}
 					width={300}
 				/>
-			</Box>
-			<Box className="flex justify-center items-center">
+			</motion.div>
+			<motion.div
+				whileInView={{ opacity: 1 }}
+				whileHover={{ scale: 1.1 }}
+				className="flex justify-center items-center"
+			>
 				<Image
 					src={Sunscreen}
 					alt="Sunscreen"
 					height={300}
 					width={300}
 				/>
-			</Box>
+			</motion.div>
 		</motion.div>
 	);
 };
