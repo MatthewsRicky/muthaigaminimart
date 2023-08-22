@@ -11,8 +11,8 @@ import { Box, Center } from "@chakra-ui/react";
 
 const FaqDisplay: React.FC = () => {
 	return (
-		<div className="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-3 h-96 gap-2">
-			<Box boxSize="sm">
+		<div className="grid grid-cols md:grid-cols-2 xl:grid-cols-4 h-96 gap-4 w-full mx-10">
+			<Box className="flex justify-center items-center">
 				<Image
 					src={Beer}
 					alt="Beer and Wine"
@@ -20,7 +20,7 @@ const FaqDisplay: React.FC = () => {
 					height={300}
 				/>
 			</Box>
-			<Box boxSize="sm">
+			<Box className="flex justify-center items-center">
 				<Image
 					src={Bjuice}
 					alt="Bottled Juice"
@@ -28,7 +28,7 @@ const FaqDisplay: React.FC = () => {
 					height={300}
 				/>
 			</Box>
-			<Box boxSize="sm">
+			<Box className="flex justify-center items-center">
 				<Image
 					src={Candy}
 					alt="Candy"
@@ -36,7 +36,7 @@ const FaqDisplay: React.FC = () => {
 					height={300}
 				/>
 			</Box>
-			<Box boxSize="sm">
+			<Box className="flex justify-center items-center">
 				<Image
 					src={Sunscreen}
 					alt="Sunscreen"
