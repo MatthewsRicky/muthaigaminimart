@@ -11,7 +11,7 @@ import { Box, Center } from "@chakra-ui/react";
 
 const FaqDisplay: React.FC = () => {
 	return (
-		<div className="flex flex-col flex-wrap md:flex-row justify-center items-center gap-4 w-full mx-10">
+		<div className="flex flex-col m-0 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10">
 			<Box className="flex justify-center items-center">
 				<Image
 					src={Beer}
