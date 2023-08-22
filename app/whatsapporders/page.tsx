@@ -60,9 +60,9 @@ const WhatsappOrders = () => {
 					we are happy to shop from our Neighbor Nancy at no extra cost. The
 					process is quite simple:
 				</p>
-				<ul className="flex flex-col">
+				<ul className="flex flex-col text-justify">
 					<li className="flex flex-col mx-10">
-						<p className="text-md md:text-md font-semibold md:text2xl">
+						<p className="text-md mx-10 md:text-md font-semibold md:text2xl">
 							Send your shopping list to the WhatsApp number below. Include the
 							item description and quantity.
 						</p>
@@ -74,19 +74,19 @@ const WhatsappOrders = () => {
 						</div>
 					</li>
 					<li className="flex flex-col mx-10">
-						<p className="text-md md:text-md font-semibold md:text2xl">
+						<p className="text-md mx-10 md:text-md font-semibold md:text2xl">
 							Specify your full names and exact location ( area, road/ street,
 							estate, house/apt number).
 						</p>
 					</li>
 					<li className="flex flex-col mx-10">
-						<p className="text-md md:text-md font-semibold md:text2xl">
+						<p className="text-md mx-10 md:text-md font-semibold md:text2xl">
 							We will do the picking, packing and you can choose to either
 							collect or we deliver to you via Cab / Boda boda.
 						</p>
 					</li>
 					<li className="flex flex-col mx-10">
-						<p className="text-md md:text-md font-semibold md:text2xl">
+						<p className="text-md mx-10 md:text-md font-semibold md:text2xl">
 							Delivery fees for a 0-15km ksh 50, 11-15kms ksh 380.
 						</p>
 					</li>
