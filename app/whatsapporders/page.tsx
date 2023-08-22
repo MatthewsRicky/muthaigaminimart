@@ -54,7 +54,7 @@ const WhatsappOrders = () => {
 				>Muthaiga mini Market <i>></i> Whatsapp Orders</motion.h1>
 			</div>
 			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-blue-200/40 rounded-xl">
-				<p className="text-md font-semibold md:text2xl">
+				<p className="text-md text-justify mx-10 font-semibold md:text2xl">
 					You can now order your household items, electronics and other
 					supermarket shopping via WhatsApp. For Groceries(vegetables and fruit)
 					we are happy to shop from our Neighbor Nancy at no extra cost. The
@@ -91,20 +91,20 @@ const WhatsappOrders = () => {
 						</p>
 					</li>
 				</ul>
-				<div className="flex flex-col gap-4 justify-center items-center">
+				<div className="flex flex-col gap-4 text-justify justify-center items-center">
 					<h3 className="font-bold text-xl w-fit text-white bg-[#ff2800]/70 rounded-xs p-4">
 					Terms and Conditions:
 				</h3>
 				<ul className="flex flex-col gap-3">
 					<li>
-						<p className="text-md font-semibold md:text2xl">
+						<p className="text-md mx-10 font-semibold md:text2xl">
 							All payments including delivery fees should be paid to Muthaiga
 							Mini Market LTD ONLY via MPESA. Kindly confirm your final bill
 							before payment as there are no refunds.
 						</p>
 					</li>
 					<li>
-						<p className="text-md font-normal md:text2xl">
+						<p className="text-md mx-10 font-normal md:text2xl">
 							Delivery is one way, for any returns kindly visit the branch for a
 							credit note which is redeemable at that branch and cannot be used
 							to place another WhatsApp order.
