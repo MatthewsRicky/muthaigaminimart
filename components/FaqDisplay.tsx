@@ -1,15 +1,19 @@
 "use client";
-"use client";
 
-import Image from "next/image";
+import { Image } from "@chakra-ui/next-js";
 import { motion } from "framer-motion";
+
+import Beer from "@/src/public/images/Beerandwine.png";
+import Bjuice from "@/src/public/images/bottled_juice.png";
+import Beer from "@/src/public/images/Beerandwine.png";
+import Beer from "@/src/public/images/Beerandwine.png";
 
 const FaqDisplay: React.FC = () => {
 	return (
-		<div className="grid grid-cols-4 gap-2">
+		<div className="grid grid-cols-4 h-96 gap-2">
 			<div>
 				<Image
-					src={"/public/images/Beerandwine.png"}
+					src={Beer}
 					alt="some image"
 					width={350}
 					height={350}
@@ -17,7 +21,7 @@ const FaqDisplay: React.FC = () => {
 			</div>
 			<div>
 				<Image
-					src={"bottled_juice.png"}
+					src={Bjuice}
 					alt="some image"
 					width={350}
 					height={350}
@@ -25,7 +29,7 @@ const FaqDisplay: React.FC = () => {
 			</div>
 			<div>
 				<Image
-					src={"candy.png"}
+					src={"/public/imaages/candy.png"}
 					alt="some image"
 					width={350}
 					height={350}
@@ -33,7 +37,7 @@ const FaqDisplay: React.FC = () => {
 			</div>
 			<div>
 				<Image
-					src={"sunscreen.png"}
+					src="/public/imaages/sunscreen.png"
 					alt="some image"
 					width={350}
 					height={350}
