@@ -26,7 +26,7 @@ const FaqDisplay: React.FC = () => {
 				<Image
 					src={Beer}
 					alt="Beer and Wine"
-					height={300}
+					height={400}
 					width={300}
 				/>
 			</motion.div>
@@ -38,7 +38,7 @@ const FaqDisplay: React.FC = () => {
 				<Image
 					src={Bjuice}
 					alt="Bottled Juice"
-					height={300}
+					height={400}
 					width={300}
 				/>
 			</motion.div>
@@ -50,7 +50,7 @@ const FaqDisplay: React.FC = () => {
 				<Image
 					src={Candy}
 					alt="Candy"
-					height={300}
+					height={400}
 					width={300}
 				/>
 			</motion.div>
@@ -62,7 +62,7 @@ const FaqDisplay: React.FC = () => {
 				<Image
 					src={Sunscreen}
 					alt="Sunscreen"
-					height={300}
+					height={400}
 					width={300}
 				/>
 			</motion.div>
