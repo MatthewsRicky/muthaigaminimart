@@ -1,7 +1,7 @@
 "use client";
 
 import { Image } from "@chakra-ui/next-js";
-import { motion, scroll } from "framer-motion";
+import { motion, scroll, animate } from "framer-motion";
 import { Box, Center } from "@chakra-ui/react";
 
 import Beer from "@/src/public/images/Beerandwine.png";
@@ -16,6 +16,7 @@ const FaqDisplay: React.FC = () => {
 		<motion.div
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
+			transition={{ duration: 1.2 }}
 			className="flex flex-col m-0 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10"
 		>
 			<motion.div
