@@ -4,10 +4,10 @@ import { Image } from "@chakra-ui/next-js";
 import { motion, scroll, animate } from "framer-motion";
 import { Box, Center } from "@chakra-ui/react";
 
-import Beer from "@/src/public/images/coffee.png";
-import Bjuice from "@/src/public/images/smokables.png";
-import Candy from "@/src/public/images/sodas.png";
-import Sunscreen from "@/src/public/images/wines.png";
+import Water from "@/src/public/images/water.png";
+import Smokables from "@/src/public/images/smokables.png";
+import Sodas from "@/src/public/images/sodas.png";
+import Wines from "@/src/public/images/wines.png";
 
 const FaqDisplay: React.FC = () => {
 	//const [scrollYProgreess] = useScroll();
@@ -26,8 +26,8 @@ const FaqDisplay: React.FC = () => {
 				className="flex justify-center items-center"
 			>
 				<Image
-					src={Beer}
-					alt="Beer and Wine"
+					src={Water}
+					alt="water"
 					height={400}
 					width={400}
 					className="bg-center"
@@ -40,8 +40,8 @@ const FaqDisplay: React.FC = () => {
 				className="flex justify-center items-center"
 			>
 				<Image
-					src={Bjuice}
-					alt="Bottled Juice"
+					src={Smokables}
+					alt="Tobacco Products"
 					height={400}
 					width={400}
 				/>
@@ -53,8 +53,8 @@ const FaqDisplay: React.FC = () => {
 				className="flex justify-center items-center"
 			>
 				<Image
-					src={Candy}
-					alt="Candy"
+					src={Sodas}
+					alt="Beverages"
 					height={400}
 					width={400}
 				/>
@@ -66,7 +66,7 @@ const FaqDisplay: React.FC = () => {
 				className="flex justify-center items-center"
 			>
 				<Image
-					src={Sunscreen}
+					src={Wines}
 					alt="Sunscreen"
 					height={400}
 					width={400}
