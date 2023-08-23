@@ -14,7 +14,7 @@ const WhatsappOrders = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[30%] left-[12%] sm:left-[16%] md:left-[34%] sm:top-[24%] md:top-16 p-4 rounded-lg md:mx-auto text-center gap-8 text-[#000080] bg-white"
+					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-[24%] md:top-[22%] p-4 rounded-lg md:mx-auto text-center gap-8 text-[#000080] bg-white"
 				>
 					<div className="flex gap-4 justify-center items-center">
 						<Image
