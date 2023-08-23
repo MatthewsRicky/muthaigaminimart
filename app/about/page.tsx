@@ -30,7 +30,7 @@ const About = () => {
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
 							animate={{ x: 0 }} // Final x position (centered on the screen)
 							transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-							className="text-xl md:text-2xl lg:text-3xl font-bold"
+							className="text-lg md:text-xl lg:text-3xl font-bold"
 						>
 							ABOUT MUTHAIGA MINI MARKET
 						</motion.h1>
