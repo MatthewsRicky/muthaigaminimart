@@ -44,7 +44,7 @@ const Contact = () => {
 					transition={{ duration: 1 }} // Animation duration
 				>Muthaiga mini Market <i>></i> Contact</motion.h1>
 			</div>
-			<div className="flex w-full justify-center items-center m-10">
+			<div className="flex [85%] justify-center items-center m-12 mx-auto">
 				<ContactDetails />
 			</div>
 			{/*<ContactApp
