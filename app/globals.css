@@ -18,6 +18,15 @@ body,
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.about {
+	background-image: url(../public/images/sodas.png);
+	height: 40vh;
+	width: 100vw;
+	opacity: 40;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .open {
 	display: flex;
