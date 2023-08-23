@@ -17,9 +17,10 @@ const FaqDisplay: React.FC = () => {
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 1.2 }}
-			className="flex flex-col m-0 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10"
+			className="flex flex-col lg:col-span-2 m-0 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10"
 		>
 			<motion.div
+				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				whileHover={{ scale: 1.1 }}
 				className="flex justify-center items-center"
@@ -33,6 +34,7 @@ const FaqDisplay: React.FC = () => {
 				/>
 			</motion.div>
 			<motion.div
+				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				whileHover={{ scale: 1.1 }}
 				className="flex justify-center items-center"
@@ -45,6 +47,7 @@ const FaqDisplay: React.FC = () => {
 				/>
 			</motion.div>
 			<motion.div
+				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				whileHover={{ scale: 1.1 }}
 				className="flex justify-center items-center"
@@ -57,6 +60,7 @@ const FaqDisplay: React.FC = () => {
 				/>
 			</motion.div>
 			<motion.div
+				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				whileHover={{ scale: 1.1 }}
 				className="flex justify-center items-center"
