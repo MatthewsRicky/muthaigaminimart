@@ -14,7 +14,7 @@ const About = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[37%] left-[30%] sm:left-[30%] md:left-[33%] lg:left-[40%] xl:left[45%] md:top-[24%] p-4 mx-auto text-center gap-8 bg-[#fff] text-[#000080]"
+					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[37%] left-[30%] sm:left-[30%] md:left-[22%] lg:left-[24%] xl:left[45%] md:top-[24%] p-4 mx-auto text-center gap-8 bg-[#fff] text-[#000080]"
 					//className="text-blue-950 flex justify-center mt-[8rem] md:m-0 items-center bg-white"
 				>
 					<div className="flex justify-center items-center gap-8">
@@ -30,9 +30,9 @@ const About = () => {
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
 							animate={{ x: 0 }} // Final x position (centered on the screen)
 							transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-							className="text-xl  md:text-2xl lg:text-3xl font-bold"
+							className="text-xl md:text-2xl lg:text-3xl font-bold"
 						>
-							ABOUT
+							ABOUT MUTHAIGA MINI MARKET
 						</motion.h1>
 					</div>
 				</motion.div>
