@@ -17,7 +17,7 @@ const About = () => {
 					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[37%] left-[30%] sm:left-[30%] md:left-[22%] lg:left-[24%] xl:left[45%] md:top-[24%] p-4 mx-auto text-center gap-8 bg-[#fff] text-[#000080]"
 					//className="text-blue-950 flex justify-center mt-[8rem] md:m-0 items-center bg-white"
 				>
-					<div className="flex justify-center items-center gap-8">
+					<div className="flex justify-center items-center gap-4">
 						<div className="">
 							<Image
 								src={Logo}
