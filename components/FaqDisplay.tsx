@@ -4,10 +4,10 @@ import { Image } from "@chakra-ui/next-js";
 import { motion, scroll, animate } from "framer-motion";
 import { Box, Center } from "@chakra-ui/react";
 
-import Beer from "@/src/public/images/Beerandwine.png";
-import Bjuice from "@/src/public/images/bottled_juice.png";
-import Candy from "@/src/public/images/candy2.png";
-import Sunscreen from "@/src/public/images/sunscreen.png";
+//import Beer from "@/src/public/images/Beerandwine.png";
+//import Bjuice from "@/src/public/images/bottled_juice.png";
+//import Candy from "@/src/public/images/candy2.png";
+//import Sunscreen from "@/src/public/images/sunscreen.png";
 
 const FaqDisplay: React.FC = () => {
 	//const [scrollYProgreess] = useScroll();
