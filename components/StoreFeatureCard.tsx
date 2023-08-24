@@ -34,10 +34,6 @@ const StoreFeatureCard = () => {
 						the vibrant Diani Beach community.
 					</p>
 				</div>
-
-				<div className="w-[85%] h-[30rem] mb-10 px-0 mx-10">
-					<Carousel />
-				</div>
 			</div>
 			<div className="flex flex-shrink">
 				<FaqDisplay />
