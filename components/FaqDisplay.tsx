@@ -23,15 +23,21 @@ const FaqDisplay: React.FC = () => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				whileHover={{ scale: 1.1 }}
-				className="flex justify-center items-center"
+				className="flex justify-center items-center relative"
 			>
 				<Image
 					src={Water}
 					alt="water"
 					height={400}
-					width={400}
-					m={[2, 2]}
+					width={200}
 				/>
+				<h1
+					className={`absolute z-10 bg-black/30 h-full w-full flex justify-center items-center text-white uppercase font-bold ${
+						MouseEvent ? "block" : "hidden"
+					}}`}
+				>
+					Water
+				</h1>
 			</motion.div>
 			<motion.div
 				initial={{ opacity: 0 }}
@@ -43,8 +49,7 @@ const FaqDisplay: React.FC = () => {
 					src={Smokables}
 					alt="Tobacco Products"
 					height={400}
-					width={400}
-					m={[2, 2]}
+					width={200}
 				/>
 			</motion.div>
 			<motion.div
@@ -57,8 +62,7 @@ const FaqDisplay: React.FC = () => {
 					src={Sodas}
 					alt="Beverages"
 					height={400}
-					width={400}
-					m={[2, 2]}
+					width={200}
 				/>
 			</motion.div>
 			<motion.div
@@ -71,8 +75,7 @@ const FaqDisplay: React.FC = () => {
 					src={Wines}
 					alt="wines"
 					height={400}
-					width={400}
-					m={[2, 2]}
+					width={200}
 				/>
 			</motion.div>
 		</motion.div>
