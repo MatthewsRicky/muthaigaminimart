@@ -17,7 +17,7 @@ const FaqDisplay: React.FC = () => {
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 1.2 }}
-			className="flex flex-col lg:col-span-2 my-16 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10"
+			className="flex flex-col my-16 flex-wrap md:flex-row justify-center items-center gap-8 w-full mx-10"
 		>
 			<motion.div
 				initial={{ opacity: 0 }}
