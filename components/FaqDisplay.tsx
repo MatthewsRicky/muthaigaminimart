@@ -30,7 +30,7 @@ const FaqDisplay: React.FC = () => {
 					alt="water"
 					height={400}
 					width={400}
-					className="bg-center"
+					m={[2, 2]}
 				/>
 			</motion.div>
 			<motion.div
@@ -44,6 +44,7 @@ const FaqDisplay: React.FC = () => {
 					alt="Tobacco Products"
 					height={400}
 					width={400}
+					m={[2, 2]}
 				/>
 			</motion.div>
 			<motion.div
@@ -57,6 +58,7 @@ const FaqDisplay: React.FC = () => {
 					alt="Beverages"
 					height={400}
 					width={400}
+					m={[2, 2]}
 				/>
 			</motion.div>
 			<motion.div
@@ -70,6 +72,7 @@ const FaqDisplay: React.FC = () => {
 					alt="wines"
 					height={400}
 					width={400}
+					m={[2, 2]}
 				/>
 			</motion.div>
 		</motion.div>
