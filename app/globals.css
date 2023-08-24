@@ -58,3 +58,11 @@ body,
 .links:hover::after {
 	@apply w-[100%];
 }
+
+.text-overlay {
+	@apply hidden;
+}
+
+.text-overlay:hover {
+	@apply absolute z-10 bg-black/30 h-full w-full flex justify-center items-center text-white uppercase font-bold;
+}
