@@ -31,13 +31,7 @@ const FaqDisplay: React.FC = () => {
 					height={400}
 					width={200}
 				/>
-				<h1
-					className={`absolute z-10 bg-black/30 h-full w-full flex justify-center items-center text-white uppercase font-bold ${
-						MouseEvent ? "block" : "hidden"
-					}}`}
-				>
-					Water
-				</h1>
+				<h1 className="text-overlay">Water</h1>
 			</motion.div>
 			<motion.div
 				initial={{ opacity: 0 }}
