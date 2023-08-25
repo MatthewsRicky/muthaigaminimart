@@ -35,9 +35,6 @@ const StoreFeatureCard = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-shrink">
-				<FaqDisplay />
-			</div>
 		</div>
 	);
 };
