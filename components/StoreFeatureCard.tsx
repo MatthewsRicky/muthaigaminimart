@@ -44,12 +44,12 @@ const StoreFeatureCard = () => {
 				<ImageCard
 					imageSrc="/images/sodas.png"
 					title="Non-alcoholic Beverages"
-					description="Brand name sodas, ready to drink juices and concentrates"
+					description="Soda And Juices"
 				/>
 				<ImageCard
 					imageSrc="/images/coffee.png"
 					title="Coffee"
-					description="Wide range of coffee selection"
+					description="Coffee selection"
 				/>
 				<ImageCard
 					imageSrc="/images/insecticides.png"
