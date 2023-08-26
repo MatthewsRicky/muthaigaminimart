@@ -104,7 +104,7 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="md:max-w-[450px-750px] items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2">
+				<div className="md:max-w-[450px-750px] items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2 hover:shadow-md hover:shadow-[#ff2800]">
 					
 					<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px]">
 						<Link href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"} target="_blank">
