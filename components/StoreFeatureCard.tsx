@@ -29,7 +29,7 @@ const StoreFeatureCard = () => {
 						extensive range of products and services, from locally sourced fresh
 						produce to gourmet snacks and beach essentials, we strive to meet
 						every customer's needs. With a friendly and inviting atmosphere,
-						Muthatiga Mini Mart is dedicated to providing exceptional customer
+						Muthatiga Mini Market is dedicated to providing exceptional customer
 						service, ensuring a convenient and enjoyable shopping experience in
 						the vibrant Diani Beach community.
 					</p>
