@@ -53,8 +53,8 @@ const StoreFeatureCard = () => {
 				/>
 				<ImageCard
 					imageSrc="/images/insecticides.png"
-					title="Non-alcoholic Beverages"
-					description="Brand name sodas, ready to drink juices and concentrates"
+					title="Repellants and Insecticedes"
+					description="Protect yourself and your Home."
 				/>
 			</div>
 		</div>
