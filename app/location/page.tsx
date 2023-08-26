@@ -80,13 +80,13 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="md:min-h-[450px] justify-around md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 items-center  flex-col gap-2">
+				<div className="justify-center items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
 					<div className="m-6 flex flex-col">
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
 					</div>
 
-					<div className="flex m-6 gap-4">
+					<div className="flex justify-center items-center m-6 gap-4">
 						<div>
 							<CalendarIcon
 								boxSize={14}
