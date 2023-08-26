@@ -34,7 +34,7 @@ const Footer = () => {
 					<h1 className=" text-xl text-center uppercase">
 						Coming Soon on social media!
 					</h1>
-					<h1 className="flex text-4xl py-1 text-blue-950/90 bg-white rounded-lg hover:drop-shadow-2xl m-2 justify-around items-center">
+					<h1 className="flex text-4xl py-1 text-blue-950/90 rounded-lg hover:drop-shadow-2xl m-2 justify-around items-center">
 						<AiOutlineFacebook className="hover:bg-blue-950/90 transition-all duration-300 hover:text-white m-4" />
 						<AiOutlineInstagram className="hover:bg-blue-950/90 transition-all duration-300 hover:text-white m-4" />
 						<AiOutlineTwitter className="hover:bg-blue-950/90 transition-all duration-300 hover:text-white m-4" />
