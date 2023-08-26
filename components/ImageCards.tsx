@@ -22,9 +22,9 @@ const ImageCard: React.FC<ImageCardProps> = ({
 					height={200}
 				/>
 				<div className="absolute flex justify-center items-center inset-0">
-					<div className="filter px-6 py-4 bg-white hidden group-hover:flex flex-col">
-						<div className="font-bold text-xl mb-2">{title}</div>
-						<p className="text-blue-800 text-base">{description}</p>
+					<div className="filter px-6 py-4 bg-white/80 hidden group-hover:flex flex-col">
+						<div className="font-bold text-3l mb-2">{title}</div>
+						<p className="text-blue-800 font-bold text-base">{description}</p>
 					</div>
 				</div>
 			</div>
