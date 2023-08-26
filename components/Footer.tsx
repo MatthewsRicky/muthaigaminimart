@@ -9,7 +9,7 @@ import TopButton from "./TopButton";
 
 const Footer = () => {
 	return (
-		<div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950 relative">
+		<div className="w-full p-4 mx-auto bg-blue-200/40 text-blue-950 mt-20 relative">
 			<div className="absolute opacity-95 z-10 right-20 top-[-55px]">
 				<TopButton />
 			</div>
