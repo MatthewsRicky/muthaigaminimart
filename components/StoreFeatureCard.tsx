@@ -35,7 +35,7 @@ const StoreFeatureCard = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-col md:flex-row justify-center items-center mb-20 gap-8">
+			<div className="flex flex-col md:flex-row flex-wrap justify-center items-center mb-20 gap-8">
 				<ImageCard
 					imageSrc="/images/wines.png"
 					title="Alcoholic Bevereages"
@@ -47,15 +47,14 @@ const StoreFeatureCard = () => {
 					description="All Brand tobacco products available"
 				/>
 				<ImageCard
-					imageSrc="/images/insecticides.png"
-					title="Non-alcoholic Beverages"
-					description="Brand name sodas, ready to drink juices and concentrates"
-				/>
-
-				<ImageCard
 					imageSrc="/images/coffee.png"
 					title="Coffee"
 					description="Wide range of coffee selection"
+				/>
+				<ImageCard
+					imageSrc="/images/insecticides.png"
+					title="Non-alcoholic Beverages"
+					description="Brand name sodas, ready to drink juices and concentrates"
 				/>
 			</div>
 		</div>
