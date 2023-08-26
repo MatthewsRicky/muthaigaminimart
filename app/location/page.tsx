@@ -81,12 +81,12 @@ const Location = () => {
 					</div>
 				</div>
 				<div className="md:min-h-[450px] justify-around md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 items-center  flex-col gap-2">
-					<div className="hover:underline underline-offset-2">
+					<div className="m-6 flex flex-col">
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
 					</div>
 
-					<div className="flex gap-4">
+					<div className="flex m-6 gap-4">
 						<div>
 							<CalendarIcon
 								boxSize={14}
@@ -94,7 +94,7 @@ const Location = () => {
 							/>
 						</div>
 						<div>
-							<h2>Working Time</h2>
+							<h2 className="text-lg">Working Time</h2>
 							<p>
 								Our office customer service team is ready to help you.
 								Monday-Friday: 9:30am to 5pm Saturday: 9:30am to 5pm Sunday:
