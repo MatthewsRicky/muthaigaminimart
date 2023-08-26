@@ -78,7 +78,7 @@ body,
 }
 
 .image_card {
-	@apply max-h-[400px] text-[#000080] flex justify-center items-center;
+	@apply max-h-[300px] text-[#000080] flex justify-center items-center;
 }
 
 .image_card:hover {
