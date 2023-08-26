@@ -35,7 +35,7 @@ const StoreFeatureCard = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex justify-center items-center mb-20 gap-8">
+			<div className="flex flex-col md:flex-row justify-center items-center mb-20 gap-8">
 				<ImageCard
 					imageSrc="/images/wines.png"
 					title="Alcoholic Bevereages"
