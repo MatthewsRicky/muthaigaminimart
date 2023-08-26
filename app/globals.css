@@ -76,3 +76,11 @@ body,
 .text-overlay:hover {
 	@apply absolute z-10 bg-black/30 h-full w-full flex justify-center items-center text-white uppercase font-bold;
 }
+
+.image_card {
+	@apply max-h-[400px];
+}
+
+.image_card:hover {
+	filter: grayscale();
+}
