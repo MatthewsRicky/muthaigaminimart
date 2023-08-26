@@ -43,8 +43,8 @@ const StoreFeatureCard = () => {
 				/>
 				<ImageCard
 					imageSrc="/images/sodas.png"
-					title="Tobacco Products"
-					description="All Brand tobacco products available"
+					title="Non-alcoholic Beverages"
+					description="Brand name sodas, ready to drink juices and concentrates"
 				/>
 				<ImageCard
 					imageSrc="/images/coffee.png"
