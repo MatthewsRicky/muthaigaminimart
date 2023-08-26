@@ -35,6 +35,29 @@ const StoreFeatureCard = () => {
 					</p>
 				</div>
 			</div>
+			<div className="flex justify-center items-center mb-20 gap-8">
+				<ImageCard
+					imageSrc="/images/wines.png"
+					title="Alcoholic Bevereages"
+					description="Fully stocked Liquor Store"
+				/>
+				<ImageCard
+					imageSrc="/images/sodas.png"
+					title="Tobacco Products"
+					description="All Brand tobacco products available"
+				/>
+				<ImageCard
+					imageSrc="/images/insecticides.png"
+					title="Non-alcoholic Beverages"
+					description="Brand name sodas, ready to drink juices and concentrates"
+				/>
+
+				<ImageCard
+					imageSrc="/images/coffee.png"
+					title="Coffee"
+					description="Wide range of coffee selection"
+				/>
+			</div>
 		</div>
 	);
 };
