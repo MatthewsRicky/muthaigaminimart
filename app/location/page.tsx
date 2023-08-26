@@ -80,7 +80,7 @@ const Location = () => {
 						</div>
 					</div>
 				</div>
-				<div className="justify-center items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
+				<div className="items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
 					<div className="m-6 flex flex-col">
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
