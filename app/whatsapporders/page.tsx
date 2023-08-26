@@ -14,7 +14,7 @@ const WhatsappOrders = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[30%] left-[12%] sm:left-[16%] md:left-[24%] sm:top-[24%] md:top-[22%] p-4 rounded-lg md:mx-auto text-center gap-8 text-[#000080] bg-white"
+					className="mt-[4rem] flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 				>
 					<div className="flex gap-4 justify-center items-center">
 						<Image
@@ -23,12 +23,12 @@ const WhatsappOrders = () => {
 							width={100}
 							height={100}
 						/>
-						<div>
+						<div className="flex flex-col">
 							<motion.h1
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-						className="text-xl  md:text-2xl lg:text-3xl font-bold"
+						className="text-xl text-white md:text-2xl lg:text-3xl font-bold"
 					>
 						WHATSAPP ORDERS
 					</motion.h1>
@@ -36,7 +36,7 @@ const WhatsappOrders = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
-						className="text-lg md:text-xl lg:text-2xl font-semibold"
+						className="text-md text-white md:px-[3.5] md:text-lg lg:text-xl font-bold"
 					>
 						Enjoy Shopping From Home
 					</motion.p>
