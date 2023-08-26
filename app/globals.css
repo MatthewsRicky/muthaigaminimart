@@ -11,7 +11,7 @@ body,
 
 .hero {
 	background-image: url(../public/images/wines.png);
-	height: 40vh;
+	height: 35vh;
 	width: 100vw;
 	opacity: 40;
 	background-position: center;
@@ -22,7 +22,7 @@ body,
 	background-image: url(../public/images/sodas.png);
 	height: 40vh;
 	width: 100vw;
-	opacity: 40;
+	opacity: 35;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -30,7 +30,7 @@ body,
 
 .whatsapp {
 	background-image: url(../public/images/water.png);
-	height: 40vh;
+	height: 35vh;
 	width: 100vw;
 	opacity: 40;
 	background-position: center;
@@ -40,7 +40,7 @@ body,
 
 .location {
 	background-image: url(../public/images/coffee.png);
-	height: 40vh;
+	height: 35vh;
 	width: 100vw;
 	opacity: 40;
 	background-position: center;
