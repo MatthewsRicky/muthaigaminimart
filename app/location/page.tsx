@@ -19,7 +19,7 @@ const Location = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center absolute top-[37%] left-[24%] md:left-[33%] xl:left[45%] md:top-[24%] p-4 mx-auto text-center gap-6 bg-[#fff] text-[#000080]"
+					className="mt-[4rem] flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 				>
 					<div className="flex gap-4 justify-center items-center">
 						<Image
@@ -31,7 +31,7 @@ const Location = () => {
 						initial={{ x: -300 }} // Initial x position (off the screen to the left)
 						animate={{ x: 0 }} // Final x position (centered on the screen)
 						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-						className="text-3xl  md:text-4xl lg:text-5xl font-bold"
+						className="text-xl text-white p-5 md:-p-[3.5] md:text-3xl lg:text-4xl font-bold"
 					>
 						LOCATION
 					</motion.h1>
@@ -46,40 +46,8 @@ const Location = () => {
 					transition={{ duration: 1 }} // Animation duration
 				>Muthaiga mini Market <i>></i> Location</motion.h1>
 			</div>
-			<div className="flex flex-wrap justify-center  md:items-baseline flex-col sm:flex-col md:flex-row gap-10 md:p-10 md:m-10">
-				<div className="md:min-h-[450px] justify-around items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex flex-col gap-2">
-					<div className="hover:underline underline-offset-2">
-						<h1 className="font-semibold">Contact</h1>
-						<h2>INFORMATION</h2>
-					</div>
-
-					<div className="flex gap-4">
-						<div>
-							<AiFillContacts
-								size={80}
-								color="#000080"
-							/>
-						</div>
-						<div>
-							<h2>Address Info</h2>
-							<p>
-								Located at Diani Shopping Center, Off Diani Beach Road.{" "}
-							</p>
-						</div>
-					</div>
-					<div>
-						<div className="flex gap-4">
-							<PhoneIcon
-								boxSize={12}
-								color="#000080"
-							/>
-						</div>
-						<div>
-							<h2>Contact Details</h2>
-							<p></p>
-						</div>
-					</div>
-				</div>
+			<div className="flex flex-wrap justify-center  md:items-center flex-col md:flex-row gap-10 md:p-10 md:my-10">
+			
 				<div className="items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
 					<div className="m-6 flex flex-col">
 						<h1 className="font-semibold">Working Time</h1>
@@ -100,6 +68,39 @@ const Location = () => {
 								Monday-Friday: 9:30am to 5pm Saturday: 9:30am to 5pm Sunday:
 								Closed
 							</p>
+						</div>
+					</div>
+				</div>
+					<div className="items-center md:max-w-[450px] max-h-[307.93px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
+					<div className="my-4 mx-6 flex flex-col">
+						<h1 className="font-semibold">Contact</h1>
+						<h2>INFORMATION</h2>
+					</div>
+
+					<div className="flex justify-center items-center m-5 gap-4">
+						<div>
+							<AiFillContacts
+								size={60}
+								color="#000080"
+							/>
+						</div>
+						<div>
+							<h2>Address Info</h2>
+							<p>
+								Located at Diani Shopping Center, Off Diani Beach Road.
+							</p>
+						</div>
+					</div>
+					<div className="flex justify-start items-center m-6 gap-4">
+						<div>
+							<PhoneIcon
+								boxSize={12}
+								color="#000080"
+							/>
+						</div>
+						<div>
+							<h2>Contact Details</h2>
+							<p>0775 889988</p>
 						</div>
 					</div>
 				</div>
