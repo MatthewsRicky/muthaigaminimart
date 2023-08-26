@@ -23,7 +23,7 @@ const StoreFeatureCard = () => {
 			<div className="flex flex-col justify-center lg:justify-start items-center lg:flex-row">
 				<div className="flex flex-col justify-center items-center gap-8 md:w-[80%] lg:max-w-[70%] md:my-20 mx-auto px-10 lg:h-[40vh] overflow-hidden text-[#000080]">
 					<p className="flex justify-between items-center bg-blue-200/20 md:text-xl lg:4xl p-4 my-12 h-[30rem] lg:h-[30rem] shadow-xl">
-						Muthatiga Mini Mart is a beloved destination in the heart of Diani
+						Muthatiga Mini Market is a beloved destination in the heart of Diani
 						Beach, a stunning coastal paradise. Our mini super market caters to
 						the diverse needs of residents and visitors alike. Offering an
 						extensive range of products and services, from locally sourced fresh
