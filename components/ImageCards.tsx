@@ -13,7 +13,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
 }) => {
 	return (
 		<div className="max-w-sm p-4 m-2 group rounded overflow-hidden shadow-lg transition-scale duration-300">
-			<div className="relative">
+			<div className="image_card relative">
 				<Image
 					src={imageSrc}
 					alt={title}
