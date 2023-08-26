@@ -82,7 +82,7 @@ body,
 }
 
 .image_card:hover {
-	filter: grayscale(50%);
+	filter: grayscale(30%);
 }
 
 .filter:hover {
