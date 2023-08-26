@@ -108,7 +108,7 @@ const Location = () => {
 					
 					<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px]">
 						<Link href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"} target="_blank">
-							<h1 className="font-semibold">Location Map</h1>
+							<h1 className="font-semibold p-4 flex justify-center items-center">Location Map</h1>
 							<Image
 							src={Map}
 							alt="Map"
