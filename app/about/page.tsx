@@ -14,7 +14,7 @@ const About = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
+					className="flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 					//className="text-blue-950 flex justify-center mt-[8rem] md:m-0 items-center bg-white"
 				>
 					<div className="flex justify-center items-center gap-4">
