@@ -43,7 +43,7 @@ const About = () => {
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
 				>
-					Muthaiga mini Market <i>{`>`}</i> About
+					Muthaiga Mini Market <i>{`>`}</i> About
 				</motion.h1>
 			</div>
 			<div className="flex flex-col justify-center items-center text-blue-950 p-8 m-8 drop-shadow-xl">
@@ -54,7 +54,7 @@ const About = () => {
 					extensive range of products and services, from locally sourced fresh
 					produce to gourmet snacks and beach essentials, we strive to meet
 					every customer's needs. With a friendly and inviting atmosphere,
-					Muthatiga Mini Mart is dedicated to providing exceptional customer
+					Muthatiga Mini Market is dedicated to providing exceptional customer
 					service, ensuring a convenient and enjoyable shopping experience in
 					the vibrant Diani Beach community.
 				</p>
