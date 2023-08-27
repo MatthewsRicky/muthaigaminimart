@@ -12,7 +12,7 @@ body,
 
 .hero {
 	background-image: url(../public/images/wines.png);
-	height: 35vh;
+	height: 100vh;
 	width: 100vw;
 	opacity: 40;
 	background-position: center;
@@ -31,7 +31,7 @@ body,
 
 .whatsapp {
 	background-image: url(../public/images/water.png);
-	height: 35vh;
+	height: 100vh;
 	width: 100vw;
 	opacity: 40;
 	background-position: center;
@@ -41,7 +41,7 @@ body,
 
 .location {
 	background-image: url(../public/images/coffee.png);
-	height: 35vh;
+	height: 100vh;
 	width: 100vw;
 	opacity: 40;
 	background-position: center;
@@ -84,6 +84,7 @@ body,
 
 .image_card:hover {
 	filter: grayscale(30%);
+	@apply duration-300;
 }
 
 .filter:hover {
