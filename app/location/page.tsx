@@ -11,6 +11,7 @@ import Map from "public/images/location_map.png";
 import Logo from "@/src/public/images/g1.png"
 
 
+
 const Location = () => {
 	return (
 		<div>
@@ -53,8 +54,14 @@ const Location = () => {
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
 					</div>
-
-					<div className="flex justify-center items-center m-6 gap-4">
+					<div>
+						<Image
+							src={"/images/location2.jpg"}
+							alt="location photo"
+							width={400}
+							height={400}
+						/>
+						<div className="flex justify-center items-center m-6 gap-4">
 						<div>
 							<CalendarIcon
 								boxSize={14}
@@ -70,6 +77,9 @@ const Location = () => {
 							</p>
 						</div>
 					</div>
+					</div>
+
+					
 				</div>
 					<div className="items-center md:max-w-[450px] max-h-[307.93px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
 					<div className="my-4 mx-6 flex flex-col">
