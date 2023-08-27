@@ -19,7 +19,7 @@ const Location = () => {
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-					className="mt-[4rem] flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
+					className="flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 				>
 					<div className="flex gap-4 justify-center items-center">
 						<Image
