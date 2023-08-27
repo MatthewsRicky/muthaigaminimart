@@ -91,7 +91,7 @@ const Location = () => {
 						
 					<div>
 						<Image
-							src={"/images/location2.jpg"}
+							src={"/images/location3.jpg"}
 							alt="location photo"
 							width={400}
 							height={400}
