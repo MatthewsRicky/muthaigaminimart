@@ -36,7 +36,7 @@ const Navbar = () => {
 			</div>
 
 			<div
-				className={`md:mx-20 md:flex md:flex-row md:py-0 pt-6 pb-2 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] text-md ${
+				className={`md:mx-20 md:flex md:flex-row md:py-0 pt-6 justify-between items-end top-0 right-0 left-0 shadow-b-lg text-[#000080] text-md ${
 					navbar ? "block" : "hidden"
 				}`}
 			>
