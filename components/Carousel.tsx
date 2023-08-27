@@ -6,14 +6,14 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Carousel = () => {
 	const slides = [
-		{ url: "/images/bx_juice.png" },
-		{ url: "/images/bottled_juice.png" },
-		{ url: "/images/candy2.png" },
-		{ url: "/images/Beerandwine.png" },
-		{ url: "/images/sunscreen.png" },
-		{ url: "/images/wines.png" },
-		{ url: "/images/whisky.png" },
-		{ url: "/images/dairy.png" },
+		{ url: "/images/cigarettes.jpg" },
+		{ url: "/images/coffee.jpg" },
+		{ url: "/images/sodas.jpg" },
+		{ url: "/images/oils.jpg" },
+		{ url: "/images/vinegars_oils.jpg" },
+		{ url: "/images/water.jpg" },
+		{ url: "/images/soapsanddetergent.jpg" },
+		{ url: "/images/teasandcoffee" },
 		{ url: "/images/spices.png" },
 		{ url: "/images/insecticides.png" },
 	];
