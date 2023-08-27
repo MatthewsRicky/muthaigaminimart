@@ -81,38 +81,50 @@ const Location = () => {
 
 					
 				</div>
-					<div className="items-center md:max-w-[450px] max-h-[307.93px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
-					<div className="my-4 mx-6 flex flex-col">
-						<h1 className="font-semibold">Contact</h1>
-						<h2>INFORMATION</h2>
+				<div className="items-center md:max-w-[450px] 
+					 drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
+						<div className="my-4 mx-6 flex flex-col">
+							<h1 className="font-semibold">Contact</h1>
+							<h2>INFORMATION</h2>
+					</div>
+					
+						
+					<div>
+						<Image
+							src={"/images/location2.jpg"}
+							alt="location photo"
+							width={400}
+							height={400}
+						/>
+							<div className="flex justify-center items-center m-5 gap-4">
+								<div>
+									<AiFillContacts
+										size={60}
+										color="#000080"
+									/>
+								</div>
+								<div>
+									<h2>Address Info</h2>
+									<p>
+										Located at Diani Shopping Center, Off Diani Beach Road.
+									</p>
+								</div>
+							</div>
+							<div className="flex justify-start items-center m-6 gap-4">
+								<div>
+									<PhoneIcon
+										boxSize={12}
+										color="#000080"
+									/>
+								</div>
+								<div>
+									<h2>Contact Details</h2>
+									<p>0775 889988</p>
+								</div>
+							</div>
 					</div>
 
-					<div className="flex justify-center items-center m-5 gap-4">
-						<div>
-							<AiFillContacts
-								size={60}
-								color="#000080"
-							/>
-						</div>
-						<div>
-							<h2>Address Info</h2>
-							<p>
-								Located at Diani Shopping Center, Off Diani Beach Road.
-							</p>
-						</div>
-					</div>
-					<div className="flex justify-start items-center m-6 gap-4">
-						<div>
-							<PhoneIcon
-								boxSize={12}
-								color="#000080"
-							/>
-						</div>
-						<div>
-							<h2>Contact Details</h2>
-							<p>0775 889988</p>
-						</div>
-					</div>
+				
 				</div>
 				<div className="md:max-w-[450px-750px] items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2 hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
 					
