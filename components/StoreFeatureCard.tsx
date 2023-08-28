@@ -37,8 +37,8 @@ const StoreFeatureCard = () => {
 			</div>
 			<div className="flex flex-col md:flex-row flex-wrap justify-center items-center my-20 gap-8">
 				<motion.div
-					initial={{ x: -300 }}
-					animate={{ x: 0 }}
+					initial={{ x: -300, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
 					transition={{ duration: 1 }}
 				>
 					<ImageCard
@@ -48,8 +48,8 @@ const StoreFeatureCard = () => {
 					/>
 				</motion.div>
 				<motion.div
-					initial={{ x: -300 }}
-					animate={{ x: 0 }}
+					initial={{ x: -300, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
 					transition={{ duration: 1.2 }}
 				>
 					<ImageCard
@@ -70,8 +70,8 @@ const StoreFeatureCard = () => {
 					/>
 				</motion.div>
 				<motion.div
-					initial={{ x: -300 }}
-					animate={{ x: 0 }}
+					initial={{ x: -300, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
 					transition={{ duration: 1.6 }}
 				>
 					<ImageCard
