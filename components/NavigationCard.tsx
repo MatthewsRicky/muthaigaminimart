@@ -1,10 +1,7 @@
 import React from "react";
 import { motion, animate } from "framer-motion";
-interface NavigationCardProps {
-	title: string;
-}
 
-const NavigationCard: React.FC<NavigationCardProps> = (title) => {
+const NavigationCard = (title: string) => {
 	return (
 		<div className="flex w-full bg-blue-200/40 text-[#000080] p-2">
 			<motion.h1
