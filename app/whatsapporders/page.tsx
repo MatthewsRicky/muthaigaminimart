@@ -4,8 +4,6 @@ import Image from "next/image";
 import { motion, animate } from "framer-motion";
 import { FaWhatsappSquare } from "react-icons/fa";
 
-import Logo from "../public/images/g1.png";
-
 const WhatsappOrders = () => {
 	return (
 		<div className="w-full">
@@ -16,9 +14,9 @@ const WhatsappOrders = () => {
 					transition={{ duration: 1 }} // Animation duration
 					className="flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 				>
-					<div className="flex gap-4 justify-center items-center">
+					<div className="flex gap-4 justify-center bg-white p-4 items-center">
 						<Image
-							src={Logo}
+							src="/images/Logo 3.svg"
 							alt="Logo"
 							width={100}
 							height={100}
