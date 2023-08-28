@@ -4,11 +4,11 @@ import { CalendarIcon, PhoneIcon } from "@chakra-ui/icons";
 import { Image } from "@chakra-ui/next-js";
 import { motion, animate } from "framer-motion";
 import { AiFillContacts } from "react-icons/ai";
-import { BiPhone } from "react-icons/bi";
+
 import Link from "next/link";
 
-import Map from "public/images/location_map.png";
-import Logo from "@/src/public/images/g1.png"
+import Map from "/public/images/location_map.png";
+import Logo from "/public/images/g1.png"
 
 
 
