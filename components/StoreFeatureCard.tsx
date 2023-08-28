@@ -57,7 +57,7 @@ const StoreFeatureCard = () => {
 					description="Protect yourself and your Home."
 				/>
 			</div>
-			<div className="h-[40%] md:h-[60%] my-[2rem] mx-10">
+			<div className="h-[40%] md:h-[60%] my-[2rem] mx-[10%] md:mx-[25%]">
 				<Carousel />
 			</div>
 		</div>
