@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, animate } from "framer-motion";
 import { FaWhatsappSquare } from "react-icons/fa";
 
-import Logo from "@/src/public/images/g1.png"
+import Logo from "/public/images/g1.png"
 
 const WhatsappOrders = () => {
 	return (
