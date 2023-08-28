@@ -15,7 +15,7 @@ const Contact = () => {
 					transition={{ duration: 1 }} // Animation duration
 					className="flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 				>
-					<div className="flex gap-8 justify-center p-4 items-center">
+					<div className="flex gap-8 justify-center p-4 bg-white items-center">
 						<Image
 							src="/images/Logo 3.svg"
 							alt="Logo"
