@@ -40,7 +40,7 @@ const Navbar = () => {
 					navbar ? "block" : "hidden"
 				}`}
 			>
-				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[24rem] md:h-16 md:m-4 my-6 mx-0">
+				<div className="flex flex-col md:flex-row bg-white justify-between items-center w-full h-[26rem] md:h-16 md:m-4 my-6 mx-0">
 					<Link
 						href="/"
 						onClick={() => setNavbar(!navbar)}
@@ -56,10 +56,17 @@ const Navbar = () => {
 					<div className="flex flex-col md:flex-row my-2 md:gap-2 gap-4 bg-white">
 						<Link
 							className="text-[#000080] font-semibold text-sm links"
+							href="/"
+							onClick={() => setNavbar(!navbar)}
+						>
+							HOME
+						</Link>
+						<Link
+							className="text-[#000080] font-semibold text-sm links"
 							href="/about"
 							onClick={() => setNavbar(!navbar)}
 						>
-							ABOUT{" "}
+							ABOUT
 						</Link>
 
 						<Link
