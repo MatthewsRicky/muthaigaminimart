@@ -12,7 +12,7 @@ const Carousel = () => {
 		{ url: "/images/oils.jpg" },
 		{ url: "/images/vinegars_oils.jpg" },
 		{ url: "/images/water.jpg" },
-		{ url: "/images/soapsanddetergent.jpg" },
+		{ url: "/images/soapsanddetergents.jpg" },
 		{ url: "/images/teasandcoffee" },
 		{ url: "/images/spices.png" },
 		{ url: "/images/insecticides.png" },
