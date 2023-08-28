@@ -36,26 +36,50 @@ const StoreFeatureCard = () => {
 				</div>
 			</div>
 			<div className="flex flex-col md:flex-row flex-wrap justify-center items-center my-20 gap-8">
-				<ImageCard
-					imageSrc="/images/wines.png"
-					title="Alcoholic Bevereages"
-					description="Fully stocked Liquor Store"
-				/>
-				<ImageCard
-					imageSrc="/images/sodas.png"
-					title="Non-alcoholic Beverages"
-					description="Soda And Juices"
-				/>
-				<ImageCard
-					imageSrc="/images/coffee.png"
-					title="Coffee"
-					description="Coffee selection"
-				/>
-				<ImageCard
-					imageSrc="/images/insecticides.png"
-					title="Repellants and Insecticedes"
-					description="Protect yourself and your Home."
-				/>
+				<motion.div
+					initial={{ x: -300 }}
+					animate={{ x: 0 }}
+					transition={{ duration: 1 }}
+				>
+					<ImageCard
+						imageSrc="/images/wines.png"
+						title="Alcoholic Bevereages"
+						description="Fully stocked Liquor Store"
+					/>
+				</motion.div>
+				<motion.div
+					initial={{ x: -300 }}
+					animate={{ x: 0 }}
+					transition={{ duration: 1.2 }}
+				>
+					<ImageCard
+						imageSrc="/images/sodas.png"
+						title="Non-alcoholic Beverages"
+						description="Soda And Juices"
+					/>
+				</motion.div>
+				<motion.div
+					initial={{ x: -300, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
+					transition={{ duration: 1.4 }}
+				>
+					<ImageCard
+						imageSrc="/images/coffee.png"
+						title="Coffee"
+						description="Coffee selection"
+					/>
+				</motion.div>
+				<motion.div
+					initial={{ x: -300 }}
+					animate={{ x: 0 }}
+					transition={{ duration: 1.6 }}
+				>
+					<ImageCard
+						imageSrc="/images/insecticides.png"
+						title="Repellants and Insecticedes"
+						description="Protect yourself and your Home."
+					/>
+				</motion.div>
 			</div>
 			<div className="h-[40%] md:h-[60%] my-[2rem] mx-[10%] md:mx-[25%]">
 				<Carousel />
