@@ -3,7 +3,6 @@
 import { motion, animate } from "framer-motion";
 import ImageCard from "../components/ImageCards";
 import Carousel from "./Carousel";
-import FaqDisplay from "./FaqDisplay";
 import Link from "next/link";
 
 const StoreFeatureCard = () => {
