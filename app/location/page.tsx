@@ -124,7 +124,7 @@ const Location = () => {
 					</div>
 				</div>
 			</div>
-			<div className="md:max-w-[450px-750px] items-center drop-shadow-lg m-4 p-2 flex flex-col gap-2">
+			<div className="md:max-w-[450px-750px] items-center drop-shadow-lg m-4 p-2 flex flex-col md:flex-row justify-center gap-2">
 				<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px] shadow-md shadow-[#000080] hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
 					<Link
 						href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"}
@@ -145,8 +145,11 @@ const Location = () => {
 					</Link>
 				</div>
 				<div className="md:max-w-[450px-750px] items-center drop-shadow-lg m-4 p-2 flex flex-col gap-2">
-					<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px] shadow-md shadow-[#000080] hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
+					<div className="flex flex-col justify-center items-center  md:min-w-[400px] max-w-[650px] shadow-md shadow-[#000080] hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
 						<Link href="/whatsapporders">
+							<h1 className="font-semibold text-[#000080] p-4 flex justify-center items-center">
+								Shop from Home
+							</h1>
 							<Image
 								src="/images/carticon.png"
 								alt="Cart Icon for whatsapp orders"
@@ -154,11 +157,11 @@ const Location = () => {
 								height={600}
 							/>
 						</Link>
-					</div>
-					<div>
-						<h1 className="font-semibold text-[#000080] p-4 flex justify-center items-center">
-							Order on WhatsApp
-						</h1>
+						<div>
+							<h1 className="font-semibold text-[#000080] p-4 flex justify-center items-center">
+								Order on WhatsApp
+							</h1>
+						</div>
 					</div>
 				</div>
 			</div>
