@@ -7,8 +7,6 @@ import { AiFillContacts } from "react-icons/ai";
 
 import Link from "next/link";
 
-import Map from "../public/images/location_map.png";
-
 const Location = () => {
 	return (
 		<div>
@@ -24,6 +22,7 @@ const Location = () => {
 							src="/images/Logo 3.svg"
 							alt="Logo"
 							width={100}
+							height={100}
 						/>
 						<motion.h1
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
@@ -135,13 +134,32 @@ const Location = () => {
 							Location Map
 						</h1>
 						<Image
-							src={Map}
+							src="/images/location_map.png"
 							alt="Map"
+							width={600}
+							height={600}
 						/>
 						<p className="font-semibold text-[#000080] p-4 flex justify-center items-center">
 							Click to view full map
 						</p>
 					</Link>
+				</div>
+				<div className="md:max-w-[450px-750px] items-center drop-shadow-lg m-4 p-2 flex flex-col gap-2">
+					<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px] shadow-md shadow-[#000080] hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
+						<Link href="/whatsapporders">
+							<Image
+								src="/images/carticon.png"
+								alt="Cart Icon for whatsapp orders"
+								width={600}
+								height={600}
+							/>
+						</Link>
+					</div>
+					<div>
+						<h1 className="font-semibold text-[#000080] p-4 flex justify-center items-center">
+							Order on WhatsApp
+						</h1>
+					</div>
 				</div>
 			</div>
 		</div>
