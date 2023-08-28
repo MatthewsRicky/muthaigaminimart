@@ -3,7 +3,6 @@ import { Inter, Roboto } from "next/font/google";
 
 import Hero from "../components/Hero";
 import StoreFeatureCard from "../components/StoreFeatureCard";
-import FaqDisplay from "../components/FaqDisplay";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +12,6 @@ export default function Home() {
 			<Hero />
 			<div className="flex flex-col lg:flex-row">
 				<StoreFeatureCard />
-				{/*<FaqDisplay />*/}
 			</div>
 		</div>
 	);
