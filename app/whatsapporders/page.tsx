@@ -4,11 +4,11 @@ import Image from "next/image";
 import { motion, animate } from "framer-motion";
 import { FaWhatsappSquare } from "react-icons/fa";
 
-import Logo from "/public/images/g1.png"
+import Logo from "/public/images/g1.png";
 
 const WhatsappOrders = () => {
 	return (
-		<div className=" w-full">
+		<div className="w-full">
 			<div className="whatsapp w-full md:my-0 group relative">
 				<motion.div
 					initial={{ x: -300 }} // Initial x position (off the screen to the left)
@@ -25,33 +25,33 @@ const WhatsappOrders = () => {
 						/>
 						<div className="flex flex-col">
 							<motion.h1
-						initial={{ x: -300 }} // Initial x position (off the screen to the left)
-						animate={{ x: 0 }} // Final x position (centered on the screen)
-						transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-						className="text-xl text-white md:text-2xl lg:text-3xl font-bold"
-					>
-						WHATSAPP ORDERS
-					</motion.h1>
-					<motion.p
-						initial={{ x: -300 }} // Initial x position (off the screen to the left)
-						animate={{ x: 0 }} // Final x position (centered on the screen)
-						transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
-						className="text-md text-white md:px-[3.5] md:text-lg lg:text-xl font-bold"
-					>
-						Enjoy Shopping From Home
-					</motion.p>
+								initial={{ x: -300 }} // Initial x position (off the screen to the left)
+								animate={{ x: 0 }} // Final x position (centered on the screen)
+								transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
+								className="text-xl text-white md:text-2xl lg:text-3xl font-bold"
+							>
+								WHATSAPP ORDERS
+							</motion.h1>
+							<motion.p
+								initial={{ x: -300 }} // Initial x position (off the screen to the left)
+								animate={{ x: 0 }} // Final x position (centered on the screen)
+								transition={{ duration: 1.4, ease: "easeOut" }} // Animation duration
+								className="text-md text-white md:px-[3.5] md:text-lg lg:text-xl font-bold"
+							>
+								Enjoy Shopping From Home
+							</motion.p>
 						</div>
-						
 					</div>
-					
 				</motion.div>
 			</div>
 			<div className="flex w-full bg-blue-200/40 text-[#000080] p-2">
 				<motion.h1
-				initial={{ x: -300 }} // Initial x position (off the screen to the left)
+					initial={{ x: -300 }} // Initial x position (off the screen to the left)
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
-				>Muthaiga mini Market <i>></i> Whatsapp Orders</motion.h1>
+				>
+					Muthaiga mini Market <i>`{">"}`</i> Whatsapp Orders
+				</motion.h1>
 			</div>
 			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-blue-200/40 rounded-xl">
 				<p className="text-md text-justify mx-10 font-semibold md:text2xl">
@@ -93,26 +93,25 @@ const WhatsappOrders = () => {
 				</ul>
 				<div className="flex flex-col gap-4 text-justify justify-center items-center">
 					<h3 className="font-bold text-xl w-fit text-white bg-[#ff2800]/70 rounded-xs p-4">
-					Terms and Conditions:
-				</h3>
-				<ul className="flex flex-col gap-3">
-					<li>
-						<p className="text-md mx-10 font-semibold md:text2xl">
-							All payments including delivery fees should be paid to Muthaiga
-							Mini Market LTD ONLY via MPESA. Kindly confirm your final bill
-							before payment as there are no refunds.
-						</p>
-					</li>
-					<li>
-						<p className="text-md mx-10 font-normal md:text2xl">
-							Delivery is one way, for any returns kindly visit the branch for a
-							credit note which is redeemable at that branch and cannot be used
-							to place another WhatsApp order.
-						</p>
-					</li>
-				</ul>
+						Terms and Conditions:
+					</h3>
+					<ul className="flex flex-col gap-3">
+						<li>
+							<p className="text-md mx-10 font-semibold md:text2xl">
+								All payments including delivery fees should be paid to Muthaiga
+								Mini Market LTD ONLY via MPESA. Kindly confirm your final bill
+								before payment as there are no refunds.
+							</p>
+						</li>
+						<li>
+							<p className="text-md mx-10 font-normal md:text2xl">
+								Delivery is one way, for any returns kindly visit the branch for
+								a credit note which is redeemable at that branch and cannot be
+								used to place another WhatsApp order.
+							</p>
+						</li>
+					</ul>
 				</div>
-				
 			</div>
 		</div>
 	);
