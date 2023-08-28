@@ -7,8 +7,8 @@ import { AiFillContacts } from "react-icons/ai";
 
 import Link from "next/link";
 
-import Map from "/public/images/location_map.png";
-import Logo from "/public/images/g1.png";
+import Map from "../public/images/location_map.png";
+import Logo from "../public/images/g1.png";
 
 const Location = () => {
 	return (
