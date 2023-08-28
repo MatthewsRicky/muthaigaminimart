@@ -6,7 +6,7 @@ import ContactApp from "@/src/components/ContactApp";
 import { motion, animate } from "framer-motion";
 import Image from "next/image";
 
-import Logo from "@/src/public/images/g1.png"
+import Logo from "/public/images/g1.png"
 
 const Contact = () => {
 	return (
