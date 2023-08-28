@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import Logo from "../public/images/g1.png";
+import Logo from "public/images/g1.png";
 
 const About = () => {
 	return (
