@@ -8,7 +8,6 @@ import { AiFillContacts } from "react-icons/ai";
 import Link from "next/link";
 
 import Map from "../public/images/location_map.png";
-import Logo from "../public/images/g1.png";
 
 const Location = () => {
 	return (
@@ -20,9 +19,9 @@ const Location = () => {
 					transition={{ duration: 1 }} // Animation duration
 					className="flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 				>
-					<div className="flex gap-4 justify-center items-center">
+					<div className="flex gap-4 justify-center bg-white p-4 items-center">
 						<Image
-							src={Logo}
+							src="/images/Logo 3.svg"
 							alt="Logo"
 							width={100}
 						/>
@@ -30,7 +29,7 @@ const Location = () => {
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
 							animate={{ x: 0 }} // Final x position (centered on the screen)
 							transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-							className="text-xl text-white p-5 md:-p-[3.5] md:text-3xl lg:text-4xl font-bold"
+							className="text-xl text-[#000080] p-5 md:-p-[3.5] md:text-3xl lg:text-4xl font-bold"
 						>
 							LOCATION
 						</motion.h1>
