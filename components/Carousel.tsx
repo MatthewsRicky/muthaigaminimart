@@ -6,9 +6,9 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Carousel = () => {
 	const slides = [
-		{ url: "/images/cigarettes.jpg" },
+		{ url: "/images/ciggaretes.jpg" },
 		{ url: "/images/coffee.jpg" },
-		{ url: "/images/sodas.jpg" },
+		{ url: "/images/sodas.png" },
 		{ url: "/images/oils.jpg" },
 		{ url: "/images/vinegars_oils.jpg" },
 		{ url: "/images/water.jpg" },
@@ -42,7 +42,7 @@ const Carousel = () => {
 				style={{
 					backgroundImage: `url(${slides[currentIndex].url})`,
 				}}
-				className="shadow-2xl  w-full h-full rounded-2xl bg-center bg-cover duration-500"
+				className="shadow-2xl  w-full h-full rounded-lg bg-center bg-cover duration-500"
 			>
 				{/*left arrow*/}
 				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[20%] md:left-[20%] lg:left-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer">
