@@ -2,7 +2,7 @@
 
 import { motion, animate } from "framer-motion";
 import Image from "next/image";
-import Logo from "../public/images/g1.png";
+
 import { Container } from "postcss";
 
 const Hero: React.FC = () => {
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 				<div className="flex justify-center items-center p-2 gap-4">
 					<div className="p-2">
 						<Image
-							src={Logo}
+							src="/images/Logo 3.svg"
 							alt="Logo"
 							width={100}
 							height={100}
