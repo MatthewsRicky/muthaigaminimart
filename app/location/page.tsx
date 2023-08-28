@@ -47,9 +47,9 @@ const Location = () => {
 					transition={{ duration: 1 }} // Animation duration
 				>Muthaiga mini Market <i>></i> Location</motion.h1>
 			</div>
-			<div className="flex flex-wrap justify-center  md:items-center flex-col md:flex-row gap-10 md:p-10 md:my-10">
+			<div className="flex flex-wrap justify-center md:flex-row md:items-center flex-col gap-10 md:p-10 md:my-10">
 			
-				<div className="items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
+				<div className="items-center md:max-w-[450px] drop-shadow-lg m-4 bg-blue-200/40 p-6 flex-col gap-2">
 					<div className="m-6 flex flex-col">
 						<h1 className="font-semibold">Working Time</h1>
 						<h2>INFORMATION</h2>
@@ -60,6 +60,7 @@ const Location = () => {
 							alt="location photo"
 							width={400}
 							height={400}
+							className="flex justify-center items-center mx-auto rounded-md shadow-lg shadow-[#ff2800]/60"
 						/>
 						<div className="flex justify-center items-center m-6 gap-4">
 						<div>
@@ -68,8 +69,8 @@ const Location = () => {
 								color="#000080"
 							/>
 						</div>
-						<div>
-							<h2 className="text-lg">Working Time</h2>
+						<div className="flex flex-col gap-3">
+							<h2 className="text-lg font-semibold">Working Time</h2>
 							<p>
 								Our office customer service team is ready to help you.
 								Monday-Friday: 9:30am to 5pm Saturday: 9:30am to 5pm Sunday:
@@ -82,7 +83,7 @@ const Location = () => {
 					
 				</div>
 				<div className="items-center md:max-w-[450px] 
-					 drop-shadow-lg m-4 bg-blue-200/40 p-8 flex-col gap-2">
+					 drop-shadow-lg m-4 bg-blue-200/40 p-2 flex-col gap-2">
 						<div className="my-4 mx-6 flex flex-col">
 							<h1 className="font-semibold">Contact</h1>
 							<h2>INFORMATION</h2>
@@ -95,38 +96,42 @@ const Location = () => {
 							alt="location photo"
 							width={400}
 							height={400}
+							className="flex justify-center items-center mx-auto rounded-md shadow-lg shadow-[#ff2800]/60"
 						/>
-							<div className="flex justify-center items-center m-5 gap-4">
+							<div className="flex justify-center items-center p-2 m-5 gap-4">
 								<div>
 									<AiFillContacts
 										size={60}
 										color="#000080"
 									/>
 								</div>
-								<div>
-									<h2>Address Info</h2>
+								<div className="flex flex-col gap-3">
+									<h2 className="text-lg font-semibold">Address Info</h2>
 									<p>
 										Located at Diani Shopping Center, Off Diani Beach Road.
 									</p>
-								</div>
 							</div>
-							<div className="flex justify-start items-center m-6 gap-4">
+							<div className="flex justify-start items-center m-6 gap-6">
 								<div>
 									<PhoneIcon
 										boxSize={12}
 										color="#000080"
 									/>
 								</div>
-								<div>
-									<h2>Contact Details</h2>
+								<div className="flex flex-col gap-3">
+									<h2 className="text-lg font-semibold">Contact Details</h2>
 									<p>0775 889988</p>
 								</div>
 							</div>
+							</div>
+							
 					</div>
 
 				
 				</div>
-				<div className="md:max-w-[450px-750px] items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2 hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
+				
+			</div>
+			<div className="md:max-w-[450px-750px] items center drop-shadow-lg m-4 bg-blue-200/40 p-2 items-center flex flex-col gap-2 hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
 					
 					<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px]">
 						<Link href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"} target="_blank">
@@ -139,7 +144,6 @@ const Location = () => {
 						
 					</div>
 				</div>
-			</div>
 		</div>
 	);
 };
