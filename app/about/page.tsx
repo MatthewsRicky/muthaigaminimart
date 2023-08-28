@@ -4,8 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import Logo from "../public/images/Logo 3.png";
-
 const About = () => {
 	return (
 		<div className="text-white w-full">
@@ -17,10 +15,10 @@ const About = () => {
 					className="flex flex-col justify-center items-center h-full bg-black/30 p-4 mx-auto text-center gap-6 text-[#000080]"
 					//className="text-blue-950 flex justify-center mt-[8rem] md:m-0 items-center bg-white"
 				>
-					<div className="flex justify-center items-center gap-4">
+					<div className="flex justify-center items-center bg-white p-4 gap-4">
 						<div className="">
 							<Image
-								src={Logo}
+								src="/images/Logo 3.svg"
 								alt="Logo"
 								width={100}
 								height={100}
@@ -30,7 +28,7 @@ const About = () => {
 							initial={{ x: -300 }} // Initial x position (off the screen to the left)
 							animate={{ x: 0 }} // Final x position (centered on the screen)
 							transition={{ duration: 1.5, ease: "easeOut" }} // Animation duration
-							className="text-xl text-white p-5 md:-p-[3.5] md:text-3xl lg:text-4xl font-bold"
+							className="text-xl text-[#000080] p-5 md:-p-[3.5] md:text-3xl lg:text-4xl font-bold"
 						>
 							ABOUT MUTHAIGA MINI MARKET
 						</motion.h1>
