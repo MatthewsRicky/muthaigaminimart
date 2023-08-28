@@ -11,7 +11,7 @@ body,
 }
 
 .hero {
-	background-image: url(../public/images/teasandcoffees.jpg);
+	background-image: url("../public/images/teasandcoffees.jpg");
 	height: 35vh;
 	width: 100vw;
 	opacity: 40;
@@ -20,7 +20,7 @@ body,
 	background-size: cover;
 }
 .about {
-	background-image: url(../public/images/sodas.png);
+	background-image: url("../public/images/sodas.png");
 	height: 35vh;
 	width: 100vw;
 	opacity: 35;
@@ -30,7 +30,7 @@ body,
 }
 
 .whatsapp {
-	background-image: url(../public/images/water.jpg);
+	background-image: url("../public/images/water.jpg");
 	height: 35vh;
 	width: 100vw;
 	opacity: 40;
@@ -40,7 +40,7 @@ body,
 }
 
 .location {
-	background-image: url(../public/images/location.jpg);
+	background-image: url("../public/images/location.jpg");
 	height: 35vh;
 	width: 100vw;
 	opacity: 40;
