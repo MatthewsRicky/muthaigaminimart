@@ -42,7 +42,7 @@ const StoreFeatureCard = () => {
 					transition={{ duration: 1 }}
 				>
 					<ImageCard
-						imageSrc="/images/wines.png"
+						imageSrc="/images/wines.jpg"
 						title="Alcoholic Bevereages"
 						description="Fully stocked Liquor Store"
 					/>
