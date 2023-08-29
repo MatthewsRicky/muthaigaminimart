@@ -134,7 +134,7 @@ const Location = () => {
 							Location Map
 						</h1>
 						<Image
-							src="/images/location_map.png"
+							src="/images/location_map.jpg"
 							alt="Map"
 							width={600}
 							height={600}
@@ -151,7 +151,7 @@ const Location = () => {
 								Shop from Home
 							</h1>
 							<Image
-								src="/images/carticon.png"
+								src="/images/carticon.jpg"
 								alt="Cart Icon for whatsapp orders"
 								width={600}
 								height={600}
