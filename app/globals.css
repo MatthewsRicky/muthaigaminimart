@@ -20,7 +20,7 @@ body,
 	background-size: cover;
 }
 .about {
-	background-image: url("/images/sodas.png");
+	background-image: url("/images/sodas.jpg");
 	height: 35vh;
 	width: 100vw;
 	opacity: 35;
@@ -40,7 +40,7 @@ body,
 }
 
 .location {
-	background-image: url("/public/images/location.jpg");
+	background-image: url("/images/location.jpg");
 	height: 35vh;
 	width: 100vw;
 	opacity: 40;
