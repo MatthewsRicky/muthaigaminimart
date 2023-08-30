@@ -18,6 +18,7 @@ body,
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	@apply mt-5;
 }
 .about {
 	background-image: url("/images/sodas.jpg");
@@ -27,6 +28,7 @@ body,
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	@apply mt-5;
 }
 
 .whatsapp {
@@ -37,6 +39,7 @@ body,
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	@apply mt-5;
 }
 
 .location {
@@ -47,6 +50,7 @@ body,
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	@apply mt-5;
 }
 
 .open {
