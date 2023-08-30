@@ -48,7 +48,7 @@ const WhatsappOrders = () => {
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
 				>
-					Muthaiga mini Market <i>`{">"}`</i> Whatsapp Orders
+					Muthaiga mini Market <i>{">"}</i> Whatsapp Orders
 				</motion.h1>
 			</div>
 			<div className="flex flex-wrap justify-center items-center text-center gap-10  text-blue-950 p-8 m-8 drop-shadow-xl  bg-blue-200/40 rounded-xl">
