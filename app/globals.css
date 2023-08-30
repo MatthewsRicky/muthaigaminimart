@@ -91,6 +91,6 @@ body,
 	filter: none;
 }
 
-.faq:hover::after {
-	content: "";
+.faq:hover {
+	@apply bg-[#000080] text-white shadow-md shadow-[#ff2800]/60 rounded-md duration-150;
 }
