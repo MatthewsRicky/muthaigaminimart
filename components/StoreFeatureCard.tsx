@@ -90,7 +90,7 @@ const StoreFeatureCard = () => {
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
 						<Link href="/contact">
 							<div className=" p-4">Talk to Us</div>
-							<div className="hidden hover:flex flex-col gap-4 justify-center items-center p-4 shadow-lg shadow-[#ff2800]">
+							<div className="hover:block p-2">
 								<p>Call us on : 0775 889988</p>
 								<p>Email us at : mmmdiani@gmail.com</p>
 							</div>
@@ -99,7 +99,7 @@ const StoreFeatureCard = () => {
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
 						<Link href="/whatsapporders">
 							<div className=" p-4">Order on WhatsApp</div>
-							<div className="flex justify-center items-center p-4 shadow-lg shadow-[#ff2800]"></div>
+							<div className="flex justify-center items-center p-4 shadow-lg shadow-[#ff2800] w-[100%]"></div>
 						</Link>
 					</div>
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
