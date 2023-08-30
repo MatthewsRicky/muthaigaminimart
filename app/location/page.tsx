@@ -41,7 +41,7 @@ const Location = () => {
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
 				>
-					Muthaiga mini Market <i>`{">"}`</i> Location
+					Muthaiga mini Market <i>{">"}</i> Location
 				</motion.h1>
 			</div>
 			<div className="flex flex-wrap justify-center md:flex-row md:items-center flex-col gap-10 md:p-10 md:my-10">
