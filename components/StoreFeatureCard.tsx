@@ -86,7 +86,11 @@ const StoreFeatureCard = () => {
 					<Carousel />
 				</div>
 
-				<div className="flex flex-col justify-between relative items-center gap-6 my-20 w-full">
+				<div className="flex flex-col text-lg font-semibold text-[#000080] justify-between relative items-center gap-6 my-20 w-full">
+					<h1 className="font-bold flex justify-center items-center text-white bg-[#000080] w-full p-2">
+						Useful Links
+					</h1>
+
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
 						<Link href="/contact">
 							<div className=" p-4">Talk to Us</div>
