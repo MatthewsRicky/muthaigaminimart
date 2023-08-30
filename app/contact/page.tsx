@@ -39,7 +39,7 @@ const Contact = () => {
 					animate={{ x: 0 }} // Final x position (centered on the screen)
 					transition={{ duration: 1 }} // Animation duration
 				>
-					Muthaiga mini Market <i>`{">"}`</i> Contact
+					Muthaiga mini Market <i>{">"}</i> Contact
 				</motion.h1>
 			</div>
 			<div className="flex [85%] justify-center items-center m-12 mx-auto">
