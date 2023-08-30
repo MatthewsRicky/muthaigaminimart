@@ -125,7 +125,7 @@ const Location = () => {
 				</div>
 			</div>
 			<div className="md:max-w-[450px-750px] items-center drop-shadow-lg m-4 p-2 flex flex-col md:flex-row justify-center gap-2">
-				<div className="flex justify-center items-center  md:min-w-[400px] max-w-[650px] shadow-md shadow-[#000080] hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
+				<div className="flex justify-center items-center  md:min-w-[400px] max-w-[500px] shadow-md shadow-[#000080] hover:shadow-lg hover:shadow-[#ff2800]/80 hover:scale-105">
 					<Link
 						href={"https://goo.gl/maps/GUtcA74v2rdzTKsq7"}
 						target="_blank"
@@ -136,8 +136,8 @@ const Location = () => {
 						<Image
 							src="/images/location_map.jpg"
 							alt="Map"
-							width={600}
-							height={600}
+							width={400}
+							height={400}
 						/>
 						<p className="font-semibold text-[#000080] p-4 flex justify-center items-center">
 							Click to view full map
@@ -153,8 +153,8 @@ const Location = () => {
 							<Image
 								src="/images/carticon.jpg"
 								alt="Cart Icon for whatsapp orders"
-								width={600}
-								height={600}
+								width={400}
+								height={400}
 							/>
 						</Link>
 						<div>
