@@ -43,7 +43,7 @@ const Carousel = () => {
 				className="shadow-2xl  w-full h-full rounded-lg bg-center bg-cover duration-500"
 			>
 				{/*left arrow*/}
-				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[20%] md:left-[20%] lg:left-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer font-bold">
+				<div className="block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[5%] md:left-[10%] lg:left-[16%] text-2xl rounded-full p-2 bg-white text-[#000080] cursor-pointer font-bold">
 					<BsChevronCompactLeft
 						onClick={prevSlide}
 						size={50}
@@ -51,7 +51,7 @@ const Carousel = () => {
 				</div>
 				{/*right arrow*/}
 
-				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-[20%] md:right-[20%] lg:right-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer font-bold">
+				<div className="block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-[5%] md:right-[10%] lg:right-[16%] text-2xl rounded-full p-2 bg-white text-[#000080] cursor-pointer font-bold">
 					<BsChevronCompactRight
 						onClick={nextSlide}
 						size={50}
