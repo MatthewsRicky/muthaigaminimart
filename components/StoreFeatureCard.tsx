@@ -81,39 +81,25 @@ const StoreFeatureCard = () => {
 					/>
 				</motion.div>
 			</div>
-			<div className="h-[40%] md:h-[60%] my-[2rem] mx-[10%] md:mx-[25%]">
+			<div className="flex overflow-x-hidden p-8 h-[40%] md:h-[60%] my-[2rem]">
 				<Carousel />
-			</div>
-			<div className="flex justify-center items-center gap-6 my-20 mx-auto w-full">
-				<div>
-					<Link href="/contact">
-						<button
-							className="bg-[#ff2800]/80 p-4 mt-10
-					text-white text-2xl md:text-3xl lg:text-4xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-lg w-100"
-						>
-							Talk to Us
-						</button>
-					</Link>
-				</div>
-				<div>
-					<Link href="/whatsapporders">
-						<button
-							className="bg-[#ff2800]/80 p-4 mt-10
-					text-white text-2xl md:text-3xl lg:text-4xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-lg w-100"
-						>
-							Order on WhatsApp
-						</button>
-					</Link>
-				</div>
-				<div>
-					<Link href="/location">
-						<button
-							className="bg-[#ff2800]/80 p-4 mt-10
-					text-white text-2xl md:text-3xl lg:text-4xl scale-75 md:scale-90 lg:scale-100 font-semibold transition hover:scale-105 hover:outline-2 rounded-lg w-100"
-						>
-							Find Us
-						</button>
-					</Link>
+
+				<div className="flex flex-col justify-center relative items-center gap-6 my-20 w-full">
+					<div className="block w-full text-center faq">
+						<Link href="/contact">
+							<div className="bg-white w-[100%] p-4">Talk to Us</div>
+						</Link>
+					</div>
+					<div className="block w-full text-center faq">
+						<Link href="/whatsapporders">
+							<div className="bg-white w-[100%] p-4">Order on WhatsApp</div>
+						</Link>
+					</div>
+					<div className="block w-full text-center faq">
+						<Link href="/location">
+							<div className="bg-white w-[100%] p-4">Find Us</div>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</div>
