@@ -81,31 +81,25 @@ const StoreFeatureCard = () => {
 					/>
 				</motion.div>
 			</div>
-			<div className="flex overflow-x-hidden flex-col lg:flex-row p-8 gap-4 m-[6rem]">
+			<div className="flex justify-between overflow-x-hidden flex-col lg:flex-row p-8 gap-10 m-[6rem]">
 				<div className="h-[50vh] w-full">
 					<Carousel />
 				</div>
 
-				<div className="flex flex-col justify-center relative items-center gap-6 my-20 w-full">
+				<div className="flex flex-col justify-between relative items-center gap-6 my-20 w-full">
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
 						<Link href="/contact">
 							<div className=" p-4">Talk to Us</div>
-							<div className="hover:block p-2">
-								<p>Call us on : 0775 889988</p>
-								<p>Email us at : mmmdiani@gmail.com</p>
-							</div>
 						</Link>
 					</div>
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
 						<Link href="/whatsapporders">
 							<div className=" p-4">Order on WhatsApp</div>
-							<div className="flex justify-center items-center p-4 shadow-lg shadow-[#ff2800] w-[100%]"></div>
 						</Link>
 					</div>
 					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
 						<Link href="/location">
 							<div className=" p-4">Find Us</div>
-							<div className="flex justify-center items-center p-4 shadow-lg shadow-[#ff2800]"></div>
 						</Link>
 					</div>
 				</div>
