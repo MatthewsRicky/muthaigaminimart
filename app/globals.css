@@ -90,3 +90,7 @@ body,
 .filter:hover {
 	filter: none;
 }
+
+.faq:hover::after {
+	content: "";
+}
