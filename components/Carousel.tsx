@@ -40,7 +40,7 @@ const Carousel = () => {
 				style={{
 					backgroundImage: `url(${slides[currentIndex].url})`,
 				}}
-				className="shadow-2xl  w-full h-full rounded-lg bg-center bg-cover duration-500"
+				className="shadow-md shadow-[#ff2800]/60 w-full h-full rounded-lg bg-center bg-cover duration-500"
 			>
 				{/*left arrow*/}
 				<div className="block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[5%] md:left-[10%] lg:left-[16%] text-2xl rounded-full p-2 bg-white text-[#000080] cursor-pointer font-bold">
