@@ -8,14 +8,12 @@ const Carousel = () => {
 	const slides = [
 		{ url: "/images/ciggaretes.jpg" },
 		{ url: "/images/coffee.jpg" },
-		{ url: "/images/sodas.png" },
+		{ url: "/images/soda.jpg" },
 		{ url: "/images/oils.jpg" },
 		{ url: "/images/vinegars_oils.jpg" },
 		{ url: "/images/water.jpg" },
 		{ url: "/images/soapsanddetergents.jpg" },
 		{ url: "/images/teasandcoffees.jpg" },
-		{ url: "/images/spices.png" },
-		{ url: "/images/insecticides.png" },
 	];
 
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,7 +43,7 @@ const Carousel = () => {
 				className="shadow-2xl  w-full h-full rounded-lg bg-center bg-cover duration-500"
 			>
 				{/*left arrow*/}
-				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[20%] md:left-[20%] lg:left-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer">
+				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[20%] md:left-[20%] lg:left-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer font-bold">
 					<BsChevronCompactLeft
 						onClick={prevSlide}
 						size={50}
@@ -53,7 +51,7 @@ const Carousel = () => {
 				</div>
 				{/*right arrow*/}
 
-				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-[20%] md:right-[20%] lg:right-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer">
+				<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-[20%] md:right-[20%] lg:right-[16%] text-2xl rounded-full p-2 bg-blue-900/90 text-white cursor-pointer font-bold">
 					<BsChevronCompactRight
 						onClick={nextSlide}
 						size={50}
@@ -64,7 +62,7 @@ const Carousel = () => {
 					{slides.map((slide, slideIndex) => (
 						<div
 							key={""}
-							className="text-3xl cursor-pointer text-white active:text-[#000080]"
+							className="text-3xl cursor-pointer text-[#ff2800]/80 active:text-[#000080]"
 						>
 							<RxDotFilled
 								key={slideIndex}
