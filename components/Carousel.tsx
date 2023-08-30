@@ -62,7 +62,7 @@ const Carousel = () => {
 					{slides.map((slide, slideIndex) => (
 						<div
 							key={""}
-							className="text-3xl cursor-pointer text-[#ff2800]/80 active:text-[#000080]"
+							className="text-3xl cursor-pointer text-white active:text-[#000080]"
 						>
 							<RxDotFilled
 								key={slideIndex}
