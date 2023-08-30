@@ -81,7 +81,7 @@ const StoreFeatureCard = () => {
 					/>
 				</motion.div>
 			</div>
-			<div className="flex overflow-x-hidden p-8 gap-4 h-[35vh] my-[2rem]">
+			<div className="flex overflow-x-hidden p-8 gap-4 h-[50vh] my-[2rem]">
 				<div className="h-[50%]">
 					<Carousel />
 				</div>
