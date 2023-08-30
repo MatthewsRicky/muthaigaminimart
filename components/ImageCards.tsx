@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 interface ImageCardProps {
 	imageSrc: string;
@@ -18,15 +19,19 @@ const ImageCard: React.FC<ImageCardProps> = ({
 					src={imageSrc}
 					alt={title}
 					className="w-full"
-					width={200}
-					height={200}
+					width={300}
+					height={300}
 				/>
-				<div className="absolute flex justify-center items-center inset-0">
-					<div className="filter px-6 py-4 bg-white/80 hidden group-hover:flex flex-col">
-						<div className="font-bold text-3l mb-2">{title}</div>
-						<p className="text-blue-800 font-bold text-base">{description}</p>
+				<motion.div
+					initial={{ opacity: 0, scale: 0.8 }}
+					whileHover={{ opacity: 1, scale: 1 }}
+					className="absolute flex justify-center items-center inset-0"
+				>
+					<div className="filter px-6 py-4 bg-[#000080]/40 hidden group-hover:flex w-full flex-col">
+						<div className="text-white font-bold text-3xl mb-2">{title}</div>
+						<p className="text-white font-bold text-base">{description}</p>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);
