@@ -82,7 +82,7 @@ const StoreFeatureCard = () => {
 				</motion.div>
 			</div>
 			<div className="flex justify-between overflow-hidden flex-col shadow-xl lg:flex-row p-8 gap-10 m-[6rem] bg-blue-200/20">
-				<div className="h-[50vh] w-full">
+				<div className="h-auto w-full">
 					<Carousel />
 				</div>
 
