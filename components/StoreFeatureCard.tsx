@@ -1,3 +1,5 @@
+"use client";
+
 import { motion, animate } from "framer-motion";
 import ImageCard from "../components/ImageCards";
 import Carousel from "./Carousel";
