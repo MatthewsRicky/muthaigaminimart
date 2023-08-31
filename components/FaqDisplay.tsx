@@ -1,3 +1,5 @@
+"use client";
+
 import { Image } from "@chakra-ui/next-js";
 import { motion, scroll, animate } from "framer-motion";
 import { Box, Center } from "@chakra-ui/react";
