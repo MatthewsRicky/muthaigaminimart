@@ -17,7 +17,7 @@ const StoreFeatureCard = () => {
 					Muthaiga mini Market
 				</motion.h1>
 			</div>
-			<h1 className="flex justify-center items-center text-[#000080] mt-20 text-2xl md:text-3xl lg:6xl font-semibold">
+			<h1 className="flex justify-center items-center text-[#000080] mt-20 mx-10 text-lg md:text-3xl lg:6xl font-semibold">
 				WELCOME TO MUTHAIGA MINI MARKET
 			</h1>
 			<div className="flex flex-col justify-center lg:justify-start items-center lg:flex-row">
@@ -81,7 +81,7 @@ const StoreFeatureCard = () => {
 					/>
 				</motion.div>
 			</div>
-			<div className="flex justify-center overflow-hidden mx-0 flex-col shadow-xl lg:flex-row p-8 gap-10 m-[6rem] bg-blue-200/20">
+			<div className="flex justify-center overflow-hidden mx-0 flex-col shadow-xl lg:flex-row p-10 gap-10 m-[6rem] bg-blue-200/20">
 				<div className="h-[50vh] lg:h-auto w-full">
 					<Carousel />
 				</div>
