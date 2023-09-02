@@ -42,7 +42,7 @@ const StoreFeatureCard = () => {
 					transition={{ duration: 1 }}
 				>
 					<ImageCard
-						imageSrc="/images/wines.jpg"
+						imageSrc="/images/wines.jpeg"
 						title="Alcoholic Bevereages"
 						description="Fully stocked Liquor Store"
 					/>
@@ -53,7 +53,7 @@ const StoreFeatureCard = () => {
 					transition={{ duration: 1.2 }}
 				>
 					<ImageCard
-						imageSrc="/images/sodas.jpg"
+						imageSrc="/images/sodas.jpeg"
 						title="Non-alcoholic Beverages"
 						description="Soda And Juices"
 					/>
@@ -64,7 +64,7 @@ const StoreFeatureCard = () => {
 					transition={{ duration: 1.4 }}
 				>
 					<ImageCard
-						imageSrc="/images/coffee.jpg"
+						imageSrc="/images/coffee.jpeg"
 						title="Coffee"
 						description="Coffee selection"
 					/>
@@ -75,7 +75,7 @@ const StoreFeatureCard = () => {
 					transition={{ duration: 1.6 }}
 				>
 					<ImageCard
-						imageSrc="/images/insecticides.png"
+						imageSrc="/images/insecticides.jpeg"
 						title="Repellants and Insecticedes"
 						description="Protect yourself and your Home."
 					/>
