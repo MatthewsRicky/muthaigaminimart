@@ -6,15 +6,17 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Carousel = () => {
 	const slides = [
-		{ url: "/images/ciggaretes.jpg" },
-		{ url: "/images/coffee.jpg" },
-		{ url: "/images/soda.jpg" },
-		{ url: "/images/oils.jpg" },
-		{ url: "/images/vinegars_oils.jpg" },
-		{ url: "/images/water.jpg" },
-		{ url: "/images/soapsanddetergents.jpg" },
-		{ url: "/images/teasandcoffees.jpg" },
+		{ url: "/images/ciggaretes.jpeg" },
+		{ url: "/images/coffee.jpeg" },
+		{ url: "/images/sodas.jpeg" },
+		{ url: "/images/oils.jpeg" },
+		{ url: "/images/vinegars_oils.jpeg" },
+		{ url: "/images/water.jpeg" },
+		{ url: "/images/soapsanddetergents.jpeg" },
+		{ url: "/images/teasandcoffees.jpeg" },
 	];
+
+	const titles = [];
 
 	const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -42,6 +44,8 @@ const Carousel = () => {
 				}}
 				className="shadow-md shadow-[#ff2800]/60 w-full h-full rounded-lg bg-center bg-cover duration-500"
 			>
+				<div className="flex justify-center items-center text-lg text-white bg-blue"></div>
+
 				{/*left arrow*/}
 				<div className="block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-[5%] md:left-[10%] lg:left-[16%] text-2xl rounded-full p-2 bg-white text-[#000080] cursor-pointer font-bold">
 					<BsChevronCompactLeft
