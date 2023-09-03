@@ -151,7 +151,7 @@ const Location = () => {
 								Shop from Home
 							</h1>
 							<Image
-								src="/images/carticon.jpg"
+								src="/images/carticon.jpeg"
 								alt="Cart Icon for whatsapp orders"
 								width={400}
 								height={400}
