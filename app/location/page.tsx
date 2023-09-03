@@ -52,7 +52,7 @@ const Location = () => {
 					</div>
 					<div>
 						<Image
-							src={"/images/location2.jpg"}
+							src={"/images/location2.jpeg"}
 							alt="location photo"
 							width={400}
 							height={400}
@@ -87,7 +87,7 @@ const Location = () => {
 
 					<div>
 						<Image
-							src={"/images/location3.jpg"}
+							src={"/images/location3.jpeg"}
 							alt="location photo"
 							width={400}
 							height={400}
@@ -134,7 +134,7 @@ const Location = () => {
 							Location Map
 						</h1>
 						<Image
-							src="/images/location_map.jpg"
+							src="/images/location_map.jpeg"
 							alt="Map"
 							width={400}
 							height={400}
