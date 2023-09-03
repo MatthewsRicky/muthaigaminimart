@@ -90,22 +90,31 @@ const StoreFeatureCard = () => {
 					<h1 className="font-bold flex justify-center items-center text-white bg-[#000080] w-full p-2">
 						Useful Links
 					</h1>
-
-					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
-						<Link href="/contact">
+					<Link
+						href="/contact"
+						className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq"
+					>
+						<div>
 							<div className=" p-4">Talk to Us</div>
-						</Link>
-					</div>
-					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
-						<Link href="/whatsapporders">
+						</div>
+					</Link>
+					<Link
+						href="/whatsapporders"
+						className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq"
+					>
+						<div>
 							<div className=" p-4">Order on WhatsApp</div>
-						</Link>
-					</div>
-					<div className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq">
-						<Link href="/location">
+						</div>
+					</Link>
+
+					<Link
+						href="/location"
+						className="flex justify-center bg-white border-[#000080] border-2 w-full text-center faq"
+					>
+						<div>
 							<div className=" p-4">Find Us</div>
-						</Link>
-					</div>
+						</div>
+					</Link>
 				</div>
 			</div>
 		</div>
