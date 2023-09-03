@@ -134,7 +134,7 @@ const Location = () => {
 							Location Map
 						</h1>
 						<Image
-							src="/images/location_map.jpeg"
+							src="/images/location-map.jpeg"
 							alt="Map"
 							width={400}
 							height={400}
