@@ -48,22 +48,6 @@ const ContactDetails = () => {
 								size="xs"
 								textTransform="uppercase"
 							>
-								<PhoneIcon />
-							</Heading>
-							<Text
-								pt="2"
-								fontSize="sm"
-								fontWeight="medium"
-								textColor="#000080"
-							>
-								0700 000 000
-							</Text>
-						</Box>
-						<Box>
-							<Heading
-								size="xs"
-								textTransform="uppercase"
-							>
 								Email
 							</Heading>
 							<Text
